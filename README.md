@@ -105,7 +105,7 @@ Because PSD regularizes only the self-attention weights during training, the fin
 
 ### 4.1 Structural-Semantic Affinity Matrix
 
-For all input prompt token pairs $x_i, x_j$ at sequence positions $i, j \in \{1, \dots, N\}$, the composite structural-semantic affinity score is defined as:
+For all input prompt token pairs ($x_i, x_j$) at sequence positions $i, j \in \{1, \dots, N\}$, the composite structural-semantic affinity score is defined as:
 
 $$
 R_{i,j} = \alpha S_{i,j} - \beta d_P^{\text{norm}}(i,j) - \gamma d_G^{\text{norm}}(i,j)
@@ -140,13 +140,13 @@ Default hyperparameters: $\alpha = 1.0, \beta = 0.5, \gamma = 0.5$.
 Autoregressive self-attention enforces a strict causal constraint: each query token at position $i$ may only attend to preceding key tokens $j \le i$. Future key positions ($j > i$) are masked with a sentinel value $-10^9$:
 
 $$
-\text{masked\_logits}_{i,j} = \begin{cases} \frac{R_{i,j}}{\tau}, & \text{if } j \le i \\ -10^9, & \text{if } j > i \end{cases}
+\tilde{R}_{i,j} = \begin{cases} \frac{R_{i,j}}{\tau}, & \text{if } j \le i \\ -10^9, & \text{if } j > i \end{cases}
 $$
 
-Where $\tau > 0$ denotes the temperature parameter (default: $\tau = 1.0$). Applying row-wise softmax normalization yields the causal prior distribution:
+Where $\tau > 0$ denotes the temperature parameter (default: $\tau = 1.0$), and $\tilde{R}_{i,j}$ represents the causal masked logits. Applying row-wise softmax normalization yields the causal prior distribution:
 
 $$
-P_{\text{target}}(j \mid i) = \frac{\exp(\text{masked\_logits}_{i,j})}{\sum_{k=1}^i \exp(\text{masked\_logits}_{i,k})}, \quad \forall j \le i
+P_{\text{target}}(j \mid i) = \frac{\exp(\tilde{R}_{i,j})}{\sum_{k=1}^i \exp(\tilde{R}_{i,k})}, \quad \forall j \le i
 $$
 
 This ensures that $\sum_{j=1}^i P_{\text{target}}(j \mid i) = 1.0$ for every valid query token.
@@ -155,13 +155,16 @@ This ensures that $\sum_{j=1}^i P_{\text{target}}(j \mid i) = 1.0$ for every val
 
 ### 4.3 Layer-Selective Attention Supervision Objective
 
-We supervise intermediate and deep layers $l \in \mathcal{L}_{\text{selected}}$ (depth percentiles 34%–100%) across validly aligned prompt tokens $\mathcal{V}_{\text{valid}} = \{i \mid \mu(i) \ne \text{None}\}$ via directional Kullback-Leibler divergence:
+We supervise designated intermediate and deep Transformer layers (depth percentiles 34%–100%) across validly aligned prompt tokens via directional Kullback-Leibler divergence:
 
 $$
 \mathcal{L}_{\text{PSD}}(\theta) = \frac{1}{|\mathcal{L}_{\text{selected}}|} \sum_{l \in \mathcal{L}_{\text{selected}}} \frac{1}{|\mathcal{V}_{\text{valid}}|} \sum_{i \in \mathcal{V}_{\text{valid}}} D_{\text{KL}}\left(P_{\text{target}}(\cdot \mid i) \,\|\, \bar{A}^{(l)}(\cdot \mid i)\right)
 $$
 
-Where the head-averaged empirical attention is:
+Where:
+* $\mathcal{L}_{\text{selected}}$ denotes the set of monitored intermediate and deep layers.
+* $\mathcal{V}_{\text{valid}} = \{i \mid \mu(i) \ne \text{None}\}$ denotes the set of tokens aligned to valid graph or table nodes.
+* $\bar{A}^{(l)}$ is the head-averaged empirical attention at layer $l$:
 
 $$
 \bar{A}^{(l)}(j \mid i) = \frac{1}{H} \sum_{h=1}^H A_{l,h}(j \mid i)
