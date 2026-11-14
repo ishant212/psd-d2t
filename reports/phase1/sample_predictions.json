@@ -1,0 +1,343 @@
+{
+  "metrics": {
+    "bleu": 0.0,
+    "rouge1": 0.0,
+    "rouge2": 0.0,
+    "rougeL": 0.0
+  },
+  "sample_predictions": [
+    {
+      "id": "totto_7391450717765563190",
+      "dataset": "totto",
+      "source": "[PAGE] List of Governors of South Carolina [SECTION] Governors under the Constitution of 1868 [HEADER] 85 | Governor | Took Office | Left Office | Lt. Governor | Party | Notes | [ROW 0] [HEADER] # | [HEADER] Governor | [HEADER] Took Office | [HEADER] Left Office | [HEADER] Lt. Governor | [HEADER] Party | [HEADER] Notes | [ROW 1] [HEADER] 74 | [CELL] - | [CELL] Robert Kingston Scott | [CELL] July 6, 1868 | [CELL] December 7, 1872 | [CELL] Lemuel Boozer Alonzo J. Ransier | [CELL] Republican | [CELL]  [ROW 2] [HEADER] 75 | [CELL] - | [CELL] Franklin J. Moses, Jr. | [CELL] December 7, 1872 | [CELL] December 1, 1874 | [CELL] Richard Howell Gleaves | [CELL] Republican | [CELL]  [ROW 3] [HCELL] 76 | [CELL] - | [HCELL] Daniel Henry Chamberlain | [HCELL] December 1, 1874 | [CELL] December 14, 1876 | [CELL] Richard Howell Gleaves | [CELL] Republican | [CELL] Claimed Governorship after 1876 election [ROW 4] [HEADER] 77 | [CELL] - | [CELL] Wade Hampton III | [CELL] December 14, 1876 | [CELL] February 26, 1879 | [CELL] William Dunlap Simpson | [CELL] Democratic | [CELL] Resigned [ROW 5] [HEADER] 78 | [CELL] - | [CELL] William Dunlap Simpson | [CELL] February 26, 1879 | [CELL] September 1, 1880 | [CELL] John D. Kennedy | [CELL] Democratic | [CELL] Not elected [ROW 6] [HEADER] 79 | [CELL] - | [CELL] Thomas Bothwell Jeter | [CELL] September 1, 1880 | [CELL] November 30, 1880 | [CELL] vacant | [CELL] Democratic | [CELL]  [ROW 7] [HEADER] 80 | [CELL] - | [CELL] Johnson Hagood | [CELL] November 30, 1880 | [CELL] December 1, 1882 | [CELL] John D. Kennedy | [CELL] Democratic | [CELL]  [ROW 8] [HEADER] 81 | [CELL] - | [CELL] Hugh Smith Thompson | [CELL] December 1, 1882 | [CELL] July 10, 1886 | [CELL] John Calhoun Sheppard | [CELL] Democratic | [CELL] Resigned [ROW 9] [HEADER] 82 | [CELL] - | [CELL] John Calhoun Sheppard | [CELL] July 10, 1886 | [CELL] November 30, 1886 | [CELL] vacant | [CELL] Democratic | [CELL] Not elected [ROW 10] [HEADER] 83 | [CELL] - | [CELL] John Peter Richardson III | [CELL] November 30, 1886 | [CELL] December 4, 1890 | [CELL] William Mauldin | [CELL] Democratic | [CELL]  [ROW 11] [HEADER] 84 | [CELL] - | [CELL] Benjamin Ryan Tillman | [CELL] December 4, 1890 | [CELL] December 4, 1894 | [CELL] Eugene Gary W.H. Timmerman | [CELL] Democratic | [CELL]  [ROW 12] [HEADER] 85 | [CELL] - | [CELL] John Gary Evans | [CELL] December 4, 1894 | [CELL] January 18, 1897 | [CELL] W.H. Timmerman | [CELL] Democratic | [CELL]",
+      "prediction": "aa",
+      "target": "Daniel Henry Chamberlain was the 76th Governor of South Carolina from 1874.",
+      "references": [
+        "Daniel Henry Chamberlain was the 76th Governor of South Carolina from 1874.",
+        "Daniel Henry Chamberlain was the 76th Governor of South Carolina, beginning in 1874.",
+        "Daniel Henry Chamberlain was the 76th Governor of South Carolina who took office in 1874."
+      ]
+    },
+    {
+      "id": "totto_9012083751335522596",
+      "dataset": "totto",
+      "source": "[PAGE] Alma Jodorowsky [SECTION] Filmography [HEADER] Year | Title | Role | Notes [ROW 0] [HEADER] Year | [HEADER] Title | [HEADER] Role | [HEADER] Notes [ROW 1] [CELL] 2006 | [CELL] Gaspard le Bandit | [CELL] Mathilde de Varade | [CELL] Period TV film [ROW 2] [CELL] 2011 | [CELL] Eyes Find Eyes | [CELL] Estelle | [CELL]  [ROW 3] [CELL] Section de recherche | [CELL] Caroline | [CELL] Police TV series (1 episode: No.5.3) | [ROW 4] [CELL] Awake to Emptiness | [CELL] Alma | [CELL] Short film | [ROW 5] [CELL] 2012 | [CELL] Sea, No Sex and Sun | [CELL] Diane | [CELL]  [ROW 6] [CELL] 2013 | [CELL] Blue Is the Warmest Colour | [CELL] Béatrice | [CELL]  [ROW 7] [CELL] 2014 | [CELL] La Vie devant elles [fr] | [CELL] Solana | [CELL] TV series by Gabriel Aghion (6 episodes) [ROW 8] [HCELL] 2016 | [HCELL] Kids in Love | [HCELL] Evelyn | [CELL] Ealing Studios [ROW 9] [CELL] 2017 | [CELL] The Starry Sky Above Me | [CELL] Justyna | [CELL]  [ROW 10] [CELL] TBA | [CELL] Smiley | [CELL] TBA | [CELL]",
+      "prediction": "aaaa",
+      "target": "Alma Jodorowsky had the role of Evelyn in 2016 film Kids in Love.",
+      "references": [
+        "Alma Jodorowsky had the role of Evelyn in 2016 film Kids in Love.",
+        "Alma Jodorowsky played Evelyn in the 2016 film Kids in Love.",
+        "Alma Jodorowsky played the role of Evelyn in the 2016 film Kids in Love."
+      ]
+    },
+    {
+      "id": "totto_-8764917516249435941",
+      "dataset": "totto",
+      "source": "[PAGE] A. J. Hawk [SECTION] Career statistics [HEADER] Year | Team | GP | TOTAL | COMB | AST | SACK | FF | FR | FR YDS | INT | IR YDS | AVG IR | LNG | TD | PD [ROW 0] [HEADER] Year | [HEADER] Team | [HEADER] GP | [HEADER] TOTAL | [HEADER] COMB | [HEADER] AST | [HEADER] SACK | [HEADER] FF | [HEADER] FR | [HEADER] FR YDS | [HEADER] INT | [HEADER] IR YDS | [HEADER] AVG IR | [HEADER] LNG | [HEADER] TD | [HEADER] PD [ROW 1] [CELL] 2006 | [CELL] GB | [CELL] 16 | [HCELL] 119 | [CELL] 82 | [CELL] 37 | [CELL] 3.5 | [CELL] 1 | [CELL] 2 | [CELL] 0 | [CELL] 2 | [CELL] 31 | [CELL] 14 | [CELL] 25 | [CELL] 0 | [CELL] 8 [ROW 2] [CELL] 2007 | [CELL] GB | [CELL] 16 | [CELL] 105 | [CELL] 78 | [CELL] 27 | [CELL] 1.0 | [CELL] 1 | [CELL] 1 | [CELL] 0 | [CELL] 1 | [CELL] 1 | [CELL] 10 | [CELL] 10 | [CELL] 0 | [CELL] 4 [ROW 3] [CELL] 2008 | [CELL] GB | [CELL] 16 | [CELL] 86 | [CELL] 67 | [CELL] 19 | [CELL] 3.0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 1 [ROW 4] [CELL] 2009 | [CELL] GB | [CELL] 16 | [CELL] 89 | [CELL] 67 | [CELL] 22 | [CELL] 1.0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 2 | [CELL] 42 | [CELL] 21 | [CELL] 29 | [CELL] 0 | [CELL] 2 [ROW 5] [CELL] 2010 | [CELL] GB | [CELL] 16 | [CELL] 111 | [CELL] 72 | [CELL] 39 | [CELL] 0.5 | [CELL] 0 | [CELL] 1 | [CELL] 0 | [CELL] 3 | [CELL] 31 | [CELL] 10 | [CELL] 21 | [CELL] 0 | [CELL] 10 [ROW 6] [CELL] 2011 | [CELL] GB | [CELL] 14 | [CELL] 84 | [CELL] 53 | [CELL] 31 | [CELL] 1.5 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 3 [ROW 7] [CELL] 2012 | [CELL] GB | [CELL] 16 | [CELL] 120 | [CELL] 81 | [CELL] 39 | [CELL] 3.0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 [ROW 8] [CELL] 2013 | [CELL] GB | [CELL] 16 | [CELL] 118 | [CELL] 74 | [CELL] 44 | [CELL] 5.0 | [CELL] 1 | [CELL] 1 | [CELL] 0 | [CELL] 1 | [CELL] 7 | [CELL] 7 | [CELL] 7 | [CELL] 0 | [CELL] 4 [ROW 9] [CELL] 2014 | [CELL] GB | [CELL] 16 | [CELL] 89 | [CELL] 53 | [CELL] 36 | [CELL] 0.5 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 2 [ROW 10] [CELL] 2015 | [CELL] CIN | [CELL] 16 | [CELL] 24 | [CELL] 16 | [CELL] 8 | [CELL] 1.0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 [ROW 11] [CELL] Total | [CELL] Total | [CELL] 158 | [CELL] 947 | [CELL] 644 | [CELL] 303 | [CELL] 20.0 | [CELL] 3 | [CELL] 5 | [CELL] 0 | [CELL] 9 | [CELL] 121 | [CELL] 13 | [CELL] 29 | [CELL] 0 | [CELL] 35",
+      "prediction": "aaa",
+      "target": "In his rookie season, Hawk led with 119 total tackles.",
+      "references": [
+        "In his rookie season, Hawk led with 119 total tackles.",
+        "In his rookie season, Hawk led the Packers' with 119 total tackles, 82 of them solo.",
+        "Hawk made 119 total tackles, In his rookie season."
+      ]
+    },
+    {
+      "id": "totto_-6915287003153277224",
+      "dataset": "totto",
+      "source": "[PAGE] List of rulers of Brittany [SECTION] House of Montfort [HEADER] Name | Portrait | Birth | Marriages | Death [ROW 0] [HEADER] Name | [HEADER] Portrait | [HEADER] Birth | [HEADER] Marriages | [HEADER] Death [ROW 1] [CELL] John IV the Conqueror (Yann IV) 1364-1399 (Previously John V in pretentious succession from his father.) | [CELL] - | [CELL] c. 1339 only son of John of Montfort and Joanna of Flanders | [CELL] (1) Mary Plantagenet of England Woodstock Palace, Woodstock, Oxfordshire summer of 1361 no issues (2) Joan Holland London May 1366 no issues (3) Joan of Navarre Saillé-près-Guérande 2 October 1386 nine children | [CELL] 1/2 November 1399 Nantes aged 59–60 [ROW 2] [CELL] John V the Wise (Yann V ar Fur) 1399–1442 | [CELL] - | [CELL] 24 December 1389 Château de l'Hermine, Vannes, Morbihan eldest son of John IV and Joan of Navarre | [CELL] Joan of France Hôtel de Saint-Pol, Paris 19 September 1396 seven children | [CELL] 29 August 1442 Manoir de La Touche, Nantes aged 52 [ROW 3] [CELL] Francis I the Well-Loved (Frañsez Iañ) 1442–1450 | [CELL] - | [CELL] 11 May 1414 Vannes eldest son of John V and Joan of France | [CELL] (1) Yolande of Anjou Amboise 20 August 1431 one son (2) Isabella of Scotland Château d'Auray 30 October 1442 two daughter | [CELL] 17 July 1450 Château de l'Hermine, Vannes, Morbihan aged 36 [ROW 4] [HCELL] Peter II the Simple (Pêr II) 1450–1457 | [CELL] - | [CELL] 7 July 1418 Nantes second son of John V and Joan of France | [CELL] Françoise d'Amboise c. 1442 no issues | [CELL] 22 September 1457 Nantes aged 41 [ROW 5] [HCELL] Arthur III the Justicier (Arzhur III) 1457–1458 | [CELL] - | [CELL] 24 August 1393 Château de Suscinio, Vannes second son of John IV and Joan of Navarre | [CELL] (1) Margaret of Burgundy Dijon 10 October 1423 no issues (2) Jeanne d'Albret Nérac 29 August 1442 no issues (3) Catherine of Saint Pol 2 July 1445 no issues | [HCELL] 26 December 1458 Nantes aged 65 [ROW 6] [CELL] Francis II (Frañsez II) 1458–1488 | [CELL] - | [CELL] 23 June 1433 Château de Clisson eldest son of Richard de Dreux, Count of Étampes and Marguerite d'Orléans, Countess of Vertus | [CELL] (1) Marguerite of Brittany Château de l'Hermine 16 November 1455 one son (2) Marguerite of Foix Château de Clisson 27 June 1474 two daughters | [CELL] 9 September 1488 Couëron aged 55 [ROW 7] [CELL] Anne (Anna) 1488–1514 | [CELL] - | [CELL] 25 January 1477 Château de Nantes eldest daughter of Francis II and Margaret of Foix | [CELL] (1) Maximilian I, Holy Roman Emperor (by proxy) Rennes Cathedral 19 December 1490 no issues (2) Charles VIII of France Château de Langeais 19 December 1491 four children (3) Louis XII of France Château de Nantes 8 January 1499 four children | [CELL] 9 January 1514 Château de Blois aged 36",
+      "prediction": "aaa",
+      "target": "At the very end of his life, Arthur III became duke of Brittany, succeeding Peter II.",
+      "references": [
+        "At the very end of his life, Arthur III became duke of Brittany, succeeding Peter II.",
+        "Arthur III was a duke of Brittany."
+      ]
+    },
+    {
+      "id": "totto_-3004901021745997743",
+      "dataset": "totto",
+      "source": "[PAGE] List of Speakers of the Minnesota House of Representatives [SECTION] State [HEADER] # | Speaker | Took office | Left office | Party/Caucus | Notes | Session [ROW 0] [HEADER] # | [HEADER] Speaker | [HEADER] Took office | [HEADER] Left office | [HEADER] Party/Caucus | [HEADER] Notes | [HEADER] Session [ROW 1] [CELL] 1 | [CELL] John S. Watrous | [CELL] 2 December 1857 | [CELL] 12 March 1858 | [CELL] Unknown | [CELL] Minnesota Legislators Past & Present lists Watrous' party affiliation as \"Not Available,\" while the Minnesota Legislative Reference Library's list of Speakers of the House of Representatives lists \"R?,\" indicating that the MLRL does not know what Watrous' party affiliation was, and is merely guessing that he might have been a Republican. | [CELL] 1st [ROW 2] [CELL] 2 | [CELL] George Bradley | [CELL] 12 March 1858 | [CELL] 6 December 1859 | [CELL] Unknown | [CELL] Minnesota Legislators Past & Present lists Bradley's party affiliation as \"Not Available,\" while the Minnesota Legislative Reference Library's list of Speakers of the House of Representatives lists \"R?,\" indicating that the MLRL does not know what Bradley's party affiliation was, and is merely guessing that he might have been a Republican. | [ROW 3] [CELL] 3 | [CELL] Amos Coggswell | [CELL] 7 December 1859 | [CELL] 7 January 1861 | [CELL] Republican | [CELL]  | [CELL] 2nd [ROW 4] [CELL] 4 | [CELL] Jared Benson | [CELL] 8 January 1861 | [CELL] 5 January 1863 | [CELL] Republican | [CELL]  | [CELL] 3rd [ROW 5] [CELL] 4th | [ROW 6] [CELL] 5 | [CELL] Charles D. Sherwood | [CELL] 6 January 1863 | [CELL] 4 January 1864 | [CELL] Republican | [CELL]  | [CELL] 5th [ROW 7] [CELL] 6 | [CELL] Jared Benson | [CELL] 5 January 1864 | [CELL] 1864? | [CELL] Republican | [CELL]  | [CELL] 6th [ROW 8] [CELL] 7 | [CELL] Thomas H. Armstrong | [CELL] 1864? | [CELL] 1865 | [CELL] Republican | [CELL] Unclear whether took office in 1864 or 1865 | [CELL] 7th [ROW 9] [CELL] 8 | [CELL] James B. Wakefield | [CELL] 1866 | [CELL] 1866 | [CELL] Republican | [CELL] Served as a U.S. Representative | [CELL] 8th [ROW 10] [CELL] 9 | [CELL] John Q. Farmer | [CELL] 1867 | [CELL] 1868 | [CELL] Whig/Republican | [CELL]  | [CELL] 9th [ROW 11] [CELL] 10th | [ROW 12] [CELL] 10 | [CELL] Chester D. Davidson | [CELL] 1869 | [CELL] 1869 | [CELL] Republican | [CELL]  | [CELL] 11th [ROW 13] [CELL] 11 | [CELL] John L. Merriam | [CELL] 1870 | [CELL] 1871 | [CELL] Republican | [CELL]  | [CELL] 12th [ROW 14] [CELL] 13th | [ROW 15] [CELL] 12 | [CELL] A.R. Hall | [CELL] 1872 | [CELL] 1874 | [CELL] Republican | [CELL]  | [CELL] 14th [ROW 16] [CELL] 15th | [ROW 17] [CELL] 16th | [ROW 18] [CELL] 13 | [CELL] William R. Kinyon | [CELL] 1875 | [CELL] 1876 | [CELL] Republican | [CELL]  | [CELL] 17th [ROW 19] [CELL] 18th | [ROW 20] [CELL] 14 | [CELL] John L. Gibbs | [CELL] 1877 | [CELL] 1877 | [CELL] Republican | [CELL]  | [CELL] 19th [ROW 21] [CELL] 15 | [CELL] Charles A. Gilman | [CELL] 1878 | [CELL] 1879 | [CELL] Republican | [CELL]  | [CELL] 20th [ROW 22] [CELL] 21st | [ROW 23] [CELL] 16 | [CELL] Loren Fletcher | [CELL] 1881 | [CELL] 1885 | [CELL] Republican | [CELL]  | [CELL] 22nd [ROW 24] [CELL] 23rd | [ROW 25] [CELL] 17 | [CELL] John L. Gibbs | [CELL] 1885 | [CELL] 1887 | [CELL] Republican | [CELL]  | [CELL] 24th [ROW 26] [CELL] 18 | [CELL] William Rush Merriam | [CELL] 1887 | [CELL] 1889 | [CELL] Republican | [CELL] Served as Governor of Minnesota | [CELL] 25th [ROW 27] [CELL] 19 | [CELL] Charles H. Graves | [CELL] 1889 | [CELL] 1891 | [CELL] Republican | [CELL]  | [CELL] 26th [ROW 28] [CELL] 20 | [CELL] Ezra T. Champlin | [CELL] 1891 | [CELL] 1893 | [CELL] Alliance | [CELL]  | [CELL] 27th [ROW 29] [CELL] 21 | [CELL] William E. Lee | [CELL] 1893 | [CELL] 1895 | [CELL] Republican | [CELL]  | [CELL] 28th [ROW 30] [CELL] 22 | [CELL] Samuel Rinnah Van Sant | [CELL] 1895 | [CELL] 1897 | [CELL] Republican | [CELL] Served as Governor of Minnesota | [CELL] 29th [ROW 31] [CELL] 23 | [CELL] John D. Jones | [CELL] 1897 | [CELL] 1899 | [CELL] Republican | [CELL]  | [CELL] 30th [ROW 32] [CELL] 24 | [CELL] Arthur N. Dare | [CELL] 1899 | [CELL] 1901 | [CELL] Republican | [CELL]  | [CELL] 31st [ROW 33] [CELL] 25 | [CELL] M.J. Dowling | [CELL] 1901 | [CELL] 1903 | [CELL] Republican | [CELL]  | [CELL] 32nd [ROW 34] [CELL] 26 | [CELL] Leverett W. Babcock | [CELL] 1903 | [CELL] 1905 | [CELL] Republican | [CELL]  | [CELL] 33rd [ROW 35] [CELL] 27 | [CELL] Frank Clague | [CELL] 1905 | [CELL] 1907 | [CELL] Republican | [CELL] Served as a U.S. Representative | [CELL] 34th [ROW 36] [CELL] 28 | [CELL] Lawrence H. Johnson | [CELL] 1907 | [CELL] 1909 | [CELL] Republican | [CELL]  | [CELL] 35th [ROW 37] [CELL] 29 | [CELL] Anton J. Rockne | [CELL] 1909 | [CELL] 1911 | [CELL] Republican | [CELL]  | [CELL] 36th [ROW 38] [CELL] 30 | [CELL] Howard H. Dunn | [CELL] 1911 | [CELL] 1913 | [CELL] Republican | [CELL]  | [CELL] 37th [ROW 39] [CELL] 31 | [CELL] Henry Rines | [CELL] 1913 | [CELL] 1915 | [CELL] Conservative | [CELL] Served as Minnesota Treasurer | [CELL] 38th [ROW 40] [CELL] 32 | [CELL] H.H. Flowers | [CELL] 1915 | [CELL] 1917 | [CELL] Conservative | [CELL]  | [CELL] 39th [ROW 41] [CELL] 33 | [HCELL] Ralph J. Parker | [CELL] January 1917 | [CELL] January 1919 | [CELL] Conservative | [CELL]  | [CELL] 40th [ROW 42] [CELL] 34 | [CELL] William I. Nolan | [CELL] January 1919 | [CELL] January 1925 | [CELL] Conservative | [CELL]  | [CELL] 41st [ROW 43] [CELL] 42nd | [ROW 44] [CELL] 43rd | [ROW 45] [CELL] 35 | [CELL] John A. Johnson | [CELL] January 1925 | [CELL] January 1931 | [CELL] Conservative | [CELL]  | [CELL] 44th [ROW 46] [CELL] 45th | [ROW 47] [CELL] 46th | [ROW 48] [CELL] 36 | [CELL] Oscar A. Swenson | [CELL] January 1931 | [CELL] January 1933 | [CELL] Conservative | [CELL]  | [CELL] 47th [ROW 49] [CELL] 37 | [CELL] Charles Munn | [CELL] January 1933 | [CELL] January 1935 | [CELL] Liberal | [CELL]  | [CELL] 48th [ROW 50] [CELL] 38 | [CELL] George W. Johnson | [CELL] January 1935 | [CELL] January 1937 | [CELL] Conservative | [CELL]  | [CELL] 49th [ROW 51] [CELL] 39 | [CELL] Harold H. Barker | [CELL] January 1937 | [CELL] January 1939 | [CELL] Liberal | [CELL]  | [CELL] 50th [ROW 52] [CELL] 40 | [CELL] Lawrence M. Hall | [CELL] January 1939 | [CELL] January 1949 | [CELL] Conservative | [CELL] Longest-serving speaker | [CELL] 51st [ROW 53] [CELL] 52nd | [ROW 54] [CELL] 53rd | [ROW 55] [CELL] 54th | [ROW 56] [CELL] 55th | [ROW 57] [CELL] 41 | [CELL] John A. Hartle | [CELL] January 4, 1949 | [CELL] January 6, 1955 | [CELL] Conservative | [CELL]  | [CELL] 56th [ROW 58] [CELL] 57th | [ROW 59] [CELL] 58th | [ROW 60] [CELL] 42 | [CELL] Alfred I. Johnson | [CELL] January 6, 1955 | [CELL] January 5, 1959 | [CELL] Liberal | [CELL]  | [CELL] 59th [ROW 61] [CELL] 60th | [ROW 62] [CELL] 43 | [CELL] Edwin J. Chilgren | [CELL] January 5, 1959 | [CELL] January 7, 1963 | [CELL] Liberal | [CELL]  | [CELL] 61st [ROW 63] [CELL] 62nd | [ROW 64] [CELL] 44 | [CELL] Lloyd L. Duxbury | [CELL] January 7, 1963 | [CELL] January 1971 | [CELL] Conservative | [CELL]  | [CELL] 63rd [ROW 65] [CELL] 64th | [ROW 66] [CELL] 65th | [ROW 67] [CELL] 66th | [ROW 68] [CELL] 45 | [CELL] A.W. Dirlam | [CELL] January 1971 | [CELL] January 1973 | [CELL] Conservative | [CELL]  | [CELL] 67th [ROW 69] [CELL] 46 | [CELL] Martin Olav Sabo | [CELL] January 1973 | [CELL] January 1979 | [CELL] DFL | [CELL] Served as a U.S. Representative | [CELL] 68th [ROW 70] [CELL] 69th | [ROW 71] [CELL] 70th | [ROW 72] [CELL] 47 | [CELL] Rod Searle | [CELL] January 1979 | [CELL] January 1980 | [CELL] Independent-Republican | [CELL]  | [CELL] 71st [ROW 73] [CELL] 48 | [CELL] Fred C. Norton | [CELL] January 1980 | [CELL] January 1981 | [CELL] DFL | [CELL] Served on Minnesota Court of Appeals | [ROW 74] [CELL] 49 | [CELL] Harry A. Sieben | [CELL] January 1981 | [CELL] January 1985 | [CELL] DFL | [CELL]  | [CELL] 72nd [ROW 75] [CELL] 73rd | [ROW 76] [CELL] 50 | [CELL] David M. Jennings | [CELL] January 1985 | [CELL] January 1987 | [CELL] Independent-Republican | [CELL]  | [CELL] 74th [ROW 77] [CELL] 51 | [CELL] Fred C. Norton | [CELL] January 1987 | [CELL] June 1987 | [CELL] DFL | [CELL] Served on Minnesota Court of Appeals | [CELL] 75th [ROW 78] [CELL] 52 | [CELL] Robert Vanasek | [CELL] June 1987 | [CELL] January 6, 1992 | [CELL] DFL | [CELL]  | [CELL] 75th [ROW 79] [CELL] 76th | [ROW 80] [CELL] 77th | [ROW 81] [CELL] 53 | [CELL] Dee Long | [CELL] January 6, 1992 | [CELL] September 15, 1993 | [CELL] DFL | [CELL] First woman to serve as speaker. | [CELL] 77th [ROW 82] [CELL] 78th | [ROW 83] [CELL] 54 | [CELL] Irv Anderson | [CELL] September 1993 | [CELL] January 1997 | [CELL] DFL | [CELL]  | [CELL] 78th [ROW 84] [CELL] 79th | [ROW 85] [CELL] 55 | [CELL] Phil Carruthers | [CELL] January 1997 | [CELL] January 1999 | [CELL] DFL | [CELL]  | [CELL] 80th [ROW 86] [CELL] 56 | [CELL] Steve Sviggum | [CELL] January 1999 | [CELL] January 2007 | [CELL] Republican | [CELL]  | [CELL] 81st [ROW 87] [CELL] 82nd | [ROW 88] [CELL] 83rd | [ROW 89] [CELL] 84th | [ROW 90] [CELL] 57 | [CELL] Margaret Anderson Kelliher | [CELL] January 2007 | [CELL] January 2011 | [CELL] DFL | [CELL]  | [CELL] 85th [ROW 91] [CELL] 86th | [ROW 92] [CELL] 58 | [CELL] Kurt Zellers | [CELL] January 4, 2011 | [CELL] January 8, 2013 | [CELL] Republican | [CELL]  | [CELL] 87th [ROW 93] [CELL] 59 | [CELL] Paul Thissen | [CELL] January 8, 2013 | [CELL] January 6, 2015 | [CELL] DFL | [CELL] Appointed to the Minnesota Supreme Court in 2018 | [CELL] 88th [ROW 94] [CELL] 60 | [CELL] Kurt Daudt | [CELL] January 6, 2015 | [CELL] January 8, 2019 | [CELL] Republican | [CELL]  | [CELL] 89th [ROW 95] [CELL] 90th | [ROW 96] [CELL] 61 | [CELL] Melissa Hortman | [CELL] January 8, 2019 | [CELL] Incumbent | [CELL] DFL | [CELL]  | [CELL] 91st",
+      "prediction": "aaa",
+      "target": "Ralph J. Parker was a Minnesota politician and a Speaker of the Minnesota House of Representatives.",
+      "references": [
+        "Ralph J. Parker was a Minnesota politician and a Speaker of the Minnesota House of Representatives.",
+        "Ralph J. Parker was a Speaker of the Minnesota House of Representatives.",
+        "Ralph J. Parke, was a Minnesota politician, and a Speaker of the Minnesota House of Representatives."
+      ]
+    },
+    {
+      "id": "totto_9095314032876340546",
+      "dataset": "totto",
+      "source": "[PAGE] Asian Beach Games [SECTION] List of Asian Beach Games [HEADER] Edition | Year | Host City | Host Nation | Opened by | Start Date | End Date | Nations | Competitors | Sports | Events | Top Placed Team | Ref. [ROW 0] [HEADER] Edition | [HEADER] Year | [HEADER] Host City | [HEADER] Host Nation | [HEADER] Opened by | [HEADER] Start Date | [HEADER] End Date | [HEADER] Nations | [HEADER] Competitors | [HEADER] Sports | [HEADER] Events | [HEADER] Top Placed Team | [HEADER] Ref. [ROW 1] [CELL] I | [CELL] 2008 | [CELL] Bali | [CELL] Indonesia | [CELL] President Susilo Bambang Yudhoyono | [CELL] 18 October | [CELL] 26 October | [CELL] 41 | [CELL] 1,665 | [CELL] 17 | [CELL] 59 | [CELL] Indonesia (INA) | [CELL]  [ROW 2] [CELL] II | [CELL] 2010 | [CELL] Muscat | [CELL] Oman | [CELL] Sultan Qaboos bin Said al Said | [CELL] 8 December | [CELL] 16 December | [CELL] 43 | [CELL] 1,131 | [CELL] 14 | [CELL] 52 | [CELL] Thailand (THA) | [CELL]  [ROW 3] [CELL] III | [CELL] 2012 | [CELL] Haiyang | [CELL] China | [CELL] State councillor Ma Kai | [CELL] 16 June | [CELL] 22 June | [CELL] 43 | [CELL] 1,336 | [CELL] 13 | [CELL] 49 | [CELL] China (CHN) | [CELL]  [ROW 4] [CELL] IV | [CELL] 2014 | [CELL] Phuket | [CELL] Thailand | [CELL] Privy Councilor Surayud Chulanont | [CELL] 14 November | [CELL] 23 November | [CELL] 42 | [CELL] 2,335 | [CELL] 26 | [CELL] 168 | [CELL] Thailand (THA) | [CELL]  [ROW 5] [CELL] V | [HCELL] 2016 | [HCELL] Da Nang | [HCELL] Vietnam | [CELL] Prime Minister Nguyen Xuan Phuc | [HCELL] 24 September | [HCELL] 3 October | [CELL] 41 | [CELL] 2,197 | [CELL] 14 | [CELL] 172 | [CELL] Vietnam (VIE) | [CELL]  [ROW 6] [CELL] VI | [HCELL] 2020 | [HCELL] Sanya | [HCELL] China | [CELL]  | [CELL] 26 November | [CELL] 5 December | [CELL]  | [CELL]  | [CELL]  | [CELL]  | [CELL]  | [CELL]",
+      "prediction": "aa",
+      "target": "The last Asian Beach Games was held in Danang, Vietnam from 24 September to 3 October 2016, while the next will be held in 2020 in Sanya, China, the first to breakaway from the 2-year cycle.",
+      "references": [
+        "The last Asian Beach Games was held in Danang, Vietnam from 24 September to 3 October 2016, while the next will be held in 2020 in Sanya, China, the first to breakaway from the 2-year cycle.",
+        "The last Asian Beach Games was held in Danang, Vietnam from 24 September to 3 October 2016, while the next games will be held in 2020 in Sanya, China.",
+        "Asian Beach Games were held in Danang, Vietnam from 24 September to 3 October 2016, while the next games held in 2020 in Sanya, China"
+      ]
+    },
+    {
+      "id": "totto_6803794595179672650",
+      "dataset": "totto",
+      "source": "[PAGE] Julian Sands [SECTION] Television [HEADER] Year | Title | Role | Notes [ROW 0] [HEADER] Year | [HEADER] Title | [HEADER] Role | [HEADER] Notes [ROW 1] [CELL] 1984 | [CELL] The Box of Delights | [CELL] Greek soldier | [CELL] Episode: Beware of Yesterday [ROW 2] [CELL] 1986 | [CELL] Harem | [CELL] Charles Forest | [CELL] Episodes 1 and 2 [ROW 3] [CELL] 2000–2002 | [CELL] Jackie Chan Adventures | [CELL] Valmont | [CELL] 26 episodes, voice [ROW 4] [CELL] 2001 | [CELL] Rose Red | [CELL] Nick Hardaway | [CELL] TV mini-series, 3 episodes [ROW 5] [CELL] 2002 | [CELL] Ozzy and Drix | [CELL] Penicillin G | [CELL] Episode: Strep-Finger, voice [ROW 6] [CELL] 2004 | [CELL] Dark Kingdom: The Dragon King | [CELL] Hagen | [CELL] TV [ROW 7] [CELL] 2005 | [CELL] Law & Order: Special Victims Unit | [CELL] Barclay Pallister | [CELL] Episode: Design [ROW 8] [CELL] 2005 | [CELL] Stargate SG-1 | [CELL] Doci | [CELL] Episodes: Origin, The Fourth Horseman Part 1 [ROW 9] [CELL] 2006 | [CELL] Law & Order: Criminal Intent | [CELL] Paul Reinhardt | [CELL] Episode: Dramma Giocoso [ROW 10] [CELL] 2006 | [CELL] 24 | [CELL] Vladimir Bierko | [CELL] TV - recurring, 11 episodes [ROW 11] [CELL] 2007 | [CELL] Agatha Christie's Marple | [CELL] Thomas Royde | [CELL] Episode: Towards Zero [ROW 12] [CELL] 2007 | [CELL] Ghost Whisperer | [CELL] Ethan Clark | [CELL] 2 episodes [ROW 13] [CELL] 2009–2010 | [CELL] Smallville | [CELL] Jor-El | [CELL] Episodes: Kandor, Abandoned [ROW 14] [CELL] 2009 | [CELL] Beyond Sherwood Forest | [CELL] Malcolm | [CELL] TV movie [ROW 15] [CELL] 2010 | [CELL] Castle | [CELL] Teddy Farrow | [CELL] Episode: Inventing the Girl [ROW 16] [HCELL] 2012 | [HCELL] Person of Interest | [HCELL] Alistair Wesley | [HCELL] Episode: Critical [ROW 17] [CELL] 2013 | [CELL] Dexter | [CELL] Miles Castner | [CELL] TV - recurring [ROW 18] [CELL] 2014 | [CELL] Banshee | [CELL] Priest | [CELL] 3 episodes [ROW 19] [CELL] Crossbones | [CELL] William Jagger | [CELL] TV - recurring, 8 episodes | [ROW 20] [CELL] 2015 | [CELL] Gotham | [CELL] Dr. Gerald Crane/\"Todd\" | [CELL] 2 episodes [ROW 21] [CELL] We're Doomed! The Dad's Army Story | [CELL] John Le Mesurier | [CELL]  | [ROW 22] [CELL] 2018 | [CELL] Medici: Masters of Florence | [CELL] Piero di Cosimo de' Medici | [CELL]  [ROW 23] [CELL] 2018 | [CELL] The Blacklist | [CELL] Sutton Ross | [CELL] Season 5, Episode 22: Sutton Ross",
+      "prediction": "aaa",
+      "target": "In 2012, Julian Sands played as Alistair Wesley in the episode of the Person of Interest.",
+      "references": [
+        "In 2012, Julian Sands played as Alistair Wesley in the episode of the Person of Interest.",
+        "In 2012, Julian Sands played Alistair Wesley in the Person of Interest.",
+        "In 2012, Julian Sands played as Alistair Wesley in the Person of Interest."
+      ]
+    },
+    {
+      "id": "totto_-2706081572458524575",
+      "dataset": "totto",
+      "source": "[PAGE] Adrienne Bailon [SECTION] Film roles [HEADER] Year | Title | Role | Notes [ROW 0] [HEADER] Year | [HEADER] Title | [HEADER] Role | [HEADER] Notes [ROW 1] [HCELL] 2005 | [HCELL] Coach Carter | [HCELL] Dominique | [CELL] Credited as Adrienne Eliza Bailon [ROW 2] [CELL] 2008 | [CELL] Cuttin' da Mustard | [CELL] Erma | [CELL]  [ROW 3] [CELL] The Sisterhood of the Traveling Pants 2 | [CELL] Cute Video Couple Girl | [CELL] Cameo | [ROW 4] [CELL] 2012 | [CELL] The Coalition | [CELL] Katalina Santiago | [CELL] Direct-to-video [ROW 5] [CELL] 2013 | [CELL] I'm in Love with a Church Girl | [CELL] Vanessa Leon | [CELL]",
+      "prediction": "aaaa",
+      "target": "In 2005, Adrienne Bailon starred in Coach Carter as Dominique.",
+      "references": [
+        "In 2005, Adrienne Bailon starred in Coach Carter as Dominique.",
+        "In 2005, Adrienne Bailon starred in Coach Carter as Dominique, which was her first film.",
+        "In 2005, Adrienne Bailon starred in Coach Carter as Dominique."
+      ]
+    },
+    {
+      "id": "totto_3877051823034175640",
+      "dataset": "totto",
+      "source": "[PAGE] List of ambassadors of the United States to Trinidad and Tobago [SECTION] List of ambassadors [HEADER] Name | Background | Title | Appointment | Presentation of Credentials | Termination of Mission | Notes [ROW 0] [HEADER] Name | [HEADER] Background | [HEADER] Title | [HEADER] Appointment | [HEADER] Presentation of Credentials | [HEADER] Termination of Mission | [HEADER] Notes [ROW 1] [CELL] William H. Christensen | [CELL] Non-career appointee | [CELL] Chargé d'Affaires ad interim | [CELL] August 31, 1962 | [CELL] August 31, 1962 | [CELL] 1962 | [CELL]  [ROW 2] [CELL] Robert G. Miner | [CELL] Foreign Service officer | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] October 23, 1962 | [CELL] December 1, 1962 | [CELL] Left post September 18, 1967 | [CELL]  [ROW 3] [CELL] William A. Costello | [CELL] Non-career appointee | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] September 13, 1967 | [CELL] October 26, 1967 | [CELL] Left post March 17, 1969 | [CELL]  [ROW 4] [CELL] J. Fife Symington, Jr. | [CELL] Non-career appointee | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] July 8, 1969 | [CELL] September 11, 1969 | [CELL] Left post November 14, 1971 | [CELL]  [ROW 5] [CELL] Anthony D. Marshall | [CELL] Non-career appointee | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] February 15, 1972 | [CELL] February 22, 1972 | [CELL] Left post December 27, 1973 | [CELL] An earlier nomination of December 7, 1971 was not acted upon by the Senate. [ROW 6] [CELL] Lloyd I. Miller | [CELL] Non-career appointee | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] December 19, 1973 | [CELL] February 8, 1974 | [CELL] Left post May 23, 1975 | [CELL]  [ROW 7] [CELL] Albert B. Fay | [CELL] Non-career appointee | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] February 4, 1976 | [CELL] February 17, 1976 | [CELL] Left post April 5, 1977 | [CELL]  [ROW 8] [CELL] Richard K. Fox, Jr. | [CELL] Foreign Service officer | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] July 8, 1977 | [CELL] July 21, 1977 | [CELL] Left post July 16, 1979 | [CELL]  [ROW 9] [CELL] Irving G. Cheslaw | [CELL] Foreign Service officer | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] September 28, 1979 | [CELL] October 18, 1979 | [CELL] Left post September 1, 1981 | [CELL]  [ROW 10] [CELL] Melvin Herbert Evans | [CELL] Non-career appointee | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] December 1, 1981 | [CELL] January 1, 1982 | [CELL] Died November 27, 1984 | [CELL] Evans left post on November 21, 1984. [ROW 11] [CELL] Sheldon J. Krys | [CELL] Foreign Service officer | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] July 12, 1985 | [CELL] August 19, 1985 | [CELL] Left post April 24, 1988 | [CELL]  [ROW 12] [CELL] Charles A. Gargano | [CELL] Non-career appointee | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] July 15, 1988 | [CELL] August 9, 1988 | [CELL] Left post June 7, 1991 | [CELL]  [ROW 13] [CELL] Sally G. Cowal | [CELL] Foreign Service officer | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] August 2, 1991 | [CELL] August 27, 1991 | [CELL] Left post August 22, 1994 | [CELL]  [ROW 14] [CELL] Brian J. Donnelly | [CELL] Non-career appointee | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] July 5, 1994 | [CELL] September 5, 1994 | [CELL] Left post September 24, 1997 | [CELL]  [ROW 15] [CELL] Edward E. Shumaker III | [CELL] Non-career appointee | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] October 24, 1997 | [CELL] January 13, 1998 | [CELL] Left post March 31, 2001 | [CELL]  [ROW 16] [CELL] Roy L. Austin | [CELL] Non-career appointee | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] October 1, 2001 | [CELL] December 6, 2001 | [CELL] December 18, 2009 | [CELL]  [ROW 17] [CELL] Beatrice Wilkinson Welters | [CELL] Non-career appointee | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] April 27, 2010 | [CELL] 2010 | [CELL] Left post October 2012 | [CELL]  [ROW 18] [CELL] Margaret Diop | [CELL] Foreign Service officer | [CELL] Chargé d'Affaires ad interim | [CELL] October 2012 | [CELL] N/A | [CELL]  | [CELL]  [ROW 19] [HCELL] John L. Estrada | [CELL] Non-career appointee | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] July 2013 | [CELL] March 17, 2016 | [CELL] Left post January 20, 2017 | [CELL]  [ROW 20] [CELL] John W. McIntyre | [CELL] Foreign Service Officer | [CELL] Chargé d'Affaires ad interim | [CELL] January 20, 2017 | [CELL] N/A | [CELL]  | [CELL]  [ROW 21] [CELL] Joseph Mondello | [CELL] Non-career appointee | [CELL] Ambassador Extraordinary and Plenipotentiary | [CELL] July 2, 2018 | [CELL] October 22, 2018 | [CELL]  | [CELL]",
+      "prediction": "aa",
+      "target": "John Learie Estrada is the United States Ambassador to Trinidad and Tobago.",
+      "references": [
+        "John Learie Estrada is the United States Ambassador to Trinidad and Tobago.",
+        "John L. Estrada is the United States Ambassador to Trinidad and Tobago.",
+        "John Learie Estrada is the United States Ambassador to Trinidad and Tobago."
+      ]
+    },
+    {
+      "id": "totto_6364030237891034315",
+      "dataset": "totto",
+      "source": "[PAGE] Trey Johnson [SECTION] College [HEADER] Year | Team | GP | GS | MPG | FG% | 3P% | FT% | RPG | APG | SPG | BPG | PPG [ROW 0] [HEADER] Year | [HEADER] Team | [HEADER] GP | [HEADER] GS | [HEADER] MPG | [HEADER] FG% | [HEADER] 3P% | [HEADER] FT% | [HEADER] RPG | [HEADER] APG | [HEADER] SPG | [HEADER] BPG | [HEADER] PPG [ROW 1] [CELL] 2003–04 | [CELL] Alcorn State | [CELL] 29 | [CELL]  | [CELL] 28.8 | [CELL] .414 | [CELL] .415 | [CELL] .781 | [CELL] 2.4 | [CELL] 2.7 | [CELL] .5 | [CELL] .1 | [CELL] 11.0 [ROW 2] [CELL] 2005–06 | [CELL] Jackson State | [HCELL] 32 | [CELL] 29 | [CELL] 34.8 | [CELL] .455 | [CELL] .441 | [CELL] .750 | [HCELL] 4.8 | [HCELL] 2.3 | [CELL] 1.4 | [CELL] .1 | [HCELL] 23.5 [ROW 3] [CELL] 2006–07 | [CELL] Jackson State | [CELL] 35 | [CELL] 35 | [CELL] 37.8 | [CELL] .414 | [CELL] .333 | [CELL] .743 | [CELL] 4.5 | [CELL] 2.6 | [CELL] .9 | [CELL] .1 | [CELL] 27.1 [ROW 4] [CELL] Career | [CELL] 96 | [CELL]  | [CELL] 36.4 | [CELL] .429 | [CELL] .382 | [CELL] .751 | [CELL] 4.0 | [CELL] 2.5 | [CELL] .8 | [CELL] .1 | [CELL] 21.0 |",
+      "prediction": "aa",
+      "target": "Trey Johnson averaged 23.5 points, 4.8 rebounds, and 2.3 assists in 32 games.",
+      "references": [
+        "Trey Johnson averaged 23.5 points, 4.8 rebounds, and 2.3 assists in 32 games.",
+        "Trey Johnson averaged 23.5 points, 4.8 rebounds and 2.3 assists in 32 games.",
+        "Trey Johnson averaged 23.5 points on 4.8 rebounds and 2.3 assists in 32 games."
+      ]
+    },
+    {
+      "id": "dart_validation_0",
+      "dataset": "dart",
+      "source": "[TRIPLE] [SUBJ] Mars Hill College [REL] JOINED [OBJ] 1973 [TRIPLE] [SUBJ] Mars Hill College [REL] LOCATION [OBJ] Mars Hill, North Carolina",
+      "prediction": "aaa",
+      "target": "A school from Mars Hill, North Carolina, joined in 1973.",
+      "references": [
+        "A school from Mars Hill, North Carolina, joined in 1973."
+      ]
+    },
+    {
+      "id": "dart_validation_1",
+      "dataset": "dart",
+      "source": "[TRIPLE] [SUBJ] Newberry College [REL] NICKNAME [OBJ] Wolves",
+      "prediction": "aa",
+      "target": "Newberry College's nickname is the wolves.",
+      "references": [
+        "Newberry College's nickname is the wolves."
+      ]
+    },
+    {
+      "id": "dart_validation_2",
+      "dataset": "dart",
+      "source": "[TRIPLE] [SUBJ] Presbyterian College [REL] TYPE [OBJ] Private",
+      "prediction": "aaa",
+      "target": "Presbyterian College is a private school.",
+      "references": [
+        "Presbyterian College is a private school."
+      ]
+    },
+    {
+      "id": "dart_validation_3",
+      "dataset": "dart",
+      "source": "[TRIPLE] [SUBJ] Queens University of Charlotte [REL] NICKNAME [OBJ] Royals [TRIPLE] [SUBJ] Queens University of Charlotte [REL] ENROLLMENT [OBJ] 2386",
+      "prediction": "aa",
+      "target": "The nickname of the school with an enrollment of 2,386 is the royals.",
+      "references": [
+        "The nickname of the school with an enrollment of 2,386 is the royals."
+      ]
+    },
+    {
+      "id": "dart_validation_4",
+      "dataset": "dart",
+      "source": "[TRIPLE] [SUBJ] Inars Kivlenieks [REL] COUNTRY [OBJ] Latvia",
+      "prediction": "aaa",
+      "target": "The Athlete is Inars Kivlenieks.The country is Latvia",
+      "references": [
+        "The Athlete is Inars Kivlenieks.The country is Latvia"
+      ]
+    },
+    {
+      "id": "dart_validation_5",
+      "dataset": "dart",
+      "source": "[TRIPLE] [SUBJ] New York [REL] SWIMSUIT [OBJ] 8.713 [TRIPLE] [SUBJ] New York [REL] EVENING_GOWN [OBJ] 8.400 [TRIPLE] [SUBJ] New York [REL] AVERAGE [OBJ] 8.525",
+      "prediction": "aaa",
+      "target": "New York it 8.713 New York 8.525",
+      "references": [
+        "New York it 8.713 New York 8.525"
+      ]
+    },
+    {
+      "id": "dart_validation_6",
+      "dataset": "dart",
+      "source": "[TRIPLE] [SUBJ] Atlanta [REL] OFFICIAL_POPULATION [OBJ] 5,457,831 [TRIPLE] [SUBJ] [TABLECONTEXT] [REL] METROPOLITAN_AREA [OBJ] Atlanta [TRIPLE] [SUBJ] 5,457,831 [REL] YEAR [OBJ] 2012 [TRIPLE] [SUBJ] [TABLECONTEXT] [REL] [TITLE] [OBJ] List of metropolitan areas by population [TRIPLE] [SUBJ] Atlanta [REL] COUNTRY [OBJ] United States",
+      "prediction": "aaa",
+      "target": "Metropolitan areas by population is Atlanta Country United States Official population is 5,457,831 ,2012",
+      "references": [
+        "Metropolitan areas by population is Atlanta Country United States Official population is 5,457,831 ,2012"
+      ]
+    },
+    {
+      "id": "dart_validation_7",
+      "dataset": "dart",
+      "source": "[TRIPLE] [SUBJ] Bogotá [REL] COUNTRY [OBJ] Colombia",
+      "prediction": "aa",
+      "target": "The Bogotá metropolitan area is in Colombia.",
+      "references": [
+        "The Bogotá metropolitan area is in Colombia."
+      ]
+    },
+    {
+      "id": "dart_validation_8",
+      "dataset": "dart",
+      "source": "[TRIPLE] [SUBJ] [TABLECONTEXT] [REL] METROPOLITAN_AREA [OBJ] Berlin [TRIPLE] [SUBJ] Berlin [REL] COUNTRY [OBJ] Germany [TRIPLE] [SUBJ] [TABLECONTEXT] [REL] [TITLE] [OBJ] List of metropolitan areas by population [TRIPLE] [SUBJ] Berlin [REL] OFFICIAL_POPULATION [OBJ] 5,097,712",
+      "prediction": "aa",
+      "target": "Berlin is a metropolitan area in Germany with an official population of 5,097,712.",
+      "references": [
+        "Berlin is a metropolitan area in Germany with an official population of 5,097,712."
+      ]
+    },
+    {
+      "id": "dart_validation_9",
+      "dataset": "dart",
+      "source": "[TRIPLE] [SUBJ] 1983-1984 season [REL] JORNADA_OR_OTHER [OBJ] 2 [TRIPLE] [SUBJ] 2 [REL] AWAY_TEAM [OBJ] América [TRIPLE] [SUBJ] 2 [REL] HOME_TEAM [OBJ] Chivas",
+      "prediction": "aaa",
+      "target": "Chivas played against América in the 1983-1984 season.",
+      "references": [
+        "Chivas played against América in the 1983-1984 season."
+      ]
+    },
+    {
+      "id": "webnlg_validation_Id6_0",
+      "dataset": "webnlg",
+      "source": "[TRIPLE] [SUBJ] Al-Taqaddum Air Base [REL] cityServed [OBJ] Fallujah",
+      "prediction": "aaa",
+      "target": "The Al Taqaddum Air Base serves the city of Fallujah.",
+      "references": [
+        "The Al Taqaddum Air Base serves the city of Fallujah.",
+        "Al-Taqaddum Air Base serves the city of Fallujah."
+      ]
+    },
+    {
+      "id": "webnlg_validation_Id7_1",
+      "dataset": "webnlg",
+      "source": "[TRIPLE] [SUBJ] Al-Taqaddum Air Base [REL] runwayLength [OBJ] 3684.0",
+      "prediction": "aaa",
+      "target": "The runway length of Al-Taqaddum Air Base is 3684.0.",
+      "references": [
+        "The runway length of Al-Taqaddum Air Base is 3684.0.",
+        "The length of the runway at Al-Taqaddum Air Base is 3684.0."
+      ]
+    },
+    {
+      "id": "webnlg_validation_Id8_2",
+      "dataset": "webnlg",
+      "source": "[TRIPLE] [SUBJ] Alderney Airport [REL] runwayName [OBJ] \"14/32\"",
+      "prediction": "aa",
+      "target": "Alderney Airport runway name is 14/32.",
+      "references": [
+        "Alderney Airport runway name is 14/32.",
+        "14/32 is the runway name of Alderney Airport.",
+        "The runway name of Alderney Airport is 14/32."
+      ]
+    },
+    {
+      "id": "webnlg_validation_Id14_3",
+      "dataset": "webnlg",
+      "source": "[TRIPLE] [SUBJ] Andrews County Airport [REL] owner [OBJ] Andrews County, Texas",
+      "prediction": "aa",
+      "target": "The Andrews County Airport is owned by Andrews County, Texas.",
+      "references": [
+        "The Andrews County Airport is owned by Andrews County, Texas.",
+        "The owner of Andrews County airport is Andrews County, Texas.",
+        "Andrews County Airport is owned by Andrews County, Texas."
+      ]
+    },
+    {
+      "id": "webnlg_validation_Id16_4",
+      "dataset": "webnlg",
+      "source": "[TRIPLE] [SUBJ] Angola International Airport [REL] 1st_runway_SurfaceType [OBJ] \"Asphalt\"",
+      "prediction": "aaaa",
+      "target": "Angola International Airport is the first runway made of asphalt.",
+      "references": [
+        "Angola International Airport is the first runway made of asphalt.",
+        "Asphalt is the surface of the first runway of Angola International Airport.",
+        "The 1st runway at Angola International Airport has an asphalt surface."
+      ]
+    },
+    {
+      "id": "webnlg_validation_Id20_5",
+      "dataset": "webnlg",
+      "source": "[TRIPLE] [SUBJ] Ardmore Airport (New Zealand) [REL] runwayLength [OBJ] 518.0",
+      "prediction": "aa",
+      "target": "Ardmore Airport (New Zealand) runway length is 518.0.",
+      "references": [
+        "Ardmore Airport (New Zealand) runway length is 518.0.",
+        "The runway length of Ardmore Airport, New Zealand, is 518.0.",
+        "The runway length of Ardmore Airport (New Zealand) is 518.0."
+      ]
+    },
+    {
+      "id": "webnlg_validation_Id21_6",
+      "dataset": "webnlg",
+      "source": "[TRIPLE] [SUBJ] Ashgabat International Airport [REL] ICAO_Location_Identifier [OBJ] \"UTAA\"",
+      "prediction": "aaaa",
+      "target": "UTAA is the ICAO Location Identifier of Ashgabat International Airport.",
+      "references": [
+        "UTAA is the ICAO Location Identifier of Ashgabat International Airport.",
+        "The ICAO Location Identifier of Ashgabat International Airport is UTAA."
+      ]
+    },
+    {
+      "id": "webnlg_validation_Id32_7",
+      "dataset": "webnlg",
+      "source": "[TRIPLE] [SUBJ] Madrid [REL] country [OBJ] Spain",
+      "prediction": "aa",
+      "target": "Madrid is in the country of Spain.",
+      "references": [
+        "Madrid is in the country of Spain.",
+        "The city of Madrid is found in Spain.",
+        "Madrid is located in Spain."
+      ]
+    },
+    {
+      "id": "webnlg_validation_Id33_8",
+      "dataset": "webnlg",
+      "source": "[TRIPLE] [SUBJ] Maple Ridge Township, Alpena County, Michigan [REL] isPartOf [OBJ] United States",
+      "prediction": "aaa",
+      "target": "Maple Ridge Township in Alpena County, Michigan is part of the United States.",
+      "references": [
+        "Maple Ridge Township in Alpena County, Michigan is part of the United States.",
+        "Maple Ridge Township, Alpena County, Michigan is part of the United States."
+      ]
+    },
+    {
+      "id": "webnlg_validation_Id34_9",
+      "dataset": "webnlg",
+      "source": "[TRIPLE] [SUBJ] Pakistan [REL] leaderName [OBJ] Sardar Ayaz Sadiq",
+      "prediction": "aaa",
+      "target": "The leader of Pakistan is Sardar Ayaz Sadiq.",
+      "references": [
+        "The leader of Pakistan is Sardar Ayaz Sadiq."
+      ]
+    }
+  ]
+}

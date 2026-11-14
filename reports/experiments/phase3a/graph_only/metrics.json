@@ -1,0 +1,90 @@
+{
+  "experiment_name": "phase3a_graph_only",
+  "experiment_type": "psd",
+  "psd_enabled": true,
+  "lambda_psd": 0.1,
+  "num_steps": 150,
+  "elapsed_seconds": 1757.24,
+  "initial_lm_loss": 3.8706,
+  "final_lm_loss": 1.9065,
+  "initial_val_lm_loss": 3.6366,
+  "final_val_lm_loss": 1.4673,
+  "peak_gpu_allocated_mb": 2690.96,
+  "peak_gpu_reserved_mb": 5602.0,
+  "final_generation_metrics": {
+    "bleu": 17.21,
+    "rouge1": 49.04,
+    "rouge2": 32.66,
+    "rougeL": 45.73,
+    "bertscore_p": 89.25,
+    "bertscore_r": 90.39,
+    "bertscore_f1": 89.79,
+    "structured_coverage": 100.0
+  },
+  "periodic_evaluations": [
+    {
+      "step": 1,
+      "elapsed_time": 9.08,
+      "val_lm_loss": 3.6366,
+      "val_psd_loss": 1.835,
+      "metrics": {
+        "bleu": 1.86,
+        "rouge1": 14.4,
+        "rouge2": 6.07,
+        "rougeL": 12.4,
+        "bertscore_p": 77.82,
+        "bertscore_r": 87.14,
+        "bertscore_f1": 82.21,
+        "structured_coverage": 100.0
+      }
+    },
+    {
+      "step": 50,
+      "elapsed_time": 731.9,
+      "val_lm_loss": 1.5026,
+      "val_psd_loss": 1.3841,
+      "metrics": {
+        "bleu": 6.23,
+        "rouge1": 49.33,
+        "rouge2": 33.87,
+        "rougeL": 45.65,
+        "bertscore_p": 87.6,
+        "bertscore_r": 91.01,
+        "bertscore_f1": 89.19,
+        "structured_coverage": 100.0
+      }
+    },
+    {
+      "step": 100,
+      "elapsed_time": 1092.95,
+      "val_lm_loss": 1.5143,
+      "val_psd_loss": 0.8404,
+      "metrics": {
+        "bleu": 10.36,
+        "rouge1": 52.55,
+        "rouge2": 35.57,
+        "rougeL": 48.49,
+        "bertscore_p": 88.69,
+        "bertscore_r": 90.95,
+        "bertscore_f1": 89.74,
+        "structured_coverage": 100.0
+      }
+    },
+    {
+      "step": 150,
+      "elapsed_time": 1719.4,
+      "val_lm_loss": 1.4673,
+      "val_psd_loss": 0.5771,
+      "metrics": {
+        "bleu": 17.21,
+        "rouge1": 49.04,
+        "rouge2": 32.66,
+        "rougeL": 45.73,
+        "bertscore_p": 89.25,
+        "bertscore_r": 90.39,
+        "bertscore_f1": 89.79,
+        "structured_coverage": 100.0
+      }
+    }
+  ]
+}

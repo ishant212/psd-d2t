@@ -1,0 +1,1282 @@
+{
+  "factual_precision": 77.74,
+  "hallucination_rate": 22.26,
+  "structured_coverage": 50.72,
+  "total_claims": 187,
+  "supported_claims": 121,
+  "unsupported_claims": 66,
+  "detailed_results": [
+    {
+      "total_claims": 11,
+      "supported_claims": 6,
+      "unsupported_claims": 5,
+      "factual_precision": 54.55,
+      "hallucination_rate": 45.45,
+      "structured_coverage": 31.4,
+      "claims": [
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "7",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '7' in source"
+        },
+        {
+          "text": "1874",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1874' in source"
+        },
+        {
+          "text": "1",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1' in source"
+        },
+        {
+          "text": "1878",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '1878' not found in source"
+        },
+        {
+          "text": "CELL James Henry Robinson CELL December",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (4/6) in source"
+        },
+        {
+          "text": "CELL December",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'CELL December' in source"
+        },
+        {
+          "text": "CELL William H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'CELL William H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 34,
+      "supported_claims": 17,
+      "unsupported_claims": 17,
+      "factual_precision": 50.0,
+      "hallucination_rate": 50.0,
+      "structured_coverage": 20.0,
+      "claims": [
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "4",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '4' in source"
+        },
+        {
+          "text": "8",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '8' in source"
+        },
+        {
+          "text": "2015",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '2015' not found in source"
+        },
+        {
+          "text": "9",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '9' in source"
+        },
+        {
+          "text": "2016",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '2016' in source"
+        },
+        {
+          "text": "10",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '10' in source"
+        },
+        {
+          "text": "2017",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '2017' in source"
+        },
+        {
+          "text": "CELL The Last",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (1/2) in source"
+        },
+        {
+          "text": "Mohicans CELL Sarah CELL ROW",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (3/5) in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL The Girl",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (1/2) in source"
+        },
+        {
+          "text": "Dragon Tattoo CELL Marie CELL ROW",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (3/6) in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL The Shadow",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (1/2) in source"
+        },
+        {
+          "text": "Wind CELL Alma CELL ROW",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (4/5) in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL The Girl",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (1/2) in source"
+        },
+        {
+          "text": "Dragon Tattoo CELL Marie CELL CELL Alma Jodorowsky",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (5/8) in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 48,
+      "supported_claims": 32,
+      "unsupported_claims": 16,
+      "factual_precision": 66.67,
+      "hallucination_rate": 33.33,
+      "structured_coverage": 5.41,
+      "claims": [
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[HCELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "HCELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'HCELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 33,
+      "supported_claims": 20,
+      "unsupported_claims": 13,
+      "factual_precision": 60.61,
+      "hallucination_rate": 39.39,
+      "structured_coverage": 77.78,
+      "claims": [
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "1417",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '1417' not found in source"
+        },
+        {
+          "text": "1419",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '1419' not found in source"
+        },
+        {
+          "text": "1442",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1442' in source"
+        },
+        {
+          "text": "56",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '56' not found in source"
+        },
+        {
+          "text": "3",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '3' in source"
+        },
+        {
+          "text": "1442",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1442' in source"
+        },
+        {
+          "text": "1488",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1488' in source"
+        },
+        {
+          "text": "1468",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '1468' not found in source"
+        },
+        {
+          "text": "1470",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '1470' not found in source"
+        },
+        {
+          "text": "1488",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1488' in source"
+        },
+        {
+          "text": "56",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '56' not found in source"
+        },
+        {
+          "text": "4",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '4' in source"
+        },
+        {
+          "text": "Brittany France",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Brittany France' in source"
+        },
+        {
+          "text": "Brittany France CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Brittany France CELL' in source"
+        },
+        {
+          "text": "Nantes France",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Nantes France' in source"
+        },
+        {
+          "text": "ROW",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'ROW' in source"
+        },
+        {
+          "text": "CELL John VI",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'CELL John VI' in source"
+        },
+        {
+          "text": "Great Yann VI",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (2/3) in source"
+        },
+        {
+          "text": "Fur",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Fur' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "Nantes France",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Nantes France' in source"
+        },
+        {
+          "text": "Nantes France CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Nantes France CELL' in source"
+        },
+        {
+          "text": "Nantes France",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Nantes France' in source"
+        },
+        {
+          "text": "ROW",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'ROW' in source"
+        },
+        {
+          "text": "CELL John VII",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'CELL John VII' in source"
+        },
+        {
+          "text": "Great",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'Great' unsupported by source"
+        }
+      ]
+    },
+    {
+      "total_claims": 37,
+      "supported_claims": 25,
+      "unsupported_claims": 12,
+      "factual_precision": 67.57,
+      "hallucination_rate": 32.43,
+      "structured_coverage": 26.21,
+      "claims": [
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "2nd",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '2nd' in source"
+        },
+        {
+          "text": "3",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '3' in source"
+        },
+        {
+          "text": "3",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '3' in source"
+        },
+        {
+          "text": "12",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '12' in source"
+        },
+        {
+          "text": "1859",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1859' in source"
+        },
+        {
+          "text": "12",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '12' in source"
+        },
+        {
+          "text": "1860",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '1860' not found in source"
+        },
+        {
+          "text": "3rd",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '3rd' in source"
+        },
+        {
+          "text": "4",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '4' in source"
+        },
+        {
+          "text": "4",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '4' in source"
+        },
+        {
+          "text": "12",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '12' in source"
+        },
+        {
+          "text": "18",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '18' in source"
+        },
+        {
+          "text": "Republican Minnesota Legislators Past Present",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Republican Minnesota Legislators Past Present' in source"
+        },
+        {
+          "text": "Bradleys",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'Bradleys' unsupported by source"
+        },
+        {
+          "text": "Republican CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Republican CELL' in source"
+        },
+        {
+          "text": "ROW",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'ROW' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL Robert E Miller CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (4/5) in source"
+        },
+        {
+          "text": "March",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'March' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "March",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'March' in source"
+        },
+        {
+          "text": "Republican Minnesota Legislators Past Present",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Republican Minnesota Legislators Past Present' in source"
+        },
+        {
+          "text": "Millers",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'Millers' unsupported by source"
+        },
+        {
+          "text": "Republican CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Republican CELL' in source"
+        },
+        {
+          "text": "ROW",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'ROW' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL James E H Smith CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (5/6) in source"
+        },
+        {
+          "text": "March",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'March' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 3,
+      "supported_claims": 3,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 50.0,
+      "claims": [
+        {
+          "text": "Mars Hill College",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Mars Hill College' in source"
+        },
+        {
+          "text": "Mars Hill North Carolina",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Mars Hill North Carolina' in source"
+        },
+        {
+          "text": "located",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Semantic/relation equivalence match for 'located' in source metadata"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 2,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Newberry College",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Newberry College' in source"
+        },
+        {
+          "text": "Wolves",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Wolves' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 1,
+      "supported_claims": 1,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Presbyterian College",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Presbyterian College' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 3,
+      "supported_claims": 3,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 50.0,
+      "claims": [
+        {
+          "text": "2386",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '2386' in source"
+        },
+        {
+          "text": "Queens University",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Queens University' in source"
+        },
+        {
+          "text": "Charlotte",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Charlotte' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 1,
+      "unsupported_claims": 1,
+      "factual_precision": 50.0,
+      "hallucination_rate": 50.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Inars Kivlenieks",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Inars Kivlenieks' in source"
+        },
+        {
+          "text": "Latvian",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'Latvian' unsupported by source"
+        }
+      ]
+    },
+    {
+      "total_claims": 3,
+      "supported_claims": 3,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Al-Taqaddum Air Base",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Al-Taqaddum Air Base' in source"
+        },
+        {
+          "text": "Fallujah",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Fallujah' in source"
+        },
+        {
+          "text": "served",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Exact/phrase match for relation 'served' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 1,
+      "unsupported_claims": 1,
+      "factual_precision": 50.0,
+      "hallucination_rate": 50.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "3684.0",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '3684.0' not found in source"
+        },
+        {
+          "text": "Al-Taqaddum Air Base",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Al-Taqaddum Air Base' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 3,
+      "supported_claims": 3,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "14",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '14' in source"
+        },
+        {
+          "text": "32",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '32' in source"
+        },
+        {
+          "text": "Alderney Airport",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Alderney Airport' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 2,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Andrews County Airport",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Andrews County Airport' in source"
+        },
+        {
+          "text": "Andrews Texas",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Andrews Texas' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 3,
+      "supported_claims": 2,
+      "unsupported_claims": 1,
+      "factual_precision": 66.67,
+      "hallucination_rate": 33.33,
+      "structured_coverage": 33.33,
+      "claims": [
+        {
+          "text": "Angola International Airport",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Angola International Airport' in source"
+        },
+        {
+          "text": "Angola",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Angola' in source"
+        },
+        {
+          "text": "located",
+          "category": "relation",
+          "supported": false,
+          "evidence": "Relation 'located' unsupported by source"
+        }
+      ]
+    }
+  ]
+}

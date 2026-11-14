@@ -1,0 +1,28 @@
+{
+  "status": "PASSED",
+  "timestamp": null,
+  "checks": {
+    "phase2b_artifacts_preserved": true,
+    "phase3a_artifacts_preserved": true,
+    "baseline_step_100_exists": true,
+    "baseline_step_200_exists": true,
+    "baseline_step_300_exists": true,
+    "baseline_step_400_exists": true,
+    "baseline_step_500_exists": true,
+    "baseline_final_exists": true,
+    "position_only_step_100_exists": true,
+    "position_only_step_200_exists": true,
+    "position_only_step_300_exists": true,
+    "position_only_step_400_exists": true,
+    "position_only_step_500_exists": true,
+    "position_only_final_exists": true,
+    "full_psd_step_100_exists": true,
+    "full_psd_step_200_exists": true,
+    "full_psd_step_300_exists": true,
+    "full_psd_step_400_exists": true,
+    "full_psd_step_500_exists": true,
+    "full_psd_final_exists": true,
+    "all_required_checkpoints_exist": true,
+    "all_required_evaluation_steps_exist": true
+  }
+}

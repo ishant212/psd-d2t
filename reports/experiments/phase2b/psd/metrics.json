@@ -1,0 +1,202 @@
+{
+  "experiment_name": "phase2b_psd_qwen3_4b_lora",
+  "experiment_type": "psd",
+  "psd_enabled": true,
+  "lambda_psd": 0.1,
+  "num_steps": 500,
+  "elapsed_seconds": 6495.21,
+  "initial_lm_loss": 3.8706,
+  "final_lm_loss": 1.0915,
+  "initial_val_lm_loss": 3.6376,
+  "final_val_lm_loss": 1.3502,
+  "peak_gpu_allocated_mb": 2690.72,
+  "peak_gpu_reserved_mb": 5598.0,
+  "final_generation_metrics": {
+    "bleu": 12.64,
+    "rouge1": 45.27,
+    "rouge2": 27.27,
+    "rougeL": 42.05,
+    "bertscore_p": 0.0,
+    "bertscore_r": 0.0,
+    "bertscore_f1": 0.0,
+    "structured_coverage": 100.0
+  },
+  "periodic_evaluations": [
+    {
+      "step": 1,
+      "elapsed_time": 11.22,
+      "val_lm_loss": 3.6376,
+      "val_psd_loss": 1.734,
+      "metrics": {
+        "bleu": 1.87,
+        "rouge1": 14.44,
+        "rouge2": 5.83,
+        "rougeL": 12.31,
+        "bertscore_p": 77.83,
+        "bertscore_r": 87.12,
+        "bertscore_f1": 82.2,
+        "structured_coverage": 100.0
+      }
+    },
+    {
+      "step": 50,
+      "elapsed_time": 885.3,
+      "val_lm_loss": 1.4887,
+      "val_psd_loss": 1.3132,
+      "metrics": {
+        "bleu": 6.42,
+        "rouge1": 48.75,
+        "rouge2": 33.79,
+        "rougeL": 45.07,
+        "bertscore_p": 87.68,
+        "bertscore_r": 91.03,
+        "bertscore_f1": 89.24,
+        "structured_coverage": 100.0
+      }
+    },
+    {
+      "step": 100,
+      "elapsed_time": 1388.67,
+      "val_lm_loss": 1.4792,
+      "val_psd_loss": 0.841,
+      "metrics": {
+        "bleu": 10.47,
+        "rouge1": 49.58,
+        "rouge2": 33.66,
+        "rougeL": 45.88,
+        "bertscore_p": 88.32,
+        "bertscore_r": 90.84,
+        "bertscore_f1": 89.49,
+        "structured_coverage": 100.0
+      }
+    },
+    {
+      "step": 150,
+      "elapsed_time": 2200.85,
+      "val_lm_loss": 1.4264,
+      "val_psd_loss": 0.5907,
+      "metrics": {
+        "bleu": 12.15,
+        "rouge1": 54.06,
+        "rouge2": 36.3,
+        "rougeL": 49.72,
+        "bertscore_p": 89.9,
+        "bertscore_r": 92.04,
+        "bertscore_f1": 90.91,
+        "structured_coverage": 100.0
+      }
+    },
+    {
+      "step": 200,
+      "elapsed_time": 2623.82,
+      "val_lm_loss": 1.3855,
+      "val_psd_loss": 0.4514,
+      "metrics": {
+        "bleu": 7.17,
+        "rouge1": 49.15,
+        "rouge2": 35.41,
+        "rougeL": 46.24,
+        "bertscore_p": 87.97,
+        "bertscore_r": 90.72,
+        "bertscore_f1": 89.24,
+        "structured_coverage": 100.0
+      }
+    },
+    {
+      "step": 250,
+      "elapsed_time": 3074.13,
+      "val_lm_loss": 1.3418,
+      "val_psd_loss": 0.4004,
+      "metrics": {
+        "bleu": 8.38,
+        "rouge1": 52.07,
+        "rouge2": 36.58,
+        "rougeL": 48.87,
+        "bertscore_p": 88.22,
+        "bertscore_r": 90.93,
+        "bertscore_f1": 89.47,
+        "structured_coverage": 100.0
+      }
+    },
+    {
+      "step": 300,
+      "elapsed_time": 3484.31,
+      "val_lm_loss": 1.3841,
+      "val_psd_loss": 0.4398,
+      "metrics": {
+        "bleu": 8.55,
+        "rouge1": 48.78,
+        "rouge2": 30.05,
+        "rougeL": 45.13,
+        "bertscore_p": 88.39,
+        "bertscore_r": 90.35,
+        "bertscore_f1": 89.3,
+        "structured_coverage": 100.0
+      }
+    },
+    {
+      "step": 350,
+      "elapsed_time": 3899.38,
+      "val_lm_loss": 1.3496,
+      "val_psd_loss": 0.4219,
+      "metrics": {
+        "bleu": 9.32,
+        "rouge1": 42.05,
+        "rouge2": 22.48,
+        "rougeL": 38.79,
+        "bertscore_p": 0.0,
+        "bertscore_r": 0.0,
+        "bertscore_f1": 0.0,
+        "structured_coverage": 100.0
+      }
+    },
+    {
+      "step": 400,
+      "elapsed_time": 4348.81,
+      "val_lm_loss": 1.406,
+      "val_psd_loss": 0.3646,
+      "metrics": {
+        "bleu": 17.75,
+        "rouge1": 40.16,
+        "rouge2": 25.11,
+        "rougeL": 37.54,
+        "bertscore_p": 0.0,
+        "bertscore_r": 0.0,
+        "bertscore_f1": 0.0,
+        "structured_coverage": 100.0
+      }
+    },
+    {
+      "step": 450,
+      "elapsed_time": 5824.7,
+      "val_lm_loss": 1.374,
+      "val_psd_loss": 0.2911,
+      "metrics": {
+        "bleu": 12.16,
+        "rouge1": 40.06,
+        "rouge2": 23.37,
+        "rougeL": 36.35,
+        "bertscore_p": 0.0,
+        "bertscore_r": 0.0,
+        "bertscore_f1": 0.0,
+        "structured_coverage": 100.0
+      }
+    },
+    {
+      "step": 500,
+      "elapsed_time": 6412.84,
+      "val_lm_loss": 1.3502,
+      "val_psd_loss": 0.2845,
+      "metrics": {
+        "bleu": 12.64,
+        "rouge1": 45.27,
+        "rouge2": 27.27,
+        "rougeL": 42.05,
+        "bertscore_p": 0.0,
+        "bertscore_r": 0.0,
+        "bertscore_f1": 0.0,
+        "structured_coverage": 100.0
+      }
+    }
+  ]
+}

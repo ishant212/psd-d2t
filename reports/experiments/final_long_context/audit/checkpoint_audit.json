@@ -1,0 +1,50 @@
+{
+  "baseline": {
+    "checkpoint_path": "C:\\Users\\ishan\\OneDrive\\Desktop\\7thSem\\PJT1\\reports\\experiments\\phase2b\\baseline\\checkpoints\\final",
+    "exists": true,
+    "base_model": "models/qwen3_4b_hf",
+    "peft_type": "LORA",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "experiment_type": "baseline",
+    "psd_enabled": false,
+    "lambda_psd": 0.0,
+    "training_steps": 500,
+    "matches_step500": true,
+    "weights_sha256": "f44afc140130c709d4858412d4a0dbff4828bc75ff7a56b749b14f366a731ffe",
+    "weights_size_bytes": 11815504,
+    "weights_size_mb": 11.27,
+    "weights_last_modified": "Fri Sep  4 23:36:46 2026"
+  },
+  "full_psd": {
+    "checkpoint_path": "C:\\Users\\ishan\\OneDrive\\Desktop\\7thSem\\PJT1\\reports\\experiments\\phase2b\\psd\\checkpoints\\final",
+    "exists": true,
+    "base_model": "models/qwen3_4b_hf",
+    "peft_type": "LORA",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "target_modules": [
+      "v_proj",
+      "q_proj"
+    ],
+    "experiment_type": "psd",
+    "psd_enabled": true,
+    "lambda_psd": 0.1,
+    "training_steps": 500,
+    "matches_step500": true,
+    "weights_sha256": "ae4e70f791d8d298aab21ac49cbdbdfd654a12b871582df29a7a6a12c184aea2",
+    "weights_size_bytes": 11815504,
+    "weights_size_mb": 11.27,
+    "weights_last_modified": "Sat Sep  5 01:29:07 2026"
+  },
+  "integrity_status": "PASS",
+  "notes": [
+    "Baseline and Full PSD have distinct SHA-256 hashes, confirming no cross-contamination.",
+    "Both checkpoints are strictly byte-identical to their corresponding step_500 checkpoints from Phase 2B.",
+    "Both checkpoints use standard Qwen3-4B LoRA r=8, alpha=16 on q_proj and v_proj."
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "baseline": {
+    "label": "Baseline (LM Only)",
+    "flags": {
+      "sem": false,
+      "pos": false,
+      "graph": false,
+      "lambda": 0.0
+    },
+    "final_metrics": {
+      "bleu": 6.29,
+      "rouge_1": 46.15,
+      "rouge_2": 34.11,
+      "rouge_l": 44.94,
+      "bertscore_f1": 88.39,
+      "content_coverage": 100.0
+    },
+    "deltas_vs_baseline_at_500": {
+      "delta_bleu": 0.0,
+      "rel_delta_bleu_pct": 0.0,
+      "delta_rouge_l": 0.0,
+      "delta_bertscore_f1": 0.0
+    },
+    "step_progression": {
+      "1": {
+        "bleu": 1.87,
+        "rouge_l": 12.31,
+        "bertscore_f1": 82.2
+      },
+      "50": {
+        "bleu": 6.67,
+        "rouge_l": 45.73,
+        "bertscore_f1": 89.51
+      },
+      "100": {
+        "bleu": 6.9,
+        "rouge_l": 48.41,
+        "bertscore_f1": 89.32
+      },
+      "150": {
+        "bleu": 7.25,
+        "rouge_l": 46.42,
+        "bertscore_f1": 89.76
+      },
+      "200": {
+        "bleu": 6.28,
+        "rouge_l": 46.73,
+        "bertscore_f1": 89.02
+      },
+      "300": {
+        "bleu": 6.43,
+        "rouge_l": 48.42,
+        "bertscore_f1": 89.43
+      },
+      "400": {
+        "bleu": 6.02,
+        "rouge_l": 45.2,
+        "bertscore_f1": 88.44
+      },
+      "500": {
+        "bleu": 6.29,
+        "rouge_l": 44.94,
+        "bertscore_f1": 88.39
+      }
+    },
+    "trajectory_150_300_500": {
+      "step_150": {
+        "bleu": 7.25,
+        "rouge_l": 46.42,
+        "bertscore_f1": 89.76
+      },
+      "step_300": {
+        "bleu": 6.43,
+        "rouge_l": 48.42,
+        "bertscore_f1": 89.43
+      },
+      "step_500": {
+        "bleu": 6.29,
+        "rouge_l": 44.94,
+        "bertscore_f1": 88.39
+      }
+    },
+    "psd_convergence": {
+      "initial_psd_loss": 0.0,
+      "final_psd_loss": 0.0,
+      "reduction_pct": 0.0
+    },
+    "system": {
+      "peak_gpu_allocated_mb": 2678.72,
+      "elapsed_seconds": 6652.33
+    }
+  },
+  "position_only": {
+    "label": "Position Only (-beta*dP)",
+    "flags": {
+      "sem": false,
+      "pos": true,
+      "graph": false,
+      "lambda": 0.1
+    },
+    "final_metrics": {
+      "bleu": 6.65,
+      "rouge_1": 44.8,
+      "rouge_2": 28.25,
+      "rouge_l": 43.46,
+      "bertscore_f1": 88.8,
+      "content_coverage": 100.0
+    },
+    "deltas_vs_baseline_at_500": {
+      "delta_bleu": 0.36,
+      "rel_delta_bleu_pct": 5.72,
+      "delta_rouge_l": -1.48,
+      "delta_bertscore_f1": 0.41
+    },
+    "step_progression": {
+      "1": {
+        "bleu": 1.78,
+        "rouge_l": 12.53,
+        "bertscore_f1": 82.22
+      },
+      "50": {
+        "bleu": 6.33,
+        "rouge_l": 45.45,
+        "bertscore_f1": 88.8
+      },
+      "100": {
+        "bleu": 8.48,
+        "rouge_l": 47.04,
+        "bertscore_f1": 88.8
+      },
+      "150": {
+        "bleu": 17.64,
+        "rouge_l": 46.72,
+        "bertscore_f1": 88.8
+      },
+      "200": {
+        "bleu": 11.23,
+        "rouge_l": 46.71,
+        "bertscore_f1": 88.8
+      },
+      "300": {
+        "bleu": 20.15,
+        "rouge_l": 42.04,
+        "bertscore_f1": 88.8
+      },
+      "400": {
+        "bleu": 18.76,
+        "rouge_l": 39.04,
+        "bertscore_f1": 88.8
+      },
+      "500": {
+        "bleu": 6.65,
+        "rouge_l": 43.46,
+        "bertscore_f1": 88.8
+      }
+    },
+    "trajectory_150_300_500": {
+      "step_150": {
+        "bleu": 17.64,
+        "rouge_l": 46.72,
+        "bertscore_f1": 88.8
+      },
+      "step_300": {
+        "bleu": 20.15,
+        "rouge_l": 42.04,
+        "bertscore_f1": 88.8
+      },
+      "step_500": {
+        "bleu": 6.65,
+        "rouge_l": 43.46,
+        "bertscore_f1": 88.8
+      }
+    },
+    "psd_convergence": {
+      "initial_psd_loss": 1.938,
+      "final_psd_loss": 0.2137,
+      "reduction_pct": 88.97
+    },
+    "system": {
+      "peak_gpu_allocated_mb": 2690.96,
+      "elapsed_seconds": 7724.44
+    }
+  },
+  "full_psd": {
+    "label": "Full PSD (alpha*S - beta*dP - gamma*dG)",
+    "flags": {
+      "sem": true,
+      "pos": true,
+      "graph": true,
+      "lambda": 0.1
+    },
+    "final_metrics": {
+      "bleu": 7.12,
+      "rouge_1": 42.91,
+      "rouge_2": 24.65,
+      "rouge_l": 40.31,
+      "bertscore_f1": 89.54,
+      "content_coverage": 100.0
+    },
+    "deltas_vs_baseline_at_500": {
+      "delta_bleu": 0.83,
+      "rel_delta_bleu_pct": 13.2,
+      "delta_rouge_l": -4.63,
+      "delta_bertscore_f1": 1.15
+    },
+    "step_progression": {
+      "1": {
+        "bleu": 1.78,
+        "rouge_l": 12.53,
+        "bertscore_f1": 82.22
+      },
+      "50": {
+        "bleu": 6.28,
+        "rouge_l": 45.24,
+        "bertscore_f1": 89.12
+      },
+      "100": {
+        "bleu": 7.61,
+        "rouge_l": 44.02,
+        "bertscore_f1": 89.25
+      },
+      "150": {
+        "bleu": 16.43,
+        "rouge_l": 47.58,
+        "bertscore_f1": 90.13
+      },
+      "200": {
+        "bleu": 6.37,
+        "rouge_l": 46.27,
+        "bertscore_f1": 89.53
+      },
+      "300": {
+        "bleu": 11.63,
+        "rouge_l": 49.37,
+        "bertscore_f1": 90.12
+      },
+      "400": {
+        "bleu": 18.59,
+        "rouge_l": 37.46,
+        "bertscore_f1": 89.54
+      },
+      "500": {
+        "bleu": 7.12,
+        "rouge_l": 40.31,
+        "bertscore_f1": 89.54
+      }
+    },
+    "trajectory_150_300_500": {
+      "step_150": {
+        "bleu": 16.43,
+        "rouge_l": 47.58,
+        "bertscore_f1": 90.13
+      },
+      "step_300": {
+        "bleu": 11.63,
+        "rouge_l": 49.37,
+        "bertscore_f1": 90.12
+      },
+      "step_500": {
+        "bleu": 7.12,
+        "rouge_l": 40.31,
+        "bertscore_f1": 89.54
+      }
+    },
+    "psd_convergence": {
+      "initial_psd_loss": 1.6907,
+      "final_psd_loss": 0.2579,
+      "reduction_pct": 84.75
+    },
+    "system": {
+      "peak_gpu_allocated_mb": 2941.56,
+      "elapsed_seconds": 7630.7
+    }
+  }
+}

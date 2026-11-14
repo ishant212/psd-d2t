@@ -1,0 +1,19 @@
+{
+  "experiment_name": "baseline_qwen3_4b_lora",
+  "experiment_type": "baseline",
+  "psd_enabled": false,
+  "lambda_psd": 0.0,
+  "num_steps": 10,
+  "elapsed_seconds": 321.36,
+  "initial_lm_loss": 3.8706,
+  "final_lm_loss": 3.2992,
+  "initial_val_lm_loss": 3.6352,
+  "final_val_lm_loss": 2.1701,
+  "peak_gpu_allocated_mb": 2677.72,
+  "generation_metrics": {
+    "bleu": 0.2,
+    "rouge1": 5.43,
+    "rouge2": 0.0,
+    "rougeL": 5.43
+  }
+}

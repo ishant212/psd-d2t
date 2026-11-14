@@ -1,0 +1,44 @@
+{
+  "totto": {
+    "total_records": 6000,
+    "train_count": 2000,
+    "val_count": 2000,
+    "test_count": 2000,
+    "leak_check": {
+      "train_val_id_overlap": 0,
+      "train_test_id_overlap": 1,
+      "val_test_id_overlap": 0,
+      "is_leak_free": false
+    },
+    "serialization_mapping_valid": true,
+    "schema_integrity": true
+  },
+  "dart": {
+    "total_records": 6000,
+    "train_count": 2000,
+    "val_count": 2000,
+    "test_count": 2000,
+    "leak_check": {
+      "train_val_id_overlap": 0,
+      "train_test_id_overlap": 0,
+      "val_test_id_overlap": 0,
+      "is_leak_free": true
+    },
+    "serialization_mapping_valid": true,
+    "schema_integrity": true
+  },
+  "webnlg": {
+    "total_records": 5200,
+    "train_count": 2000,
+    "val_count": 1594,
+    "test_count": 1606,
+    "leak_check": {
+      "train_val_id_overlap": 0,
+      "train_test_id_overlap": 0,
+      "val_test_id_overlap": 0,
+      "is_leak_free": true
+    },
+    "serialization_mapping_valid": true,
+    "schema_integrity": true
+  }
+}

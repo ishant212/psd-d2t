@@ -1,0 +1,446 @@
+{
+  "model_type": "baseline",
+  "context_length": 1024,
+  "num_evaluated": 15,
+  "mean_original_length": 565.93,
+  "mean_evaluated_length": 319.33,
+  "truncation_percentage": 20.0,
+  "structural_retention": {
+    "mean_node_retention_pct": 92.61,
+    "mean_edge_retention_pct": 100.0,
+    "mean_highlighted_retention_pct": 93.33
+  },
+  "metrics": {
+    "bleu": 14.47,
+    "rouge1": 57.58,
+    "rouge2": 45.32,
+    "rougeL": 55.92,
+    "bertscore_p": 90.16,
+    "bertscore_r": 91.78,
+    "bertscore_f1": 90.89,
+    "structured_coverage": 35.29
+  },
+  "dataset_breakdowns": {
+    "totto": {
+      "bleu": 7.11,
+      "rouge1": 40.59,
+      "rouge2": 34.3,
+      "rougeL": 39.21,
+      "bertscore_p": 83.17,
+      "bertscore_r": 88.96,
+      "bertscore_f1": 85.82,
+      "structured_coverage": 20.86
+    },
+    "dart": {
+      "bleu": 22.55,
+      "rouge1": 55.91,
+      "rouge2": 41.42,
+      "rougeL": 55.91,
+      "bertscore_p": 92.71,
+      "bertscore_r": 91.94,
+      "bertscore_f1": 92.32,
+      "structured_coverage": 50.0
+    },
+    "webnlg": {
+      "bleu": 52.81,
+      "rouge1": 76.24,
+      "rouge2": 60.26,
+      "rougeL": 72.63,
+      "bertscore_p": 94.59,
+      "bertscore_r": 94.44,
+      "bertscore_f1": 94.51,
+      "structured_coverage": 35.0
+    }
+  },
+  "psd_divergence": {
+    "mean_psd_loss": "NA",
+    "layer_12_psd": "NA",
+    "layer_24_psd": "NA",
+    "layer_35_psd": "NA"
+  },
+  "system": {
+    "elapsed_seconds": 89.95,
+    "gpu_allocated_mb": 2574.78,
+    "gpu_reserved_mb": 4010.0,
+    "oom_encountered": false
+  },
+  "instances": [
+    {
+      "id": "totto_7391450717765563190",
+      "dataset": "totto",
+      "original_length": 953,
+      "evaluated_length": 953,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 99.03,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 103,
+        "retained_nodes": 102,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "Daniel Henry Chamberlain was the 76th Governor of South Carolina.",
+      "target": "Daniel Henry Chamberlain was the 76th Governor of South Carolina from 1874.",
+      "references": [
+        "Daniel Henry Chamberlain was the 76th Governor of South Carolina from 1874.",
+        "Daniel Henry Chamberlain was the 76th Governor of South Carolina, beginning in 1874.",
+        "Daniel Henry Chamberlain was the 76th Governor of South Carolina who took office in 1874."
+      ],
+      "structured_coverage": 3.12,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "totto_9012083751335522596",
+      "dataset": "totto",
+      "original_length": 393,
+      "evaluated_length": 393,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 97.62,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 42,
+        "retained_nodes": 41,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "In 2016, Alma Jodorowsky played the role of Evelyn in the film Kids in Love.",
+      "target": "Alma Jodorowsky had the role of Evelyn in 2016 film Kids in Love.",
+      "references": [
+        "Alma Jodorowsky had the role of Evelyn in 2016 film Kids in Love.",
+        "Alma Jodorowsky played Evelyn in the 2016 film Kids in Love.",
+        "Alma Jodorowsky played the role of Evelyn in the 2016 film Kids in Love."
+      ],
+      "structured_coverage": 13.51,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "totto_-8764917516249435941",
+      "dataset": "totto",
+      "original_length": 1367,
+      "evaluated_length": 1024,
+      "truncated": true,
+      "structural_retention": {
+        "node_retention_pct": 73.96,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 192,
+        "retained_nodes": 142,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "| [CELL] 0 [ROW 9] [CELL] 2014 | [CELL] GB | [CELL] 16 | [CELL] 113 | [CELL] 73 | [CELL] 43 | [CELL] 3.0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 [ROW 10] [CELL] 201",
+      "target": "In his rookie season, Hawk led with 119 total tackles.",
+      "references": [
+        "In his rookie season, Hawk led with 119 total tackles.",
+        "In his rookie season, Hawk led the Packers' with 119 total tackles, 82 of them solo.",
+        "Hawk made 119 total tackles, In his rookie season."
+      ],
+      "structured_coverage": 57.29,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "totto_-6915287003153277224",
+      "dataset": "totto",
+      "original_length": 1064,
+      "evaluated_length": 1024,
+      "truncated": true,
+      "structural_retention": {
+        "node_retention_pct": 97.5,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 40,
+        "retained_nodes": 39,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "de Langeais 19 December 1492 two children | [CELL] 1514 Nantes aged 37 [ROW 8] [CELL] John VI the Magnificent (Yann VI) 1514\u20131528 | [CELL] - | [CELL] 1514 Nantes eldest son of Anne and Charles VIII of France | [CELL] (1) Catherine of Aragon 1515, no issue (2) Catherine of England 1517, no issue (3) Catherine of Scotland 1519, no",
+      "target": "At the very end of his life, Arthur III became duke of Brittany, succeeding Peter II.",
+      "references": [
+        "At the very end of his life, Arthur III became duke of Brittany, succeeding Peter II.",
+        "Arthur III was a duke of Brittany."
+      ],
+      "structured_coverage": 17.5,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "totto_-3004901021745997743",
+      "dataset": "totto",
+      "original_length": 4340,
+      "evaluated_length": 1024,
+      "truncated": true,
+      "structural_retention": {
+        "node_retention_pct": 20.99,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 0.0,
+        "total_nodes": 467,
+        "retained_nodes": 98,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "CELL] Republican | [CELL]  | [CELL] 15th [ROW 19] [CELL] 14 | [CELL] John A. Smith | [CELL] 1876 | [CELL] 1877 | [CELL] Republican | [CELL]  | [CELL] 16th [ROW 20] [CELL] 15 | [CELL] John A. Smith | [CELL] 1877 | [CELL] 1878 | [CELL] Republican | [CELL]  | [CELL] 17th",
+      "target": "Ralph J. Parker was a Minnesota politician and a Speaker of the Minnesota House of Representatives.",
+      "references": [
+        "Ralph J. Parker was a Minnesota politician and a Speaker of the Minnesota House of Representatives.",
+        "Ralph J. Parker was a Speaker of the Minnesota House of Representatives.",
+        "Ralph J. Parke, was a Minnesota politician, and a Speaker of the Minnesota House of Representatives."
+      ],
+      "structured_coverage": 12.86,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "dart_validation_0",
+      "dataset": "dart",
+      "original_length": 55,
+      "evaluated_length": 55,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 3,
+        "retained_nodes": 3,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "Mars Hill College was founded in 1973.",
+      "target": "A school from Mars Hill, North Carolina, joined in 1973.",
+      "references": [
+        "A school from Mars Hill, North Carolina, joined in 1973."
+      ],
+      "structured_coverage": 33.33,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "dart_validation_1",
+      "dataset": "dart",
+      "original_length": 29,
+      "evaluated_length": 29,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "The Newberry College's nickname is the Wolves.",
+      "target": "Newberry College's nickname is the wolves.",
+      "references": [
+        "Newberry College's nickname is the wolves."
+      ],
+      "structured_coverage": 100.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "dart_validation_2",
+      "dataset": "dart",
+      "original_length": 26,
+      "evaluated_length": 26,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "The Presbyterian College is a private institution.",
+      "target": "Presbyterian College is a private school.",
+      "references": [
+        "Presbyterian College is a private school."
+      ],
+      "structured_coverage": 50.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "dart_validation_3",
+      "dataset": "dart",
+      "original_length": 56,
+      "evaluated_length": 56,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 3,
+        "retained_nodes": 3,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "The Queens University of Charlotte is a private university in Charlotte, North Carolina.",
+      "target": "The nickname of the school with an enrollment of 2,386 is the royals.",
+      "references": [
+        "The nickname of the school with an enrollment of 2,386 is the royals."
+      ],
+      "structured_coverage": 16.67,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "dart_validation_4",
+      "dataset": "dart",
+      "original_length": 32,
+      "evaluated_length": 32,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "Inars Kivlenieks is a Latvian politician.",
+      "target": "The Athlete is Inars Kivlenieks.The country is Latvia",
+      "references": [
+        "The Athlete is Inars Kivlenieks.The country is Latvia"
+      ],
+      "structured_coverage": 50.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "webnlg_validation_Id6_0",
+      "dataset": "webnlg",
+      "original_length": 35,
+      "evaluated_length": 35,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "Al-Taqaddum Air Base is a military airfield in Fallujah, Iraq.",
+      "target": "The Al Taqaddum Air Base serves the city of Fallujah.",
+      "references": [
+        "The Al Taqaddum Air Base serves the city of Fallujah.",
+        "Al-Taqaddum Air Base serves the city of Fallujah."
+      ],
+      "structured_coverage": 50.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "webnlg_validation_Id7_1",
+      "dataset": "webnlg",
+      "original_length": 38,
+      "evaluated_length": 38,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "The runway length of Al-Taqaddum Air Base is 3684.0 meters.",
+      "target": "The runway length of Al-Taqaddum Air Base is 3684.0.",
+      "references": [
+        "The runway length of Al-Taqaddum Air Base is 3684.0.",
+        "The length of the runway at Al-Taqaddum Air Base is 3684.0."
+      ],
+      "structured_coverage": 50.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "webnlg_validation_Id8_2",
+      "dataset": "webnlg",
+      "original_length": 35,
+      "evaluated_length": 35,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "The runway name is \"14/32\".",
+      "target": "Alderney Airport runway name is 14/32.",
+      "references": [
+        "Alderney Airport runway name is 14/32.",
+        "14/32 is the runway name of Alderney Airport.",
+        "The runway name of Alderney Airport is 14/32."
+      ],
+      "structured_coverage": 25.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "webnlg_validation_Id14_3",
+      "dataset": "webnlg",
+      "original_length": 30,
+      "evaluated_length": 30,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "Andrews County Airport is owned by Andrews County, Texas.",
+      "target": "The Andrews County Airport is owned by Andrews County, Texas.",
+      "references": [
+        "The Andrews County Airport is owned by Andrews County, Texas.",
+        "The owner of Andrews County airport is Andrews County, Texas.",
+        "Andrews County Airport is owned by Andrews County, Texas."
+      ],
+      "structured_coverage": 50.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "webnlg_validation_Id16_4",
+      "dataset": "webnlg",
+      "original_length": 36,
+      "evaluated_length": 36,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "The runway surface type is asphalt.",
+      "target": "Angola International Airport is the first runway made of asphalt.",
+      "references": [
+        "Angola International Airport is the first runway made of asphalt.",
+        "Asphalt is the surface of the first runway of Angola International Airport.",
+        "The 1st runway at Angola International Airport has an asphalt surface."
+      ],
+      "structured_coverage": 0.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    }
+  ]
+}

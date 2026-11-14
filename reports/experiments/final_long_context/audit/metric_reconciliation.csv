@@ -1,0 +1,81 @@
+context_length,condition,metric,reported_value,recomputed_value,absolute_difference,relative_difference_pct,status
+256,Baseline,bleu_4,34.93,34.93,0.0,0.0,PASS
+256,Baseline,rouge_1,67.46,67.46,0.0,0.0,PASS
+256,Baseline,rouge_2,46.77,46.77,0.0,0.0,PASS
+256,Baseline,rouge_l,59.84,59.84,0.0,0.0,PASS
+256,Baseline,meteor,56.01,56.01,0.0,0.0,PASS
+256,Baseline,bertscore_f1,93.15,93.15,0.0,0.0,PASS
+256,Baseline,structured_coverage,51.75,51.75,0.0,0.0,PASS
+256,Baseline,factual_precision,84.6,84.6,0.0,0.0,PASS
+256,Baseline,hallucination_rate,15.4,15.4,0.0,0.0,PASS
+256,Baseline,syntax_leak_rate,0.0,0.0,0.0,0.0,PASS
+256,Full PSD,bleu_4,32.74,32.74,0.0,0.0,PASS
+256,Full PSD,rouge_1,65.37,65.37,0.0,0.0,PASS
+256,Full PSD,rouge_2,43.23,43.23,0.0,0.0,PASS
+256,Full PSD,rouge_l,56.96,56.96,0.0,0.0,PASS
+256,Full PSD,meteor,52.93,52.93,0.0,0.0,PASS
+256,Full PSD,bertscore_f1,92.88,92.88,0.0,0.0,PASS
+256,Full PSD,structured_coverage,51.9,51.9,0.0,0.0,PASS
+256,Full PSD,factual_precision,84.5,84.5,0.0,0.0,PASS
+256,Full PSD,hallucination_rate,15.5,15.5,0.0,0.0,PASS
+256,Full PSD,syntax_leak_rate,0.0,0.0,0.0,0.0,PASS
+512,Baseline,bleu_4,38.14,38.14,0.0,0.0,PASS
+512,Baseline,rouge_1,69.81,69.81,0.0,0.0,PASS
+512,Baseline,rouge_2,49.24,49.24,0.0,0.0,PASS
+512,Baseline,rouge_l,61.61,61.61,0.0,0.0,PASS
+512,Baseline,meteor,57.72,57.72,0.0,0.0,PASS
+512,Baseline,bertscore_f1,93.34,93.34,0.0,0.0,PASS
+512,Baseline,structured_coverage,52.41,52.41,0.0,0.0,PASS
+512,Baseline,factual_precision,84.11,84.11,0.0,0.0,PASS
+512,Baseline,hallucination_rate,15.89,15.89,0.0,0.0,PASS
+512,Baseline,syntax_leak_rate,0.0,0.0,0.0,0.0,PASS
+512,Full PSD,bleu_4,35.74,35.74,0.0,0.0,PASS
+512,Full PSD,rouge_1,68.6,68.6,0.0,0.0,PASS
+512,Full PSD,rouge_2,45.96,45.96,0.0,0.0,PASS
+512,Full PSD,rouge_l,59.93,59.93,0.0,0.0,PASS
+512,Full PSD,meteor,55.38,55.38,0.0,0.0,PASS
+512,Full PSD,bertscore_f1,93.23,93.23,0.0,0.0,PASS
+512,Full PSD,structured_coverage,52.05,52.05,0.0,0.0,PASS
+512,Full PSD,factual_precision,85.81,85.81,0.0,0.0,PASS
+512,Full PSD,hallucination_rate,14.19,14.19,0.0,0.0,PASS
+512,Full PSD,syntax_leak_rate,0.0,0.0,0.0,0.0,PASS
+1024,Baseline,bleu_4,41.4,41.4,0.0,0.0,PASS
+1024,Baseline,rouge_1,72.48,72.48,0.0,0.0,PASS
+1024,Baseline,rouge_2,51.99,51.99,0.0,0.0,PASS
+1024,Baseline,rouge_l,63.76,63.76,0.0,0.0,PASS
+1024,Baseline,meteor,59.86,59.86,0.0,0.0,PASS
+1024,Baseline,bertscore_f1,93.73,93.73,0.0,0.0,PASS
+1024,Baseline,structured_coverage,52.24,52.24,0.0,0.0,PASS
+1024,Baseline,factual_precision,86.61,86.61,0.0,0.0,PASS
+1024,Baseline,hallucination_rate,13.39,13.39,0.0,0.0,PASS
+1024,Baseline,syntax_leak_rate,0.0,0.0,0.0,0.0,PASS
+1024,Full PSD,bleu_4,34.78,34.78,0.0,0.0,PASS
+1024,Full PSD,rouge_1,69.2,69.2,0.0,0.0,PASS
+1024,Full PSD,rouge_2,46.45,46.45,0.0,0.0,PASS
+1024,Full PSD,rouge_l,60.16,60.16,0.0,0.0,PASS
+1024,Full PSD,meteor,55.23,55.23,0.0,0.0,PASS
+1024,Full PSD,bertscore_f1,93.26,93.26,0.0,0.0,PASS
+1024,Full PSD,structured_coverage,52.21,52.21,0.0,0.0,PASS
+1024,Full PSD,factual_precision,85.5,85.5,0.0,0.0,PASS
+1024,Full PSD,hallucination_rate,14.5,14.5,0.0,0.0,PASS
+1024,Full PSD,syntax_leak_rate,0.0,0.0,0.0,0.0,PASS
+2048,Baseline,bleu_4,43.37,43.37,0.0,0.0,PASS
+2048,Baseline,rouge_1,74.35,74.35,0.0,0.0,PASS
+2048,Baseline,rouge_2,53.82,53.82,0.0,0.0,PASS
+2048,Baseline,rouge_l,66.1,66.1,0.0,0.0,PASS
+2048,Baseline,meteor,62.04,62.04,0.0,0.0,PASS
+2048,Baseline,bertscore_f1,94.11,94.11,0.0,0.0,PASS
+2048,Baseline,structured_coverage,52.13,52.13,0.0,0.0,PASS
+2048,Baseline,factual_precision,86.89,86.89,0.0,0.0,PASS
+2048,Baseline,hallucination_rate,13.11,13.11,0.0,0.0,PASS
+2048,Baseline,syntax_leak_rate,0.0,0.0,0.0,0.0,PASS
+2048,Full PSD,bleu_4,38.27,38.27,0.0,0.0,PASS
+2048,Full PSD,rouge_1,71.88,71.88,0.0,0.0,PASS
+2048,Full PSD,rouge_2,48.97,48.97,0.0,0.0,PASS
+2048,Full PSD,rouge_l,62.65,62.65,0.0,0.0,PASS
+2048,Full PSD,meteor,57.62,57.62,0.0,0.0,PASS
+2048,Full PSD,bertscore_f1,93.74,93.74,0.0,0.0,PASS
+2048,Full PSD,structured_coverage,52.01,52.01,0.0,0.0,PASS
+2048,Full PSD,factual_precision,85.78,85.78,0.0,0.0,PASS
+2048,Full PSD,hallucination_rate,14.22,14.22,0.0,0.0,PASS
+2048,Full PSD,syntax_leak_rate,0.0,0.0,0.0,0.0,PASS

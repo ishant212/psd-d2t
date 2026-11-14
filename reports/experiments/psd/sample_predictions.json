@@ -1,0 +1,38 @@
+[
+  {
+    "id": "totto_7391450717765563190",
+    "dataset": "totto",
+    "input_type": "table",
+    "target": "Daniel Henry Chamberlain was the 76th Governor of South Carolina from 1874.",
+    "references": [
+      "Daniel Henry Chamberlain was the 76th Governor of South Carolina from 1874.",
+      "Daniel Henry Chamberlain was the 76th Governor of South Carolina, beginning in 1874.",
+      "Daniel Henry Chamberlain was the 76th Governor of South Carolina who took office in 1874."
+    ],
+    "prediction": "[CELL] William A. B. Smith | [CELL] December 1, 1874 | [CELL] December 1, 11875 | [CELL] William A. B. Smith | [CELL] Republican | [CELL]  [ROW 4] [HCELL] 77 | [CELL] - | [CELL] William A. B. Smith | [CELL] December 1, 1875 | [CELL] December 1, 1876 | [CELL] William A. B. Smith | [CELL] Republican | [CELL]"
+  },
+  {
+    "id": "totto_9012083751335522596",
+    "dataset": "totto",
+    "input_type": "table",
+    "target": "Alma Jodorowsky had the role of Evelyn in 2016 film Kids in Love.",
+    "references": [
+      "Alma Jodorowsky had the role of Evelyn in 2016 film Kids in Love.",
+      "Alma Jodorowsky played Evelyn in the 2016 film Kids in Love.",
+      "Alma Jodorowsky played the role of Evelyn in the 2016 film Kids in Love."
+    ],
+    "prediction": "2014 | [CELL] The Last of the Moors | [CELL] Mireille | [CELL]  [ROW 8] [CELL] 2015 | [CELL] The Last of the Moors | [CELL] Mireille | [CELL]  [ROW 9] [CELL] 2016 | [CELL] The Last of the Moors | [CELL] Mireille | [CELL]  [ROW 10] [CELL] 2017 | [CELL] The Last of the Moors | [CELL] Mireille |"
+  },
+  {
+    "id": "totto_-8764917516249435941",
+    "dataset": "totto",
+    "input_type": "table",
+    "target": "In his rookie season, Hawk led with 119 total tackles.",
+    "references": [
+      "In his rookie season, Hawk led with 119 total tackles.",
+      "In his rookie season, Hawk led the Packers' with 119 total tackles, 82 of them solo.",
+      "Hawk made 119 total tackles, In his rookie season."
+    ],
+    "prediction": "[CELL] 0 [ROW 2] [HEADER] 2007 | [HEADER] 2007 | [HEADER] 16 | [HEADER] 122 | [HEADER] 83 | [HEADER] 38 | [HEADER] 3.5 | [HEADER] 1 | [HEADER] 2 | [HEADER] 0 | [HEADER] 2 | [HEADER] 31 | [HEADER] 14 | [HEADER] 1 | [HEADER] 0 | [HEADER] 0 [ROW 3] [HEADER]"
+  }
+]

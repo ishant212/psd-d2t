@@ -1,0 +1,5 @@
+context_length,baseline_bleu_256,baseline_bleu_L,baseline_bleu_degradation,baseline_bleu_deg_pct,psd_bleu_256,psd_bleu_L,psd_bleu_degradation,psd_bleu_deg_pct,bleu_degradation_advantage,baseline_rougeL_degradation,psd_rougeL_degradation,baseline_bertscore_degradation,psd_bertscore_degradation
+256,6.29,6.29,0.0,0.0,12.68,12.68,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+512,6.29,9.97,-3.68,-58.51,12.68,18.6,-5.92,-46.69,2.24,-4.56,-4.24,-0.88,-0.84
+1024,6.29,14.47,-8.18,-130.05,12.68,24.52,-11.84,-93.38,3.66,-10.98,-9.7,-2.5,-2.4
+2048,6.29,24.72,-18.43,-293.0,12.68,26.22,-13.54,-106.78,-4.89,-15.86,-12.22,-3.95,-2.89

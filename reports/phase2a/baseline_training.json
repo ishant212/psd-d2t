@@ -1,0 +1,89 @@
+{
+  "experiment_name": "baseline_qwen3_4b_lora",
+  "experiment_type": "baseline",
+  "psd_enabled": false,
+  "lambda_psd": 0.0,
+  "num_steps": 5,
+  "elapsed_seconds": 20.53,
+  "max_seq_len": 256,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 4,
+  "quantization": "BitsAndBytes 4-bit NF4",
+  "base_model": "models/qwen3_4b_hf",
+  "trainable_parameters": 2949120,
+  "total_parameters": 2208759296,
+  "trainable_percentage": 0.1335,
+  "step_logs": [
+    {
+      "step": 1,
+      "lm_loss": 3.8706,
+      "val_lm_loss": 3.6352,
+      "gradient_norm": 2.3471,
+      "learning_rate": 0.0002,
+      "gpu_allocated_mb": 2677.72,
+      "gpu_reserved_mb": 5204.0,
+      "total_loss": 3.8706
+    },
+    {
+      "step": 2,
+      "lm_loss": 3.8223,
+      "val_lm_loss": 3.4981,
+      "gradient_norm": 3.5011,
+      "learning_rate": 0.0002,
+      "gpu_allocated_mb": 2677.72,
+      "gpu_reserved_mb": 5228.0,
+      "total_loss": 3.8223
+    },
+    {
+      "step": 3,
+      "lm_loss": 3.7186,
+      "val_lm_loss": 3.3249,
+      "gradient_norm": 2.353,
+      "learning_rate": 0.0002,
+      "gpu_allocated_mb": 2677.72,
+      "gpu_reserved_mb": 5228.0,
+      "total_loss": 3.7186
+    },
+    {
+      "step": 4,
+      "lm_loss": 2.9514,
+      "val_lm_loss": 3.0915,
+      "gradient_norm": 3.1631,
+      "learning_rate": 0.0002,
+      "gpu_allocated_mb": 2677.72,
+      "gpu_reserved_mb": 5228.0,
+      "total_loss": 2.9514
+    },
+    {
+      "step": 5,
+      "lm_loss": 2.7015,
+      "val_lm_loss": 2.8407,
+      "gradient_norm": 3.2844,
+      "learning_rate": 0.0002,
+      "gpu_allocated_mb": 2677.72,
+      "gpu_reserved_mb": 5228.0,
+      "total_loss": 2.7015
+    }
+  ],
+  "initial_loss": {
+    "step": 1,
+    "lm_loss": 3.8706,
+    "val_lm_loss": 3.6352,
+    "gradient_norm": 2.3471,
+    "learning_rate": 0.0002,
+    "gpu_allocated_mb": 2677.72,
+    "gpu_reserved_mb": 5204.0,
+    "total_loss": 3.8706
+  },
+  "final_loss": {
+    "step": 5,
+    "lm_loss": 2.7015,
+    "val_lm_loss": 2.8407,
+    "gradient_norm": 3.2844,
+    "learning_rate": 0.0002,
+    "gpu_allocated_mb": 2677.72,
+    "gpu_reserved_mb": 5228.0,
+    "total_loss": 2.7015
+  },
+  "checkpoint_dir": "models/phase2a/baseline"
+}

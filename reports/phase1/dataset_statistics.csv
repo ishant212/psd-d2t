@@ -1,0 +1,4 @@
+dataset,total_examples,train_count,validation_count,test_count,num_unique_entities,num_unique_relations,avg_references_per_example,max_references_per_example,avg_nodes_per_example,avg_edges_per_example,avg_highlighted_elements
+totto,6000,2000,2000,2000,379677,3,1.3013333333333332,3,208.63866666666667,560.9208333333333,3.6055
+dart,6000,2000,2000,2000,8736,1576,1.865,33,3.817,2.826,3.817
+webnlg,5200,2000,1594,1606,2889,360,2.541730769230769,8,3.019423076923077,2.020192307692308,3.019423076923077

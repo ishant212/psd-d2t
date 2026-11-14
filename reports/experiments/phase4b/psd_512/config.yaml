@@ -1,0 +1,59 @@
+experiment:
+  experiment_dir: reports/experiments/phase4b/psd_512
+  name: phase4b_psd_512
+  seed: 42
+  type: psd
+lora:
+  bias: none
+  lora_alpha: 16
+  lora_dropout: 0.05
+  r: 8
+  target_modules:
+  - q_proj
+  - v_proj
+  task_type: CAUSAL_LM
+model:
+  attn_implementation: eager
+  model_id: models/qwen3_4b_hf
+output:
+  checkpoint_dir: reports/experiments/phase4b/psd_512/checkpoints
+  experiment_dir: reports/experiments/phase4b/psd_512
+  generation_metrics_json: reports/experiments/phase4b/psd_512/generation_metrics.json
+  metrics_json: reports/experiments/phase4b/psd_512/metrics.json
+  sample_predictions_json: reports/experiments/phase4b/psd_512/sample_predictions.json
+  summary_md: reports/experiments/phase4b/psd_512/experiment_summary.md
+  training_log_csv: reports/experiments/phase4b/psd_512/training_log.csv
+  validation_log_csv: reports/experiments/phase4b/psd_512/validation_log.csv
+psd:
+  alpha: 1.0
+  beta: 0.5
+  d_max_cutoff: null
+  enable_graph: true
+  enable_positional: true
+  enable_semantic: true
+  enabled: true
+  gamma: 0.5
+  lambda_psd: 0.1
+  selected_layers:
+  - 11
+  - 23
+  - 34
+  selected_layers_1based:
+  - 12
+  - 24
+  - 35
+  tau: 1.0
+  unmapped_epsilon: 0.0001
+training:
+  batch_size: 1
+  checkpoint_interval: 100
+  device: cuda
+  eval_interval: 50
+  gradient_accumulation_steps: 4
+  learning_rate: 0.0002
+  logging_steps: 1
+  max_grad_norm: 1.0
+  max_seq_len: 512
+  num_steps: 500
+  warmup_steps: 2
+  weight_decay: 0.01

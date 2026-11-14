@@ -1,0 +1,4 @@
+model,baseline_bleu,psd_bleu,delta_bleu,rel_gain_bleu_pct,baseline_meteor,psd_meteor,delta_meteor,rel_gain_meteor_pct,delta_rougeL,delta_bertscore_f1,delta_coverage,baseline_hallucination_rate,psd_hallucination_rate,delta_hallucination_rate,rel_hallucination_reduction_pct
+Gemma-3-4B,4.39,8.35,3.96,90.21,37.5,45.28,7.78,20.75,6.07,1.85,0.0,22.26,17.54,-4.72,21.2
+Llama-3.2-3B,5.55,5.46,-0.09,-1.62,35.25,35.46,0.21,0.6,0.38,-0.03,0.0,27.22,27.37,0.15,-0.55
+Qwen3-4B,7.25,12.15,4.9,67.59,43.3,41.65,-1.65,-3.81,3.3,1.15,0.0,23.74,25.94,2.2,-9.27

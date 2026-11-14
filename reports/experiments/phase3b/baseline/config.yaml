@@ -1,0 +1,62 @@
+# Phase 3B Confirmation Experiment: Baseline (LM Loss Only)
+# Objective: L = L_LM, lambda_psd = 0.0
+
+experiment:
+  name: "phase3b_baseline"
+  type: "baseline"
+  seed: 42
+  experiment_dir: "reports/experiments/phase3b/baseline"
+
+model:
+  model_id: "models/qwen3_4b_hf"
+  attn_implementation: "eager"
+  torch_dtype: "float16"
+
+lora:
+  r: 8
+  lora_alpha: 16
+  lora_dropout: 0.05
+  target_modules:
+    - "q_proj"
+    - "v_proj"
+  bias: "none"
+  task_type: "CAUSAL_LM"
+
+psd:
+  enabled: false
+  lambda_psd: 0.0
+  selected_layers: [11, 23, 34]
+  selected_layers_1based: [12, 24, 35]
+  alpha: 1.0
+  beta: 0.5
+  gamma: 0.5
+  tau: 1.0
+  enable_semantic: false
+  enable_positional: false
+  enable_graph: false
+  unmapped_epsilon: 1e-4
+  d_max_cutoff: null
+
+training:
+  max_seq_len: 256
+  batch_size: 1
+  gradient_accumulation_steps: 4
+  learning_rate: 0.0002
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  warmup_steps: 2
+  logging_steps: 1
+  num_steps: 500
+  eval_interval: 50
+  checkpoint_interval: 100
+  device: "cuda"
+
+output:
+  experiment_dir: "reports/experiments/phase3b/baseline"
+  checkpoint_dir: "reports/experiments/phase3b/baseline/checkpoints"
+  training_log_csv: "reports/experiments/phase3b/baseline/training_log.csv"
+  validation_log_csv: "reports/experiments/phase3b/baseline/validation_log.csv"
+  metrics_json: "reports/experiments/phase3b/baseline/metrics.json"
+  generation_metrics_json: "reports/experiments/phase3b/baseline/generation_metrics.json"
+  sample_predictions_json: "reports/experiments/phase3b/baseline/sample_predictions.json"
+  summary_md: "reports/experiments/phase3b/baseline/experiment_summary.md"

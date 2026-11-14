@@ -1,0 +1,23 @@
+[
+  {
+    "dataset": "totto",
+    "example_id": "totto_1762238357686640028",
+    "serialized_input": "[PAGE] List of 8/9 PM telenovelas of Rede Globo [SECTION] 2000s [HEADER] # | Run | Title | Chapters | Author | Director | Ibope Rating [ROW 0] [HEADER] # | [HEADER] Run | [HEADER] Title | [HEADER] Chapters | [HEADER] Author | [HEADER] Director | [HEADER] Ibope Rating [ROW 1] [CELL] 59 | [CELL] June ...",
+    "reference": "A Favorita is the telenovela aired in the 9 pm timeslot.",
+    "prediction": "<think>\nOkay, let's tackle this query. The user wants me to convert structured data into a factual, fluent description. The data is about Rede Globo's 8/9 PM telenovelas from the 2000s.\n\nFirst, I need to understand the structure. There's a page"
+  },
+  {
+    "dataset": "dart",
+    "example_id": "dart_train_0",
+    "serialized_input": "[TRIPLE] [SUBJ] First Clearing [REL] LOCATION [OBJ] On NYS 52 1 Mi. Youngsville [TRIPLE] [SUBJ] On NYS 52 1 Mi. Youngsville [REL] CITY_OR_TOWN [OBJ] Callicoon, New York...",
+    "reference": "First Clearing based on Callicoon, New York and location at On NYS 52 1 Mi. Youngsville",
+    "prediction": "<think>\nOkay, the user wants me to convert some structured data into a factual, fluent description. Let me look at what they provided.\n\nHmm, the data has two triples. First one is [TRIPLE] [SUBJ] First Clearing [REL] LOCATION [OBJ] On NYS 52"
+  },
+  {
+    "dataset": "webnlg",
+    "example_id": "webnlg_train_Id1_0",
+    "serialized_input": "[TRIPLE] [SUBJ] Abilene Regional Airport [REL] cityServed [OBJ] Abilene, Texas...",
+    "reference": "Abilene, Texas is served by the Abilene regional airport.",
+    "prediction": "<think>\nOkay, the user wants me to convert structured data into a factual, fluent description. Let me look at the input they provided: [TRIPLE] [SUBJ] Abilene Regional Airport [REL] cityServed [OBJ] Abilene, Texas.\n\nHmm, this seems like a triple in"
+  }
+]

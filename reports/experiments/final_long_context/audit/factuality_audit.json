@@ -1,0 +1,91 @@
+{
+  "formula_verification": {
+    "instance_level_formula": "factual_precision + hallucination_rate == 100.0% (within floating tolerance)",
+    "aggregation_method": "Macro-average across instances",
+    "syntax_leak_classification": "delimiters [ROW], [COL], [CELL], [TITLE] categorized as syntax_leak"
+  },
+  "reconciliation": [
+    {
+      "context_length": 256,
+      "condition": "Baseline",
+      "reported_factual_precision": 84.6,
+      "recomputed_factual_precision": 84.6,
+      "reported_hallucination_rate": 15.4,
+      "recomputed_hallucination_rate": 15.4,
+      "sum_to_100": 100.0,
+      "status": "PASS"
+    },
+    {
+      "context_length": 256,
+      "condition": "Full PSD",
+      "reported_factual_precision": 84.5,
+      "recomputed_factual_precision": 84.5,
+      "reported_hallucination_rate": 15.5,
+      "recomputed_hallucination_rate": 15.5,
+      "sum_to_100": 100.0,
+      "status": "PASS"
+    },
+    {
+      "context_length": 512,
+      "condition": "Baseline",
+      "reported_factual_precision": 84.11,
+      "recomputed_factual_precision": 84.11,
+      "reported_hallucination_rate": 15.89,
+      "recomputed_hallucination_rate": 15.89,
+      "sum_to_100": 100.0,
+      "status": "PASS"
+    },
+    {
+      "context_length": 512,
+      "condition": "Full PSD",
+      "reported_factual_precision": 85.81,
+      "recomputed_factual_precision": 85.81,
+      "reported_hallucination_rate": 14.19,
+      "recomputed_hallucination_rate": 14.19,
+      "sum_to_100": 100.0,
+      "status": "PASS"
+    },
+    {
+      "context_length": 1024,
+      "condition": "Baseline",
+      "reported_factual_precision": 86.61,
+      "recomputed_factual_precision": 86.61,
+      "reported_hallucination_rate": 13.39,
+      "recomputed_hallucination_rate": 13.39,
+      "sum_to_100": 100.0,
+      "status": "PASS"
+    },
+    {
+      "context_length": 1024,
+      "condition": "Full PSD",
+      "reported_factual_precision": 85.5,
+      "recomputed_factual_precision": 85.5,
+      "reported_hallucination_rate": 14.5,
+      "recomputed_hallucination_rate": 14.5,
+      "sum_to_100": 100.0,
+      "status": "PASS"
+    },
+    {
+      "context_length": 2048,
+      "condition": "Baseline",
+      "reported_factual_precision": 86.89,
+      "recomputed_factual_precision": 86.89,
+      "reported_hallucination_rate": 13.11,
+      "recomputed_hallucination_rate": 13.11,
+      "sum_to_100": 100.0,
+      "status": "PASS"
+    },
+    {
+      "context_length": 2048,
+      "condition": "Full PSD",
+      "reported_factual_precision": 85.78,
+      "recomputed_factual_precision": 85.78,
+      "reported_hallucination_rate": 14.22,
+      "recomputed_hallucination_rate": 14.22,
+      "sum_to_100": 100.0,
+      "status": "PASS"
+    }
+  ],
+  "audit_status": "PASS",
+  "notes": []
+}

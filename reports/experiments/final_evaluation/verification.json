@@ -1,0 +1,17 @@
+{
+  "status": "METEOR and Factuality Computed on Historical Predictions",
+  "meteor_library": "nltk.translate.meteor_score",
+  "scale": "0.0 - 100.0",
+  "multi_reference_support": true,
+  "historical_artifacts_modified": false,
+  "num_experiments_evaluated": 8,
+  "files_generated": [
+    "final_metrics_with_meteor.csv",
+    "final_metrics_with_meteor.json",
+    "meteor_analysis.csv",
+    "factuality_results.csv",
+    "factuality_results.json",
+    "dataset_breakdown.csv",
+    "verification.json"
+  ]
+}

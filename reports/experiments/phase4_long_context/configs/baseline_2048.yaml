@@ -1,0 +1,51 @@
+experiment:
+  name: phase4_baseline_2048
+  type: baseline
+  phase: phase4_long_context
+  seed: 42
+  context_length: 2048
+  gradient_checkpointing: true
+model:
+  model_id: models/qwen3_4b_hf
+  torch_dtype: float16
+  attn_implementation: eager
+lora:
+  r: 8
+  lora_alpha: 16
+  lora_dropout: 0.05
+  target_modules:
+  - q_proj
+  - v_proj
+  bias: none
+  task_type: CAUSAL_LM
+psd:
+  enabled: false
+  lambda_psd: 0.0
+  alpha: 1.0
+  beta: 0.5
+  gamma: 0.5
+  tau: 1.0
+  selected_layers:
+  - 11
+  - 23
+  - 34
+  enable_semantic: true
+  enable_positional: true
+  enable_graph: true
+training:
+  max_seq_len: 2048
+  max_steps: 150
+  batch_size: 1
+  gradient_accumulation_steps: 4
+  learning_rate: 0.0002
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  eval_interval: 50
+  device: cuda
+output:
+  experiment_dir: reports/experiments/phase4_long_context/baseline/context_2048
+  checkpoint_dir: reports/experiments/phase4_long_context/baseline/context_2048/checkpoints
+  training_log_csv: reports/experiments/phase4_long_context/baseline/context_2048/training_log.csv
+  metrics_json: reports/experiments/phase4_long_context/baseline/context_2048/metrics.json
+  sample_predictions_json: reports/experiments/phase4_long_context/baseline/context_2048/sample_predictions.json
+  factuality_results_json: reports/experiments/phase4_long_context/baseline/context_2048/factuality_results.json

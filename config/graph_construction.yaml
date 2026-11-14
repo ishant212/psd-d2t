@@ -1,0 +1,8 @@
+input_dir: "z:/PJT1/data/normalized"
+output_graphs_dir: "z:/PJT1/data/graphs"
+output_report_path: "z:/PJT1/reports/graph_construction_report.csv"
+output_plots_dir: "z:/PJT1/reports/plots"
+
+drawing:
+  num_example_graphs: 5
+  image_format: "png"

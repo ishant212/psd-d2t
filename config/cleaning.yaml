@@ -1,0 +1,13 @@
+input_paths:
+  totto: "z:/PJT1/totto_data/totto_dev_data.jsonl"
+  webnlg: "z:/PJT1/webnlg-dataset-master/release_v3.0/en/dev"
+  dart: "z:/PJT1/dart-master/data/v1.1.1/dart-v1.1.1-full-dev.json"
+
+output_dir: "z:/PJT1/data/cleaned"
+report_path: "z:/PJT1/reports/cleaning_report.csv"
+
+settings:
+  near_duplicate_threshold: 0.95
+  normalize_unicode: true
+  normalize_punctuation: true
+  collapse_synonyms: true

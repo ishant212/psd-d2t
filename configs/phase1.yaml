@@ -1,0 +1,107 @@
+# ==============================================================================
+# Topology-aware Positional Semantic Divergence (PSD) for Long-context D2T
+# PHASE 1 CONFIGURATION
+# ==============================================================================
+
+project:
+  name: "psd_d2t_phase1"
+  description: "Phase 1 Data Pipeline, Unified Representation, EDA, and Baseline"
+  seed: 42
+
+paths:
+  raw:
+    totto:
+      train: "totto_data/totto_train_data.jsonl"
+      validation: "totto_data/totto_dev_data.jsonl"
+      test: "totto_data/unlabeled_totto_test_data.jsonl"
+    dart:
+      train: "dart-master/data/v1.1.1/dart-v1.1.1-full-train.json"
+      validation: "dart-master/data/v1.1.1/dart-v1.1.1-full-dev.json"
+      test: "dart-master/data/v1.1.1/dart-v1.1.1-full-test.json"
+    webnlg:
+      train_v2: "webnlg-dataset-master/release_v2.1_constrained/json/webnlg_release_v2.1_constrained_train.json"
+      validation_v2: "webnlg-dataset-master/release_v2.1_constrained/json/webnlg_release_v2.1_constrained_dev.json"
+      test_v2: "webnlg-dataset-master/release_v2.1_constrained/json/webnlg_release_v2.1_constrained_test.json"
+      v3_dir: "webnlg-dataset-master/release_v3.0/en"
+  
+  processed:
+    root: "data/processed"
+    totto: "data/processed/totto"
+    dart: "data/processed/dart"
+    webnlg: "data/processed/webnlg"
+    
+  unified:
+    root: "data/unified"
+    train: "data/unified/train.jsonl"
+    validation: "data/unified/validation.jsonl"
+    test: "data/unified/test.jsonl"
+    totto: "data/unified/totto.jsonl"
+    dart: "data/unified/dart.jsonl"
+    webnlg: "data/unified/webnlg.jsonl"
+    
+  reports:
+    root: "reports/phase1"
+    plots: "reports/phase1/plots"
+    dataset_stats: "reports/phase1/dataset_statistics.csv"
+    length_stats: "reports/phase1/length_statistics.csv"
+    structural_stats: "reports/phase1/structural_statistics.csv"
+    cross_dataset_comparison: "reports/phase1/cross_dataset_comparison.csv"
+    validation_summary: "reports/phase1/validation_summary.json"
+    sample_predictions: "reports/phase1/sample_predictions.json"
+    phase1_report: "reports/phase1/PHASE1_REPORT.md"
+
+cleaning:
+  unicode_normalization: "NFC"
+  strip_control_characters: true
+  collapse_whitespace: true
+  drop_empty_inputs: true
+  drop_empty_targets: true
+  validate_schema: true
+  log_level: "INFO"
+
+serialization:
+  strategy: "deterministic_baseline"
+  special_tokens:
+    table:
+      title: "[PAGE]"
+      section: "[SECTION]"
+      header: "[HEADER]"
+      row: "[ROW]"
+      cell: "[CELL]"
+      highlighted_cell: "[HCELL]"
+      col_sep: "|"
+    triples:
+      triple_start: "[TRIPLE]"
+      subject: "[SUBJ]"
+      relation: "[REL]"
+      object: "[OBJ]"
+  preserve_token_mapping: true
+
+eda:
+  tokenizer: "t5-small"
+  candidate_lengths: [512, 1024, 2048, 4096, 8192]
+  percentiles: [50, 90, 95, 99]
+  plot_style: "seaborn-v0_8-whitegrid"
+  dpi: 300
+
+baseline:
+  model_name: "t5-small"
+  max_input_length: 512
+  max_target_length: 128
+  batch_size: 8
+  learning_rate: 0.0003
+  weight_decay: 0.01
+  num_epochs: 3
+  warmup_ratio: 0.1
+  gradient_accumulation_steps: 2
+  fp16: false
+  eval_batch_size: 16
+  generation:
+    num_beams: 4
+    max_new_tokens: 128
+    length_penalty: 1.0
+    early_stopping: true
+  metrics:
+    - "bleu"
+    - "rouge"
+    - "bertscore"

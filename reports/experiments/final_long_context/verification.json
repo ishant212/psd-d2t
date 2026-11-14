@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "benchmark_size": 60,
+  "context_lengths": [
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "checkpoints": {
+    "baseline": "C:\\Users\\ishan\\OneDrive\\Desktop\\7thSem\\PJT1\\reports\\experiments\\phase2b\\baseline\\checkpoints\\final",
+    "full_psd": "C:\\Users\\ishan\\OneDrive\\Desktop\\7thSem\\PJT1\\reports\\experiments\\phase2b\\psd\\checkpoints\\final"
+  },
+  "statistical_bootstrap_resamples": 1000,
+  "timestamp": "2026-09-10T16:49:56Z"
+}

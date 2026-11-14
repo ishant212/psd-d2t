@@ -1,0 +1,9 @@
+experiment,phase,psd,factual_precision,hallucination_rate,total_claims,supported_claims,unsupported_claims,structured_coverage
+phase2b_baseline,phase2b,No,75.17,24.83,229,142,87,49.39
+phase2b_psd,phase2b,Yes,82.22,17.78,74,46,28,44.94
+phase3a_baseline,phase3a,No,76.26,23.74,231,149,82,54.61
+phase3a_full_psd,phase3a,Yes,74.06,25.94,130,86,44,53.59
+phase3b_baseline,phase3b,No,75.17,24.83,229,142,87,49.39
+phase3b_full_psd,phase3b,Yes,85.4,14.6,42,21,21,47.96
+phase4b_baseline_512,phase4b,No,76.75,23.25,197,122,75,53.57
+phase4b_psd_512,phase4b,Yes,87.78,12.22,28,23,5,42.41

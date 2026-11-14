@@ -1,0 +1,26 @@
+{
+  "256": {
+    "mean_psd_loss": "NA",
+    "layer_12_psd": "NA",
+    "layer_24_psd": "NA",
+    "layer_35_psd": "NA"
+  },
+  "512": {
+    "mean_psd_loss": "NA",
+    "layer_12_psd": "NA",
+    "layer_24_psd": "NA",
+    "layer_35_psd": "NA"
+  },
+  "1024": {
+    "mean_psd_loss": "NA",
+    "layer_12_psd": "NA",
+    "layer_24_psd": "NA",
+    "layer_35_psd": "NA"
+  },
+  "2048": {
+    "mean_psd_loss": "NA",
+    "layer_12_psd": "NA",
+    "layer_24_psd": "NA",
+    "layer_35_psd": "NA"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "model_name": "Qwen/Qwen3-4B",
+  "cuda_available": true,
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_total_vram_mb": 8187.5,
+  "quantization": "GGUF Q4_K_M (4-bit)",
+  "total_parameters": 4025417216,
+  "trainable_parameters": 2949120,
+  "trainable_percentage": 0.0733,
+  "lora_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "forward_pass_success": true,
+  "output_logits_shape": [
+    1,
+    5,
+    151936
+  ],
+  "attentions_returned": 36,
+  "allocated_gpu_memory_mb": 7700.42,
+  "reserved_gpu_memory_mb": 7702.0
+}

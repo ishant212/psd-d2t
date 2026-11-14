@@ -1,0 +1,9 @@
+variant,label,semantic,position,graph,final_train_lm,final_val_lm,final_psd_loss,bleu_step1,bleu_step50,bleu_step100,bleu_step150,delta_bleu_vs_base,rel_bleu_vs_base_pct,rougeL_step150,bertscore_f1_step150,coverage_step150,peak_vram_mb,runtime_s
+baseline,Baseline (LM Only),OFF,OFF,OFF,1.886,1.3667,NA,1.87,6.67,6.9,7.25,0.0,0.0,46.42,89.76,100.0,2678.72,1899.53
+semantic_only,Semantic Only,ON,OFF,OFF,1.9038,1.444,0.6485,1.78,6.15,8.35,10.53,3.28,45.2,46.07,89.77,100.0,2690.96,1943.37
+position_only,Position Only,OFF,ON,OFF,1.9118,1.4119,0.6281,1.78,6.33,8.48,17.64,10.39,143.3,46.72,90.5,100.0,2690.96,2177.23
+graph_only,Graph Only,OFF,OFF,ON,1.9065,1.4673,0.6571,1.86,6.23,10.36,17.21,9.96,137.4,45.73,89.79,100.0,2690.96,1757.24
+semantic_position,Semantic + Position,ON,ON,OFF,1.905,1.4475,0.6799,1.78,6.15,8.32,14.07,6.82,94.1,44.9,90.14,100.0,2690.96,1662.63
+semantic_graph,Semantic + Graph,ON,OFF,ON,1.9035,1.4399,0.6394,1.78,6.18,7.82,12.25,5.0,69.0,45.86,89.78,100.0,2690.96,1677.47
+position_graph,Position + Graph,OFF,ON,ON,1.9129,1.4542,0.6496,1.78,6.63,8.39,10.64,3.39,46.8,45.13,89.47,100.0,2690.96,1668.13
+full_psd,Full PSD,ON,ON,ON,1.9099,1.4264,0.6567,1.87,6.42,10.47,12.15,4.9,67.6,49.72,90.91,100.0,2690.96,2383.12

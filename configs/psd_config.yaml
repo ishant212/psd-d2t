@@ -1,0 +1,44 @@
+# Configuration for Phase 2: Topology-Aware Positional Semantic Divergence (PSD)
+
+model:
+  model_id: "models/qwen3_4b_hf"
+  attn_implementation: "eager"
+  torch_dtype: "float16"
+
+lora:
+  r: 8
+  lora_alpha: 16
+  lora_dropout: 0.05
+  target_modules:
+    - "q_proj"
+    - "v_proj"
+  bias: "none"
+  task_type: "CAUSAL_LM"
+
+psd:
+  # Layers 12, 24, and 35 in 1-based indexing map to Python indices [11, 23, 34]
+  # Note: Qwen3-4B has 36 layers (indices 0 through 35).
+  selected_layers: [11, 23, 34]
+  selected_layers_1based: [12, 24, 35]
+  
+  # Affinity parameters: R_ij = alpha * S_ij - beta * dP_norm(i,j) - gamma * dG_norm(i,j)
+  alpha: 1.0       # Weight for semantic similarity S_ij
+  beta: 0.5        # Weight for normalized sequential/positional distance dP_norm
+  gamma: 0.5       # Weight for normalized graph topological distance dG_norm
+  
+  tau: 1.0         # Softmax temperature for P_target
+  lambda_psd: 0.1  # Weight for PSD loss: L_total = L_LM + lambda_psd * L_PSD
+  
+  unmapped_epsilon: 1e-4  # Prior affinity for unmapped/special tokens
+  d_max_cutoff: null      # If null, dynamically set to max_graph_distance + 1
+
+training:
+  max_seq_len: 256
+  batch_size: 1
+  gradient_accumulation_steps: 4
+  learning_rate: 0.0002
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  warmup_steps: 2
+  logging_steps: 1
+  device: "cuda"

@@ -1,0 +1,48 @@
+{
+  "total_eval_instances": 60,
+  "total_train_instances": 6000,
+  "total_validation_instances": 5594,
+  "validation_membership_count": 60,
+  "train_id_overlap_count": 0,
+  "train_exact_target_overlap_count": 6,
+  "totto_leakage_count": 0,
+  "audit_status": "PASS",
+  "leaked_target_samples": [
+    {
+      "train_dataset": "webnlg",
+      "train_id": "webnlg_train_Id7_568",
+      "target_text": "Elliot See was a test pilot."
+    },
+    {
+      "train_dataset": "webnlg",
+      "train_id": "webnlg_train_Id6_1019",
+      "target_text": "20 Fenchurch Street is located in the United Kingdom."
+    },
+    {
+      "train_dataset": "webnlg",
+      "train_id": "webnlg_train_Id9_1397",
+      "target_text": "Amarillo is part of Potter County in Texas."
+    },
+    {
+      "train_dataset": "webnlg",
+      "train_id": "webnlg_train_Id29_1410",
+      "target_text": "Potter County is in Texas."
+    },
+    {
+      "train_dataset": "webnlg",
+      "train_id": "webnlg_train_Id1_1770",
+      "target_text": "The alternative name for Ajoblanco is \"Ajo blanco\"."
+    },
+    {
+      "train_dataset": "webnlg",
+      "train_id": "webnlg_train_Id21_1790",
+      "target_text": "Vegetable are used in the preparation of Batchoy."
+    }
+  ],
+  "notes": [
+    "Zero example ID overlap with training set (0 / 6000 train instances).",
+    "All 60 evaluation instances originate strictly from data/unified/validation.jsonl.",
+    "6 target text overlaps in train are cross-dataset DART validation instances matching WebNLG DBpedia triples.",
+    "ToTTo long-context tabular partition has strictly 0 ID and 0 target text overlap."
+  ]
+}

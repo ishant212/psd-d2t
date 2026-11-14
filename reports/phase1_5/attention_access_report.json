@@ -1,0 +1,108 @@
+{
+  "model_architecture": "qwen3",
+  "model_class": "Qwen3ForCausalLM",
+  "model_dir": "models/qwen3_4b",
+  "device": "cuda:0",
+  "dtype": "torch.float16",
+  "attn_implementation": "eager",
+  "input_text": "Paris | country | France",
+  "input_sequence_length": 5,
+  "token_ids": [
+    59604,
+    760,
+    3146,
+    760,
+    9625
+  ],
+  "decoded_tokens": [
+    "Paris",
+    " |",
+    " country",
+    " |",
+    " France"
+  ],
+  "hidden_states": {
+    "accessible": true,
+    "total_layers": 37,
+    "transformer_layers": 36,
+    "hidden_dimension": 2560,
+    "shape_format": "[batch, sequence_length, hidden_dimension]",
+    "cosine_similarity_verification": {
+      "token_i": {
+        "position": 0,
+        "token_id": 59604,
+        "token_str": "Paris",
+        "norm": 106.0625
+      },
+      "token_j": {
+        "position": 4,
+        "token_id": 9625,
+        "token_str": " France",
+        "norm": 162.875
+      },
+      "cosine_similarity": 0.135742
+    }
+  },
+  "attention_tensors": {
+    "accessible": true,
+    "number_of_layers": 36,
+    "number_of_heads": 32,
+    "query_length": 5,
+    "key_length": 5,
+    "tensor_shape_format": "[batch, heads, query_position, key_position]",
+    "first_layer_shape": [
+      1,
+      32,
+      5,
+      5
+    ],
+    "last_layer_shape": [
+      1,
+      32,
+      5,
+      5
+    ],
+    "layer_samples_summary": [
+      {
+        "layer": 0,
+        "shape": [
+          1,
+          32,
+          5,
+          5
+        ],
+        "is_causal": true
+      },
+      {
+        "layer": 1,
+        "shape": [
+          1,
+          32,
+          5,
+          5
+        ],
+        "is_causal": true
+      },
+      {
+        "layer": 2,
+        "shape": [
+          1,
+          32,
+          5,
+          5
+        ],
+        "is_causal": true
+      },
+      {
+        "layer": 35,
+        "shape": [
+          1,
+          32,
+          5,
+          5
+        ],
+        "is_causal": true
+      }
+    ]
+  }
+}

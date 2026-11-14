@@ -1,0 +1,122 @@
+{
+  "256": {
+    "meteor": {
+      "mean_diff": -3.08,
+      "ci_lower": -7.393,
+      "ci_upper": 0.919,
+      "p_value": 0.124,
+      "significant": false
+    },
+    "factual_precision": {
+      "mean_diff": -0.103,
+      "ci_lower": -4.389,
+      "ci_upper": 3.747,
+      "p_value": 0.942,
+      "significant": false
+    },
+    "hallucination_rate": {
+      "mean_diff": 0.103,
+      "ci_lower": -3.747,
+      "ci_upper": 4.389,
+      "p_value": 0.942,
+      "significant": false
+    },
+    "structured_coverage": {
+      "mean_diff": 0.144,
+      "ci_lower": -2.307,
+      "ci_upper": 2.339,
+      "p_value": 0.904,
+      "significant": false
+    }
+  },
+  "512": {
+    "meteor": {
+      "mean_diff": -2.338,
+      "ci_lower": -7.059,
+      "ci_upper": 1.64,
+      "p_value": 0.256,
+      "significant": false
+    },
+    "factual_precision": {
+      "mean_diff": 1.695,
+      "ci_lower": -2.723,
+      "ci_upper": 6.003,
+      "p_value": 0.46,
+      "significant": false
+    },
+    "hallucination_rate": {
+      "mean_diff": -1.695,
+      "ci_lower": -6.003,
+      "ci_upper": 2.723,
+      "p_value": 0.46,
+      "significant": false
+    },
+    "structured_coverage": {
+      "mean_diff": -0.364,
+      "ci_lower": -2.815,
+      "ci_upper": 1.946,
+      "p_value": 0.772,
+      "significant": false
+    }
+  },
+  "1024": {
+    "meteor": {
+      "mean_diff": -4.633,
+      "ci_lower": -9.354,
+      "ci_upper": -0.524,
+      "p_value": 0.028,
+      "significant": true
+    },
+    "factual_precision": {
+      "mean_diff": -1.115,
+      "ci_lower": -4.946,
+      "ci_upper": 2.16,
+      "p_value": 0.504,
+      "significant": false
+    },
+    "hallucination_rate": {
+      "mean_diff": 1.115,
+      "ci_lower": -2.16,
+      "ci_upper": 4.946,
+      "p_value": 0.504,
+      "significant": false
+    },
+    "structured_coverage": {
+      "mean_diff": -0.029,
+      "ci_lower": -2.451,
+      "ci_upper": 2.205,
+      "p_value": 0.968,
+      "significant": false
+    }
+  },
+  "2048": {
+    "meteor": {
+      "mean_diff": -4.415,
+      "ci_lower": -9.321,
+      "ci_upper": -0.29,
+      "p_value": 0.038,
+      "significant": true
+    },
+    "factual_precision": {
+      "mean_diff": -1.111,
+      "ci_lower": -4.808,
+      "ci_upper": 2.279,
+      "p_value": 0.518,
+      "significant": false
+    },
+    "hallucination_rate": {
+      "mean_diff": 1.111,
+      "ci_lower": -2.279,
+      "ci_upper": 4.808,
+      "p_value": 0.518,
+      "significant": false
+    },
+    "structured_coverage": {
+      "mean_diff": -0.118,
+      "ci_lower": -2.537,
+      "ci_upper": 2.147,
+      "p_value": 0.898,
+      "significant": false
+    }
+  }
+}

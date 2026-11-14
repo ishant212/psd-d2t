@@ -1,0 +1,5 @@
+context_length,baseline_bleu,psd_bleu,delta_bleu,rel_gain_bleu_pct,baseline_meteor,psd_meteor,delta_meteor,baseline_rouge_l,psd_rouge_l,delta_rouge_l,baseline_bertscore,psd_bertscore,delta_bertscore,baseline_factual_prec,psd_factual_prec,delta_factual_prec,baseline_halluc_rate,psd_halluc_rate,delta_halluc_rate
+256,34.93,32.74,-2.19,-6.3,56.01,52.93,-3.08,59.84,56.96,-2.88,93.15,92.88,-0.27,84.6,84.5,-0.1,15.4,15.5,0.1
+512,38.14,35.74,-2.4,-6.3,57.72,55.38,-2.34,61.61,59.93,-1.68,93.34,93.23,-0.11,84.11,85.81,1.7,15.89,14.19,-1.7
+1024,41.4,34.78,-6.62,-16.0,59.86,55.23,-4.63,63.76,60.16,-3.6,93.73,93.26,-0.47,86.61,85.5,-1.11,13.39,14.5,1.11
+2048,43.37,38.27,-5.1,-11.8,62.04,57.62,-4.42,66.1,62.65,-3.45,94.11,93.74,-0.37,86.89,85.78,-1.11,13.11,14.22,1.11

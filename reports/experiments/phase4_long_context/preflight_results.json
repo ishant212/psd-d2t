@@ -1,0 +1,98 @@
+[
+  {
+    "context_length": 256,
+    "mode": "baseline",
+    "gradient_checkpointing": false,
+    "oom": false,
+    "error": "",
+    "peak_allocated_mb": 4930.25,
+    "peak_reserved_mb": 5272.0,
+    "avg_step_sec": 0.621,
+    "tokens_per_sec": 411.6,
+    "safe_under_8gb": true
+  },
+  {
+    "context_length": 256,
+    "mode": "psd",
+    "gradient_checkpointing": false,
+    "oom": false,
+    "error": "",
+    "peak_allocated_mb": 5063.68,
+    "peak_reserved_mb": 5426.0,
+    "avg_step_sec": 0.9535,
+    "tokens_per_sec": 268.1,
+    "safe_under_8gb": true
+  },
+  {
+    "context_length": 512,
+    "mode": "baseline",
+    "gradient_checkpointing": false,
+    "oom": false,
+    "error": "",
+    "peak_allocated_mb": 8153.01,
+    "peak_reserved_mb": 8636.0,
+    "avg_step_sec": 1.2297,
+    "tokens_per_sec": 387.4,
+    "safe_under_8gb": false
+  },
+  {
+    "context_length": 512,
+    "mode": "psd",
+    "gradient_checkpointing": false,
+    "oom": false,
+    "error": "",
+    "peak_allocated_mb": 8668.26,
+    "peak_reserved_mb": 9232.0,
+    "avg_step_sec": 2.4511,
+    "tokens_per_sec": 194.4,
+    "safe_under_8gb": false
+  },
+  {
+    "context_length": 1024,
+    "mode": "baseline",
+    "gradient_checkpointing": true,
+    "oom": false,
+    "error": "",
+    "peak_allocated_mb": 4876.95,
+    "peak_reserved_mb": 6958.0,
+    "avg_step_sec": 1.41,
+    "tokens_per_sec": 571.4,
+    "safe_under_8gb": true
+  },
+  {
+    "context_length": 1024,
+    "mode": "psd",
+    "gradient_checkpointing": true,
+    "oom": false,
+    "error": "",
+    "peak_allocated_mb": 9207.0,
+    "peak_reserved_mb": 12266.0,
+    "avg_step_sec": 6.7747,
+    "tokens_per_sec": 118.9,
+    "safe_under_8gb": false
+  },
+  {
+    "context_length": 2048,
+    "mode": "baseline",
+    "gradient_checkpointing": true,
+    "oom": false,
+    "error": "",
+    "peak_allocated_mb": 7150.32,
+    "peak_reserved_mb": 11146.0,
+    "avg_step_sec": 2.2098,
+    "tokens_per_sec": 466.2,
+    "safe_under_8gb": false
+  },
+  {
+    "context_length": 2048,
+    "mode": "psd",
+    "gradient_checkpointing": true,
+    "oom": true,
+    "error": "CUDA out of memory. Tried to allocate 1.16 GiB. GPU 0 has a total capacity of 8.00 GiB of which 0 bytes is free. Of the allocated memory 16.52 GiB is allocated by PyTorch, and 1.53 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+    "peak_allocated_mb": 16911.46,
+    "peak_reserved_mb": 18762.0,
+    "avg_step_sec": 8.8493,
+    "tokens_per_sec": 166.8,
+    "safe_under_8gb": false
+  }
+]

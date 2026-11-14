@@ -1,0 +1,9 @@
+experiment,phase,psd,meteor,bleu_4,rouge_l,meteor_bleu_ratio
+phase2b_baseline,phase2b,No,36.79,6.29,44.94,5.85
+phase2b_psd,phase2b,Yes,33.63,12.64,42.05,2.66
+phase3a_baseline,phase3a,No,43.3,7.25,46.42,5.97
+phase3a_full_psd,phase3a,Yes,41.65,12.15,49.72,3.43
+phase3b_baseline,phase3b,No,36.79,6.29,44.94,5.85
+phase3b_full_psd,phase3b,Yes,28.83,7.12,40.31,4.05
+phase4b_baseline_512,phase4b,No,34.3,7.92,45.63,4.33
+phase4b_psd_512,phase4b,Yes,39.87,22.3,48.45,1.79

@@ -1,0 +1,9 @@
+{
+  "model": "qwen3:4b",
+  "prompt": "Convert the following structured information into a factual sentence:\n\nParis | country | France",
+  "response": "Based on the structured information \"Paris | country | France\", the factual sentence is:\n\n**Paris is in France.**",
+  "success": true,
+  "approximate_generation_time_seconds": 10.39,
+  "eval_count": 348,
+  "eval_duration_ns": 4667979000
+}

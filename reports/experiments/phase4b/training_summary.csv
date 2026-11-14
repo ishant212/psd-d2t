@@ -1,0 +1,3 @@
+model_type,trained_seq_len,steps,initial_train_lm,final_train_lm,initial_val_lm,final_val_lm,initial_psd_loss,final_psd_loss,psd_kl_reduction_pct,step500_bleu,peak_bleu,final_bertscore,total_time_min,peak_vram_mb
+baseline_512,512,500,0.0,0.0,0.0,0.0,NA,NA,NA,0.0,0.0,0.0,0.0,0.0
+psd_512,512,500,0.0,0.0,0.0,0.0,NA,NA,NA,0.0,0.0,0.0,0.0,0.0

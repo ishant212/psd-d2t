@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches and environments
+.pytest_cache/
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+ENV/
+
+# Large Datasets and Archives
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+dart-master/
+totto_data/
+webnlg-dataset-master/
+data/raw/
+data/cleaned/
+data/normalized/
+data/graphs/
+data/processed/
+data/unified/
+*.gpickle
+*.parquet
+
+# Pretrained Base Model Weights & Checkpoints (>15 GB)
+models/
+*.bin
+*.pt
+*.pth
+*.safetensors
+**/checkpoints/
+reports/experiments/**/checkpoints/
+
+# Word Documents, PDFs, and Temp Outputs
+*.docx
+*.pdf
+*.log
+*.tmp
+*.bak
+get_all_pages.ps1
+get_chapter_pages.ps1
+get_pages.ps1
+test_*.docx
+Final_Project_Report_*.docx
+Sample-Research-Paper.pdf
+scratch/
+
+# OS and Editor Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.cursor/

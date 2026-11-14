@@ -1,0 +1,23 @@
+{
+  "benchmark_path": "C:\\Users\\ishan\\OneDrive\\Desktop\\7thSem\\PJT1\\reports\\experiments\\final_long_context\\evaluation_set_60.json",
+  "total_instances": 60,
+  "dataset_breakdown": {
+    "totto": 20,
+    "dart": 20,
+    "webnlg": 20
+  },
+  "totto_bucket_breakdown": {
+    "<=256": 4,
+    "257-512": 4,
+    "513-1024": 4,
+    "1025-2048": 4,
+    ">2048": 4
+  },
+  "deterministic_ids": true,
+  "duplicate_ids_count": 0,
+  "source_300_subset": true,
+  "audit_status": "PASS",
+  "notes": [
+    "All 60 examples are verified to be a deterministic, stratified subset of evaluation_set_300.json."
+  ]
+}

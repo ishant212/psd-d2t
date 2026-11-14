@@ -1,0 +1,90 @@
+{
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_total_vram_mb": 8187.5,
+  "results": [
+    {
+      "target_length": 256,
+      "actual_length": 256,
+      "success": true,
+      "error": null,
+      "peak_allocated_vram_mb": 8046.24,
+      "peak_reserved_vram_mb": 8092.0,
+      "attentions_returned": true,
+      "attention_tensor_shape": [
+        1,
+        32,
+        256,
+        256
+      ],
+      "hidden_states_returned": true,
+      "hidden_state_shape": [
+        1,
+        256,
+        2560
+      ]
+    },
+    {
+      "target_length": 512,
+      "actual_length": 512,
+      "success": true,
+      "error": null,
+      "peak_allocated_vram_mb": 8633.76,
+      "peak_reserved_vram_mb": 8724.0,
+      "attentions_returned": true,
+      "attention_tensor_shape": [
+        1,
+        32,
+        512,
+        512
+      ],
+      "hidden_states_returned": true,
+      "hidden_state_shape": [
+        1,
+        512,
+        2560
+      ]
+    },
+    {
+      "target_length": 1024,
+      "actual_length": 1024,
+      "success": true,
+      "error": null,
+      "peak_allocated_vram_mb": 10696.64,
+      "peak_reserved_vram_mb": 10990.0,
+      "attentions_returned": true,
+      "attention_tensor_shape": [
+        1,
+        32,
+        1024,
+        1024
+      ],
+      "hidden_states_returned": true,
+      "hidden_state_shape": [
+        1,
+        1024,
+        2560
+      ]
+    },
+    {
+      "target_length": 2048,
+      "actual_length": 2048,
+      "success": true,
+      "error": null,
+      "peak_allocated_vram_mb": 18438.92,
+      "peak_reserved_vram_mb": 18716.0,
+      "attentions_returned": true,
+      "attention_tensor_shape": [
+        1,
+        32,
+        2048,
+        2048
+      ],
+      "hidden_states_returned": true,
+      "hidden_state_shape": [
+        1,
+        2048,
+        2560
+      ]
+    }
+  ]
+}

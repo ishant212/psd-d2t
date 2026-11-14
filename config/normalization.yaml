@@ -1,0 +1,3 @@
+input_dir: "z:/PJT1/data/cleaned"
+output_dir: "z:/PJT1/data/normalized"
+validate_roundtrip: true

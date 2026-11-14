@@ -1,0 +1,4 @@
+dataset,type,total_examples,avg_rows,max_rows,avg_cols,max_cols,avg_cells,max_cells,avg_highlighted_cells,max_highlighted_cells,pct_cells_highlighted,avg_nodes,max_nodes,avg_edges,max_edges,avg_degree,max_degree,avg_density,avg_components,avg_shortest_path
+totto,table,6000,33.807833333333335,2100.0,6.679666666666667,61.0,208.63866666666667,15144.0,3.6055,436.0,1.7281072859616946,,,,,,,,,
+dart,graph,6000,,,,,,,,,,3.817,10.0,2.8196666666666665,9.0,1.3856892857142857,9.0,0.30859980158730155,1.001,1.4398100741658002
+webnlg,graph,5200,,,,,,,,,,3.019423076923077,8.0,2.019615384615385,7.0,1.2187765567765567,6.0,0.3906117216117216,1.0,1.2551232379853268

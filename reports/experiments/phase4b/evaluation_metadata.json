@@ -1,0 +1,37 @@
+{
+  "experiment": "phase4b_long_context_training_comparison",
+  "date": "2026-09-06",
+  "models": [
+    "baseline_512",
+    "psd_512"
+  ],
+  "context_lengths": [
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "evaluation_ids_path": "reports/experiments/phase2b/evaluation_ids.json",
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "vram_gb": 8.0,
+    "quantization": "BitsAndBytes NF4 4-bit"
+  },
+  "training_configurations": {
+    "trained_max_seq_len": 512,
+    "optimizer_steps": 500,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 4,
+    "learning_rate": 0.0002,
+    "lambda_psd": 0.1,
+    "selected_layers": [
+      11,
+      23,
+      34
+    ]
+  },
+  "hardware_boundary_findings": {
+    "training_seq_len_512": "PASS - Fully stable, ~4.6 GB peak VRAM",
+    "training_seq_len_1024": "OOM on RTX 4060 8GB during backprop attention unrolling (CUDA out of memory: tried to allocate 594 MiB). Documented per computational rules."
+  }
+}

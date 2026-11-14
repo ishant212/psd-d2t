@@ -1,0 +1,1072 @@
+{
+  "factual_precision": 82.46,
+  "hallucination_rate": 17.54,
+  "structured_coverage": 54.68,
+  "total_claims": 152,
+  "supported_claims": 115,
+  "unsupported_claims": 37,
+  "detailed_results": [
+    {
+      "total_claims": 31,
+      "supported_claims": 26,
+      "unsupported_claims": 5,
+      "factual_precision": 83.87,
+      "hallucination_rate": 16.13,
+      "structured_coverage": 26.74,
+      "claims": [
+        {
+          "text": "76th",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched base number '76' in source"
+        },
+        {
+          "text": "1868",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1868' in source"
+        },
+        {
+          "text": "1868",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1868' in source"
+        },
+        {
+          "text": "1868",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1868' in source"
+        },
+        {
+          "text": "1868",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1868' in source"
+        },
+        {
+          "text": "1868",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1868' in source"
+        },
+        {
+          "text": "William Henry McNeal William Henry McNeal",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (4/6) in source"
+        },
+        {
+          "text": "Governor",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Governor' in source"
+        },
+        {
+          "text": "South Carolina McNeal",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (2/3) in source"
+        },
+        {
+          "text": "South Carolina",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'South Carolina' in source"
+        },
+        {
+          "text": "Constitution",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Constitution' in source"
+        },
+        {
+          "text": "McNeal",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'McNeal' unsupported by source"
+        },
+        {
+          "text": "South Carolina",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'South Carolina' in source"
+        },
+        {
+          "text": "Constitution",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Constitution' in source"
+        },
+        {
+          "text": "McNeal",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'McNeal' unsupported by source"
+        },
+        {
+          "text": "South Carolina",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'South Carolina' in source"
+        },
+        {
+          "text": "Constitution",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Constitution' in source"
+        },
+        {
+          "text": "McNeal",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'McNeal' unsupported by source"
+        },
+        {
+          "text": "South Carolina",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'South Carolina' in source"
+        },
+        {
+          "text": "Constitution",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Constitution' in source"
+        },
+        {
+          "text": "McNeal",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'McNeal' unsupported by source"
+        },
+        {
+          "text": "South Carolina",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'South Carolina' in source"
+        },
+        {
+          "text": "Constitution",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Constitution' in source"
+        },
+        {
+          "text": "McNeal",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'McNeal' unsupported by source"
+        },
+        {
+          "text": "served",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Semantic/relation equivalence match for 'served' in source metadata"
+        },
+        {
+          "text": "governor",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Exact/phrase match for relation 'governor' in source"
+        },
+        {
+          "text": "governor",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Exact/phrase match for relation 'governor' in source"
+        },
+        {
+          "text": "governor",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Exact/phrase match for relation 'governor' in source"
+        },
+        {
+          "text": "governor",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Exact/phrase match for relation 'governor' in source"
+        },
+        {
+          "text": "governor",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Exact/phrase match for relation 'governor' in source"
+        },
+        {
+          "text": "governor",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Exact/phrase match for relation 'governor' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 18,
+      "supported_claims": 14,
+      "unsupported_claims": 4,
+      "factual_precision": 77.78,
+      "hallucination_rate": 22.22,
+      "structured_coverage": 17.5,
+      "claims": [
+        {
+          "text": "4",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '4' in source"
+        },
+        {
+          "text": "Alma Jodorowsky",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Alma Jodorowsky' in source"
+        },
+        {
+          "text": "The Last",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'The Last' unsupported by source"
+        },
+        {
+          "text": "Mohicans Alma Jodorowsky",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (2/3) in source"
+        },
+        {
+          "text": "The Last",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'The Last' unsupported by source"
+        },
+        {
+          "text": "Mohicans Alma Jodorowsky",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (2/3) in source"
+        },
+        {
+          "text": "The Last",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'The Last' unsupported by source"
+        },
+        {
+          "text": "Mohicans Alma Jodorowsky",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (2/3) in source"
+        },
+        {
+          "text": "The Last",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'The Last' unsupported by source"
+        },
+        {
+          "text": "Mohicans Alma Jodorowsky",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (2/3) in source"
+        },
+        {
+          "text": "Gaspard",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Gaspard' in source"
+        },
+        {
+          "text": "Bandit Alma Jodorowsky",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Bandit Alma Jodorowsky' in source"
+        },
+        {
+          "text": "Gaspard",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Gaspard' in source"
+        },
+        {
+          "text": "Bandit Alma Jodorowsky",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Bandit Alma Jodorowsky' in source"
+        },
+        {
+          "text": "Gaspard",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Gaspard' in source"
+        },
+        {
+          "text": "Bandit Alma Jodorowsky",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Bandit Alma Jodorowsky' in source"
+        },
+        {
+          "text": "Gaspard",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Gaspard' in source"
+        },
+        {
+          "text": "Bandit Alma Jodorowsky",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Bandit Alma Jodorowsky' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 20,
+      "supported_claims": 10,
+      "unsupported_claims": 10,
+      "factual_precision": 50.0,
+      "hallucination_rate": 50.0,
+      "structured_coverage": 20.72,
+      "claims": [
+        {
+          "text": "119.5",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '119.5' not found in source"
+        },
+        {
+          "text": "2006",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '2006' in source"
+        },
+        {
+          "text": "119.5",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '119.5' not found in source"
+        },
+        {
+          "text": "119.5",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '119.5' not found in source"
+        },
+        {
+          "text": "2007",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '2007' in source"
+        },
+        {
+          "text": "119.5",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '119.5' not found in source"
+        },
+        {
+          "text": "119.5",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '119.5' not found in source"
+        },
+        {
+          "text": "2008",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '2008' in source"
+        },
+        {
+          "text": "119.5",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '119.5' not found in source"
+        },
+        {
+          "text": "119.5",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '119.5' not found in source"
+        },
+        {
+          "text": "2009",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '2009' in source"
+        },
+        {
+          "text": "119.5",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '119.5' not found in source"
+        },
+        {
+          "text": "119.5",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '119.5' not found in source"
+        },
+        {
+          "text": "2010",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '2010' in source"
+        },
+        {
+          "text": "119.5",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '119.5' not found in source"
+        },
+        {
+          "text": "Hawk",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Hawk' in source"
+        },
+        {
+          "text": "Hawk",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Hawk' in source"
+        },
+        {
+          "text": "Hawk",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Hawk' in source"
+        },
+        {
+          "text": "Hawk",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Hawk' in source"
+        },
+        {
+          "text": "Hawk",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Hawk' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 31,
+      "supported_claims": 29,
+      "unsupported_claims": 2,
+      "factual_precision": 93.55,
+      "hallucination_rate": 6.45,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "1",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1' in source"
+        },
+        {
+          "text": "2",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '2' in source"
+        },
+        {
+          "text": "1442",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1442' in source"
+        },
+        {
+          "text": "60",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '60' in source"
+        },
+        {
+          "text": "61",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '61' in source"
+        },
+        {
+          "text": "1364",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1364' in source"
+        },
+        {
+          "text": "1399",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1399' in source"
+        },
+        {
+          "text": "1399",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1399' in source"
+        },
+        {
+          "text": "1442",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1442' in source"
+        },
+        {
+          "text": "November",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'November' in source"
+        },
+        {
+          "text": "Nantes",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Nantes' in source"
+        },
+        {
+          "text": "John IV",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'John IV' in source"
+        },
+        {
+          "text": "Conqueror Yann IV",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Conqueror Yann IV' in source"
+        },
+        {
+          "text": "John V",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'John V' in source"
+        },
+        {
+          "text": "Wise Yann V",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Wise Yann V' in source"
+        },
+        {
+          "text": "Fur",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Fur' in source"
+        },
+        {
+          "text": "John V",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'John V' in source"
+        },
+        {
+          "text": "Wise Yann V",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Wise Yann V' in source"
+        },
+        {
+          "text": "Fur",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Fur' in source"
+        },
+        {
+          "text": "Duke",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'Duke' unsupported by source"
+        },
+        {
+          "text": "Brittany John V",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Brittany John V' in source"
+        },
+        {
+          "text": "Wise Yann V",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Wise Yann V' in source"
+        },
+        {
+          "text": "Fur",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Fur' in source"
+        },
+        {
+          "text": "Duke",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'Duke' unsupported by source"
+        },
+        {
+          "text": "Brittany John V",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Brittany John V' in source"
+        },
+        {
+          "text": "Wise Yann V",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Wise Yann V' in source"
+        },
+        {
+          "text": "Fur",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Fur' in source"
+        },
+        {
+          "text": "born",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Semantic/relation equivalence match for 'born' in source metadata"
+        },
+        {
+          "text": "died",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Semantic/relation equivalence match for 'died' in source metadata"
+        },
+        {
+          "text": "born",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Semantic/relation equivalence match for 'born' in source metadata"
+        },
+        {
+          "text": "died",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Semantic/relation equivalence match for 'died' in source metadata"
+        }
+      ]
+    },
+    {
+      "total_claims": 30,
+      "supported_claims": 17,
+      "unsupported_claims": 13,
+      "factual_precision": 56.67,
+      "hallucination_rate": 43.33,
+      "structured_coverage": 21.84,
+      "claims": [
+        {
+          "text": "1859",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1859' in source"
+        },
+        {
+          "text": "1833",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '1833' not found in source"
+        },
+        {
+          "text": "1833",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '1833' not found in source"
+        },
+        {
+          "text": "1833",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '1833' not found in source"
+        },
+        {
+          "text": "1833",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '1833' not found in source"
+        },
+        {
+          "text": "1833",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '1833' not found in source"
+        },
+        {
+          "text": "1833",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '1833' not found in source"
+        },
+        {
+          "text": "Minnesota Legislators Past Present",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Minnesota Legislators Past Present' in source"
+        },
+        {
+          "text": "Bradley",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Bradley' in source"
+        },
+        {
+          "text": "Republican Minnesota House",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Republican Minnesota House' in source"
+        },
+        {
+          "text": "Representatives Speaker George Bradley",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Representatives Speaker George Bradley' in source"
+        },
+        {
+          "text": "Minnesota House",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Minnesota House' in source"
+        },
+        {
+          "text": "Representatives Speaker George Bradley",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Representatives Speaker George Bradley' in source"
+        },
+        {
+          "text": "Minnesota House",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Minnesota House' in source"
+        },
+        {
+          "text": "Representatives Speaker George Bradley",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Representatives Speaker George Bradley' in source"
+        },
+        {
+          "text": "Minnesota House",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Minnesota House' in source"
+        },
+        {
+          "text": "Bradley",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Bradley' in source"
+        },
+        {
+          "text": "Minnesota House",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Minnesota House' in source"
+        },
+        {
+          "text": "Representatives Speaker George Bradley",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Representatives Speaker George Bradley' in source"
+        },
+        {
+          "text": "Minnesota House",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Minnesota House' in source"
+        },
+        {
+          "text": "Representatives Speaker George Bradley",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Representatives Speaker George Bradley' in source"
+        },
+        {
+          "text": "Minnesota House",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Minnesota House' in source"
+        },
+        {
+          "text": "Representatives Speaker George Bradley",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Representatives Speaker George Bradley' in source"
+        },
+        {
+          "text": "born",
+          "category": "relation",
+          "supported": false,
+          "evidence": "Relation 'born' unsupported by source"
+        },
+        {
+          "text": "born",
+          "category": "relation",
+          "supported": false,
+          "evidence": "Relation 'born' unsupported by source"
+        },
+        {
+          "text": "born",
+          "category": "relation",
+          "supported": false,
+          "evidence": "Relation 'born' unsupported by source"
+        },
+        {
+          "text": "born",
+          "category": "relation",
+          "supported": false,
+          "evidence": "Relation 'born' unsupported by source"
+        },
+        {
+          "text": "born",
+          "category": "relation",
+          "supported": false,
+          "evidence": "Relation 'born' unsupported by source"
+        },
+        {
+          "text": "born",
+          "category": "relation",
+          "supported": false,
+          "evidence": "Relation 'born' unsupported by source"
+        },
+        {
+          "text": "born",
+          "category": "relation",
+          "supported": false,
+          "evidence": "Relation 'born' unsupported by source"
+        }
+      ]
+    },
+    {
+      "total_claims": 4,
+      "supported_claims": 3,
+      "unsupported_claims": 1,
+      "factual_precision": 75.0,
+      "hallucination_rate": 25.0,
+      "structured_coverage": 83.33,
+      "claims": [
+        {
+          "text": "1973",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1973' in source"
+        },
+        {
+          "text": "Mars Hill College",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Mars Hill College' in source"
+        },
+        {
+          "text": "Appalachian State University",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'Appalachian State University' unsupported by source"
+        },
+        {
+          "text": "joined",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Exact/phrase match for relation 'joined' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 2,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Newberry College",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Newberry College' in source"
+        },
+        {
+          "text": "Wolves",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Wolves' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 1,
+      "supported_claims": 1,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Presbyterian College",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Presbyterian College' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 2,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 50.0,
+      "claims": [
+        {
+          "text": "Queens University",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Queens University' in source"
+        },
+        {
+          "text": "Charlotte Royals",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Charlotte Royals' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 1,
+      "unsupported_claims": 1,
+      "factual_precision": 50.0,
+      "hallucination_rate": 50.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Inars Kivlenieks",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Inars Kivlenieks' in source"
+        },
+        {
+          "text": "Latvian",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'Latvian' unsupported by source"
+        }
+      ]
+    },
+    {
+      "total_claims": 3,
+      "supported_claims": 3,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Al-Taqaddum Air Base",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Al-Taqaddum Air Base' in source"
+        },
+        {
+          "text": "Fallujah",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Fallujah' in source"
+        },
+        {
+          "text": "located",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Semantic/relation equivalence match for 'located' in source metadata"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 1,
+      "unsupported_claims": 1,
+      "factual_precision": 50.0,
+      "hallucination_rate": 50.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "3684.0",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '3684.0' not found in source"
+        },
+        {
+          "text": "Al-Taqaddum Air Base",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Al-Taqaddum Air Base' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 3,
+      "supported_claims": 3,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "14",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '14' in source"
+        },
+        {
+          "text": "32",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '32' in source"
+        },
+        {
+          "text": "Alderney Airport",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Alderney Airport' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 2,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Andrews County Airport",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Andrews County Airport' in source"
+        },
+        {
+          "text": "Andrews County Texas",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Andrews County Texas' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 1,
+      "supported_claims": 1,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Angola International Airport",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Angola International Airport' in source"
+        }
+      ]
+    }
+  ]
+}

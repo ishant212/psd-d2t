@@ -1,0 +1,161 @@
+{
+  "total_evaluated_samples": 15,
+  "constraint_note": "Model-visible sequence length was max_seq_len=256. Original examples >256 were truncated at 256.",
+  "buckets": {
+    "<=256": {
+      "count": 11,
+      "sample_ids": [
+        "totto_9012083751335522596",
+        "dart_validation_0",
+        "dart_validation_1",
+        "dart_validation_2",
+        "dart_validation_3",
+        "dart_validation_4",
+        "webnlg_validation_Id6_0",
+        "webnlg_validation_Id7_1",
+        "webnlg_validation_Id8_2",
+        "webnlg_validation_Id14_3",
+        "webnlg_validation_Id16_4"
+      ],
+      "baseline": {
+        "bleu": 19.01,
+        "rouge1": 60.91,
+        "rouge2": 46.22,
+        "rougeL": 59.27,
+        "bertscore_p": 91.9,
+        "bertscore_r": 92.26,
+        "bertscore_f1": 92.06,
+        "structured_coverage": 100.0
+      },
+      "psd": {
+        "bleu": 25.78,
+        "rouge1": 61.74,
+        "rouge2": 37.19,
+        "rougeL": 57.34,
+        "bertscore_p": 93.23,
+        "bertscore_r": 92.73,
+        "bertscore_f1": 92.97,
+        "structured_coverage": 100.0
+      },
+      "delta_psd_minus_baseline": {
+        "bleu": 6.77,
+        "rouge1": 0.83,
+        "rouge2": -9.03,
+        "rougeL": -1.93,
+        "bertscore_p": 1.33,
+        "bertscore_r": 0.47,
+        "bertscore_f1": 0.91,
+        "structured_coverage": 0.0
+      }
+    },
+    "257-512": {
+      "count": 2,
+      "sample_ids": [
+        "totto_7391450717765563190",
+        "totto_-6915287003153277224"
+      ],
+      "baseline": {
+        "bleu": 0.32,
+        "rouge1": 6.56,
+        "rouge2": 0.0,
+        "rougeL": 6.56,
+        "bertscore_p": 75.29,
+        "bertscore_r": 85.29,
+        "bertscore_f1": 79.97,
+        "structured_coverage": 100.0
+      },
+      "psd": {
+        "bleu": 0.71,
+        "rouge1": 0.0,
+        "rouge2": 0.0,
+        "rougeL": 0.0,
+        "bertscore_p": 72.85,
+        "bertscore_r": 81.77,
+        "bertscore_f1": 77.03,
+        "structured_coverage": 100.0
+      },
+      "delta_psd_minus_baseline": {
+        "bleu": 0.39,
+        "rouge1": -6.56,
+        "rouge2": 0.0,
+        "rougeL": -6.56,
+        "bertscore_p": -2.44,
+        "bertscore_r": -3.52,
+        "bertscore_f1": -2.94,
+        "structured_coverage": 0.0
+      }
+    },
+    "513-1024": {
+      "count": 1,
+      "sample_ids": [
+        "totto_-8764917516249435941"
+      ],
+      "baseline": {
+        "bleu": 0.0,
+        "rouge1": 0.0,
+        "rouge2": 0.0,
+        "rougeL": 0.0,
+        "bertscore_p": 68.89,
+        "bertscore_r": 81.3,
+        "bertscore_f1": 74.58,
+        "structured_coverage": 100.0
+      },
+      "psd": {
+        "bleu": 0.0,
+        "rouge1": 0.0,
+        "rouge2": 0.0,
+        "rougeL": 0.0,
+        "bertscore_p": 73.85,
+        "bertscore_r": 83.17,
+        "bertscore_f1": 78.23,
+        "structured_coverage": 100.0
+      },
+      "delta_psd_minus_baseline": {
+        "bleu": 0.0,
+        "rouge1": 0.0,
+        "rouge2": 0.0,
+        "rougeL": 0.0,
+        "bertscore_p": 4.96,
+        "bertscore_r": 1.87,
+        "bertscore_f1": 3.65,
+        "structured_coverage": 0.0
+      }
+    },
+    ">1024": {
+      "count": 1,
+      "sample_ids": [
+        "totto_-3004901021745997743"
+      ],
+      "baseline": {
+        "bleu": 0.94,
+        "rouge1": 9.09,
+        "rouge2": 3.33,
+        "rougeL": 9.09,
+        "bertscore_p": 73.2,
+        "bertscore_r": 85.15,
+        "bertscore_f1": 78.72,
+        "structured_coverage": 100.0
+      },
+      "psd": {
+        "bleu": 0.0,
+        "rouge1": 0.0,
+        "rouge2": 0.0,
+        "rougeL": 0.0,
+        "bertscore_p": 0.0,
+        "bertscore_r": 0.0,
+        "bertscore_f1": 0.0,
+        "structured_coverage": 100.0
+      },
+      "delta_psd_minus_baseline": {
+        "bleu": -0.94,
+        "rouge1": -9.09,
+        "rouge2": -3.33,
+        "rougeL": -9.09,
+        "bertscore_p": -73.2,
+        "bertscore_r": -85.15,
+        "bertscore_f1": -78.72,
+        "structured_coverage": 0.0
+      }
+    }
+  }
+}

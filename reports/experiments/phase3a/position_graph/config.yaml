@@ -1,0 +1,61 @@
+# Phase 3A Ablation Variant G: Position + Graph (Semantic=OFF, Position=ON, Graph=ON)
+
+experiment:
+  name: "phase3a_position_graph"
+  type: "psd"
+  seed: 42
+  experiment_dir: "reports/experiments/phase3a/position_graph"
+
+model:
+  model_id: "models/qwen3_4b_hf"
+  attn_implementation: "eager"
+  torch_dtype: "float16"
+
+lora:
+  r: 8
+  lora_alpha: 16
+  lora_dropout: 0.05
+  target_modules:
+    - "q_proj"
+    - "v_proj"
+  bias: "none"
+  task_type: "CAUSAL_LM"
+
+psd:
+  enabled: true
+  lambda_psd: 0.1
+  selected_layers: [11, 23, 34]
+  selected_layers_1based: [12, 24, 35]
+  alpha: 1.0
+  beta: 0.5
+  gamma: 0.5
+  tau: 1.0
+  enable_semantic: false
+  enable_positional: true
+  enable_graph: true
+  unmapped_epsilon: 1e-4
+  d_max_cutoff: null
+
+training:
+  max_seq_len: 256
+  batch_size: 1
+  gradient_accumulation_steps: 4
+  learning_rate: 0.0002
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  warmup_steps: 2
+  logging_steps: 1
+  num_steps: 150
+  eval_interval: 50
+  checkpoint_interval: 50
+  device: "cuda"
+
+output:
+  experiment_dir: "reports/experiments/phase3a/position_graph"
+  checkpoint_dir: "reports/experiments/phase3a/position_graph/checkpoints"
+  training_log_csv: "reports/experiments/phase3a/position_graph/training_log.csv"
+  validation_log_csv: "reports/experiments/phase3a/position_graph/validation_log.csv"
+  metrics_json: "reports/experiments/phase3a/position_graph/metrics.json"
+  generation_metrics_json: "reports/experiments/phase3a/position_graph/generation_metrics.json"
+  sample_predictions_json: "reports/experiments/phase3a/position_graph/sample_predictions.json"
+  summary_md: "reports/experiments/phase3a/position_graph/experiment_summary.md"

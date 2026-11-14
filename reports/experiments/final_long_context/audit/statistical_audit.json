@@ -1,0 +1,161 @@
+{
+  "configuration": {
+    "sample_size": 60,
+    "n_resamples": 1000,
+    "ci_level": "95% (alpha=0.05, two-sided)",
+    "random_seed": 42,
+    "pairing_strategy": "Paired difference (PSD - Baseline on identical instance IDs)"
+  },
+  "comparisons": {
+    "256": {
+      "meteor": {
+        "reported": {
+          "mean_diff": -3.08,
+          "ci_lower": -7.393,
+          "ci_upper": 0.919,
+          "p_value": 0.124,
+          "significant": false
+        },
+        "recomputed": {
+          "mean_diff": -3.08,
+          "ci_lower": -7.393,
+          "ci_upper": 0.919,
+          "p_value": 0.124,
+          "significant": false
+        },
+        "status": "PASS"
+      },
+      "factual_precision": {
+        "reported": {
+          "mean_diff": -0.103,
+          "ci_lower": -4.389,
+          "ci_upper": 3.747,
+          "p_value": 0.942,
+          "significant": false
+        },
+        "recomputed": {
+          "mean_diff": -0.103,
+          "ci_lower": -4.389,
+          "ci_upper": 3.747,
+          "p_value": 0.942,
+          "significant": false
+        },
+        "status": "PASS"
+      }
+    },
+    "512": {
+      "meteor": {
+        "reported": {
+          "mean_diff": -2.338,
+          "ci_lower": -7.059,
+          "ci_upper": 1.64,
+          "p_value": 0.256,
+          "significant": false
+        },
+        "recomputed": {
+          "mean_diff": -2.338,
+          "ci_lower": -7.059,
+          "ci_upper": 1.64,
+          "p_value": 0.256,
+          "significant": false
+        },
+        "status": "PASS"
+      },
+      "factual_precision": {
+        "reported": {
+          "mean_diff": 1.695,
+          "ci_lower": -2.723,
+          "ci_upper": 6.003,
+          "p_value": 0.46,
+          "significant": false
+        },
+        "recomputed": {
+          "mean_diff": 1.695,
+          "ci_lower": -2.723,
+          "ci_upper": 6.003,
+          "p_value": 0.46,
+          "significant": false
+        },
+        "status": "PASS"
+      }
+    },
+    "1024": {
+      "meteor": {
+        "reported": {
+          "mean_diff": -4.633,
+          "ci_lower": -9.354,
+          "ci_upper": -0.524,
+          "p_value": 0.028,
+          "significant": true
+        },
+        "recomputed": {
+          "mean_diff": -4.633,
+          "ci_lower": -9.354,
+          "ci_upper": -0.524,
+          "p_value": 0.028,
+          "significant": true
+        },
+        "status": "PASS"
+      },
+      "factual_precision": {
+        "reported": {
+          "mean_diff": -1.115,
+          "ci_lower": -4.946,
+          "ci_upper": 2.16,
+          "p_value": 0.504,
+          "significant": false
+        },
+        "recomputed": {
+          "mean_diff": -1.115,
+          "ci_lower": -4.946,
+          "ci_upper": 2.16,
+          "p_value": 0.504,
+          "significant": false
+        },
+        "status": "PASS"
+      }
+    },
+    "2048": {
+      "meteor": {
+        "reported": {
+          "mean_diff": -4.415,
+          "ci_lower": -9.321,
+          "ci_upper": -0.29,
+          "p_value": 0.038,
+          "significant": true
+        },
+        "recomputed": {
+          "mean_diff": -4.415,
+          "ci_lower": -9.321,
+          "ci_upper": -0.29,
+          "p_value": 0.038,
+          "significant": true
+        },
+        "status": "PASS"
+      },
+      "factual_precision": {
+        "reported": {
+          "mean_diff": -1.111,
+          "ci_lower": -4.808,
+          "ci_upper": 2.279,
+          "p_value": 0.518,
+          "significant": false
+        },
+        "recomputed": {
+          "mean_diff": -1.111,
+          "ci_lower": -4.808,
+          "ci_upper": 2.279,
+          "p_value": 0.518,
+          "significant": false
+        },
+        "status": "PASS"
+      }
+    }
+  },
+  "audit_status": "PASS",
+  "notes": [
+    "Statistical bootstrap methodology is sound and uses genuine paired resamples.",
+    "Significance flags in saved reports accurately reflect confidence intervals crossing zero.",
+    "No claims of false statistical significance were made in the report."
+  ]
+}

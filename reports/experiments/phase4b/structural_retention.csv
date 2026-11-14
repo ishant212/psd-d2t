@@ -1,0 +1,5 @@
+context_length,mean_original_tokens,mean_evaluated_tokens,truncated_percentage,node_retention_pct,edge_retention_pct,highlighted_cell_retention_pct
+256,565.93,110.13,33.33,75.54,100.0,75.56
+512,565.93,187.53,26.67,83.0,100.0,88.89
+1024,565.93,319.33,20.0,92.61,100.0,93.33
+2048,565.93,413.13,6.67,96.26,100.0,93.33

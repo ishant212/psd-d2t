@@ -1,0 +1,40 @@
+{
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_total_vram_mb": 8187.5,
+  "base_model_memory_mb": {
+    "allocated": 7678.39,
+    "reserved": 7690.0
+  },
+  "experiments": [
+    {
+      "mode": "A_standard_inference",
+      "batch_size": 1,
+      "sequence_length": 31,
+      "allocated_vram_mb": 7699.86,
+      "reserved_vram_mb": 7718.0,
+      "peak_allocated_vram_mb": 7700.01,
+      "peak_reserved_vram_mb": 7718.0
+    },
+    {
+      "mode": "B_with_hidden_states",
+      "batch_size": 1,
+      "sequence_length": 31,
+      "allocated_vram_mb": 7718.81,
+      "reserved_vram_mb": 7728.0,
+      "peak_allocated_vram_mb": 7718.81,
+      "peak_reserved_vram_mb": 7728.0,
+      "num_hidden_tensors": 37
+    },
+    {
+      "mode": "C_with_hidden_states_and_attentions",
+      "batch_size": 1,
+      "sequence_length": 31,
+      "allocated_vram_mb": 7739.88,
+      "reserved_vram_mb": 7760.0,
+      "peak_allocated_vram_mb": 7739.88,
+      "peak_reserved_vram_mb": 7760.0,
+      "num_hidden_tensors": 37,
+      "num_attention_tensors": 36
+    }
+  ]
+}

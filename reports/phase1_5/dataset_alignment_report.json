@@ -1,0 +1,859 @@
+{
+  "totto": {
+    "record_id": "totto_1762238357686640028",
+    "input_type": "table",
+    "serialized_text_sample": "[PAGE] List of 8/9 PM telenovelas of Rede Globo [SECTION] 2000s [HEADER] # | Run | Title | Chapters | Author | Director | Ibope Rating [ROW 0] [HEADER] # | [HEADER] Run | [HEADER] Title | [HEADER] Chapters | [HEADER] Author | [HEADER] Director | [HEADER] Ibope Rating [ROW 1] [CELL] 59 | [CELL] June ...",
+    "full_serialized_text_length": 2713,
+    "total_tokens": 1260,
+    "node_mapped_tokens": 778,
+    "edge_mapped_tokens": 0,
+    "special_or_unmapped_tokens": 482,
+    "tokens_sample": [
+      {
+        "token_index": 0,
+        "token_id": 58,
+        "token_str": "[",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 1,
+        "token_id": 37374,
+        "token_str": "PAGE",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 2,
+        "token_id": 60,
+        "token_str": "]",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 3,
+        "token_id": 1759,
+        "token_str": " List",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 4,
+        "token_id": 315,
+        "token_str": " of",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 5,
+        "token_id": 220,
+        "token_str": " ",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 6,
+        "token_id": 23,
+        "token_str": "8",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 7,
+        "token_id": 14,
+        "token_str": "/",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 8,
+        "token_id": 24,
+        "token_str": "9",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 9,
+        "token_id": 5851,
+        "token_str": " PM",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 10,
+        "token_id": 259,
+        "token_str": " t",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 11,
+        "token_id": 8398,
+        "token_str": "elen",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 12,
+        "token_id": 859,
+        "token_str": "ov",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 13,
+        "token_id": 39743,
+        "token_str": "elas",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 14,
+        "token_id": 315,
+        "token_str": " of",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 15,
+        "token_id": 72131,
+        "token_str": " Rede",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 16,
+        "token_id": 24373,
+        "token_str": " Glo",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 17,
+        "token_id": 749,
+        "token_str": "bo",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 18,
+        "token_id": 508,
+        "token_str": " [",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 19,
+        "token_id": 58778,
+        "token_str": "SECTION",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 20,
+        "token_id": 60,
+        "token_str": "]",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 21,
+        "token_id": 220,
+        "token_str": " ",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 22,
+        "token_id": 17,
+        "token_str": "2",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 23,
+        "token_id": 15,
+        "token_str": "0",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 24,
+        "token_id": 15,
+        "token_str": "0",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 25,
+        "token_id": 15,
+        "token_str": "0",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 26,
+        "token_id": 82,
+        "token_str": "s",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 27,
+        "token_id": 508,
+        "token_str": " [",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 28,
+        "token_id": 38098,
+        "token_str": "HEADER",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 29,
+        "token_id": 60,
+        "token_str": "]",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 30,
+        "token_id": 671,
+        "token_str": " #",
+        "matched_node_id": "r0_c0",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 31,
+        "token_id": 760,
+        "token_str": " |",
+        "matched_node_id": "r0_c0",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 32,
+        "token_id": 6452,
+        "token_str": " Run",
+        "matched_node_id": "r0_c1",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 33,
+        "token_id": 760,
+        "token_str": " |",
+        "matched_node_id": "r0_c1",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 34,
+        "token_id": 10869,
+        "token_str": " Title",
+        "matched_node_id": "r0_c2",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 35,
+        "token_id": 760,
+        "token_str": " |",
+        "matched_node_id": "r0_c2",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 36,
+        "token_id": 68381,
+        "token_str": " Chapters",
+        "matched_node_id": "r0_c3",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 37,
+        "token_id": 760,
+        "token_str": " |",
+        "matched_node_id": "r0_c3",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 38,
+        "token_id": 6885,
+        "token_str": " Author",
+        "matched_node_id": "r0_c4",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 39,
+        "token_id": 760,
+        "token_str": " |",
+        "matched_node_id": "r0_c4",
+        "matched_edge_id": null
+      }
+    ],
+    "alignment_analysis": {
+      "mechanism_used": "character-span -> Qwen-token alignment via Fast Tokenizer offset_mapping",
+      "subword_behavior": "Qwen BPE subwords correctly inherit the parent character span's node or edge ID without modification.",
+      "special_tokens_behavior": "Markup tags ([PAGE], [HEADER], [TRIPLE], etc.) correctly resolve to None for node/edge, isolating topological entities.",
+      "alignment_issues": "None detected for triples. For tables (ToTTo), edges are implicit grid adjacency (row/col) rather than serialized text tokens, so edge tokens are 0 by design."
+    },
+    "forward_pass_verification": {
+      "inspected_token_length": 512,
+      "hidden_states_accessible": true,
+      "num_hidden_layers": 37,
+      "hidden_state_shape": [
+        1,
+        512,
+        2560
+      ],
+      "attentions_accessible": true,
+      "num_attention_layers": 36,
+      "attention_shape": [
+        1,
+        32,
+        512,
+        512
+      ]
+    }
+  },
+  "dart": {
+    "record_id": "dart_train_0",
+    "input_type": "triples",
+    "serialized_text_sample": "[TRIPLE] [SUBJ] First Clearing [REL] LOCATION [OBJ] On NYS 52 1 Mi. Youngsville [TRIPLE] [SUBJ] On NYS 52 1 Mi. Youngsville [REL] CITY_OR_TOWN [OBJ] Callicoon, New York",
+    "full_serialized_text_length": 168,
+    "total_tokens": 66,
+    "node_mapped_tokens": 36,
+    "edge_mapped_tokens": 7,
+    "special_or_unmapped_tokens": 23,
+    "tokens_sample": [
+      {
+        "token_index": 0,
+        "token_id": 58,
+        "token_str": "[",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 1,
+        "token_id": 2378,
+        "token_str": "TR",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 2,
+        "token_id": 52819,
+        "token_str": "IPLE",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 3,
+        "token_id": 60,
+        "token_str": "]",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 4,
+        "token_id": 508,
+        "token_str": " [",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 5,
+        "token_id": 29038,
+        "token_str": "SUB",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 6,
+        "token_id": 41,
+        "token_str": "J",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 7,
+        "token_id": 60,
+        "token_str": "]",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 8,
+        "token_id": 5512,
+        "token_str": " First",
+        "matched_node_id": "ent_First_Clearing",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 9,
+        "token_id": 12023,
+        "token_str": " Clear",
+        "matched_node_id": "ent_First_Clearing",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 10,
+        "token_id": 287,
+        "token_str": "ing",
+        "matched_node_id": "ent_First_Clearing",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 11,
+        "token_id": 508,
+        "token_str": " [",
+        "matched_node_id": "ent_First_Clearing",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 12,
+        "token_id": 49051,
+        "token_str": "REL",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 13,
+        "token_id": 60,
+        "token_str": "]",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 14,
+        "token_id": 65583,
+        "token_str": " LOCATION",
+        "matched_node_id": null,
+        "matched_edge_id": "edge_0"
+      },
+      {
+        "token_index": 15,
+        "token_id": 508,
+        "token_str": " [",
+        "matched_node_id": null,
+        "matched_edge_id": "edge_0"
+      },
+      {
+        "token_index": 16,
+        "token_id": 53449,
+        "token_str": "OBJ",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 17,
+        "token_id": 60,
+        "token_str": "]",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 18,
+        "token_id": 1913,
+        "token_str": " On",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 19,
+        "token_id": 451,
+        "token_str": " N",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 20,
+        "token_id": 9394,
+        "token_str": "YS",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 21,
+        "token_id": 220,
+        "token_str": " ",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 22,
+        "token_id": 20,
+        "token_str": "5",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 23,
+        "token_id": 17,
+        "token_str": "2",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 24,
+        "token_id": 220,
+        "token_str": " ",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 25,
+        "token_id": 16,
+        "token_str": "1",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 26,
+        "token_id": 20740,
+        "token_str": " Mi",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 27,
+        "token_id": 13,
+        "token_str": ".",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 28,
+        "token_id": 13263,
+        "token_str": " Young",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 29,
+        "token_id": 49928,
+        "token_str": "sville",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 30,
+        "token_id": 508,
+        "token_str": " [",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 31,
+        "token_id": 2378,
+        "token_str": "TR",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 32,
+        "token_id": 52819,
+        "token_str": "IPLE",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 33,
+        "token_id": 60,
+        "token_str": "]",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 34,
+        "token_id": 508,
+        "token_str": " [",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 35,
+        "token_id": 29038,
+        "token_str": "SUB",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 36,
+        "token_id": 41,
+        "token_str": "J",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 37,
+        "token_id": 60,
+        "token_str": "]",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 38,
+        "token_id": 1913,
+        "token_str": " On",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 39,
+        "token_id": 451,
+        "token_str": " N",
+        "matched_node_id": "ent_On_NYS_52_1_Mi_Youngsville",
+        "matched_edge_id": null
+      }
+    ],
+    "alignment_analysis": {
+      "mechanism_used": "character-span -> Qwen-token alignment via Fast Tokenizer offset_mapping",
+      "subword_behavior": "Qwen BPE subwords correctly inherit the parent character span's node or edge ID without modification.",
+      "special_tokens_behavior": "Markup tags ([PAGE], [HEADER], [TRIPLE], etc.) correctly resolve to None for node/edge, isolating topological entities.",
+      "alignment_issues": "None detected for triples. For tables (ToTTo), edges are implicit grid adjacency (row/col) rather than serialized text tokens, so edge tokens are 0 by design."
+    },
+    "forward_pass_verification": {
+      "inspected_token_length": 66,
+      "hidden_states_accessible": true,
+      "num_hidden_layers": 37,
+      "hidden_state_shape": [
+        1,
+        66,
+        2560
+      ],
+      "attentions_accessible": true,
+      "num_attention_layers": 36,
+      "attention_shape": [
+        1,
+        32,
+        66,
+        66
+      ]
+    }
+  },
+  "webnlg": {
+    "record_id": "webnlg_train_Id1_0",
+    "input_type": "triples",
+    "serialized_text_sample": "[TRIPLE] [SUBJ] Abilene Regional Airport [REL] cityServed [OBJ] Abilene, Texas",
+    "full_serialized_text_length": 78,
+    "total_tokens": 27,
+    "node_mapped_tokens": 11,
+    "edge_mapped_tokens": 4,
+    "special_or_unmapped_tokens": 12,
+    "tokens_sample": [
+      {
+        "token_index": 0,
+        "token_id": 58,
+        "token_str": "[",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 1,
+        "token_id": 2378,
+        "token_str": "TR",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 2,
+        "token_id": 52819,
+        "token_str": "IPLE",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 3,
+        "token_id": 60,
+        "token_str": "]",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 4,
+        "token_id": 508,
+        "token_str": " [",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 5,
+        "token_id": 29038,
+        "token_str": "SUB",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 6,
+        "token_id": 41,
+        "token_str": "J",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 7,
+        "token_id": 60,
+        "token_str": "]",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 8,
+        "token_id": 3680,
+        "token_str": " Ab",
+        "matched_node_id": "ent_Abilene_Regional_Airport",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 9,
+        "token_id": 321,
+        "token_str": "il",
+        "matched_node_id": "ent_Abilene_Regional_Airport",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 10,
+        "token_id": 1952,
+        "token_str": "ene",
+        "matched_node_id": "ent_Abilene_Regional_Airport",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 11,
+        "token_id": 25294,
+        "token_str": " Regional",
+        "matched_node_id": "ent_Abilene_Regional_Airport",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 12,
+        "token_id": 20691,
+        "token_str": " Airport",
+        "matched_node_id": "ent_Abilene_Regional_Airport",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 13,
+        "token_id": 508,
+        "token_str": " [",
+        "matched_node_id": "ent_Abilene_Regional_Airport",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 14,
+        "token_id": 49051,
+        "token_str": "REL",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 15,
+        "token_id": 60,
+        "token_str": "]",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 16,
+        "token_id": 3283,
+        "token_str": " city",
+        "matched_node_id": null,
+        "matched_edge_id": "edge_0"
+      },
+      {
+        "token_index": 17,
+        "token_id": 50,
+        "token_str": "S",
+        "matched_node_id": null,
+        "matched_edge_id": "edge_0"
+      },
+      {
+        "token_index": 18,
+        "token_id": 2771,
+        "token_str": "erved",
+        "matched_node_id": null,
+        "matched_edge_id": "edge_0"
+      },
+      {
+        "token_index": 19,
+        "token_id": 508,
+        "token_str": " [",
+        "matched_node_id": null,
+        "matched_edge_id": "edge_0"
+      },
+      {
+        "token_index": 20,
+        "token_id": 53449,
+        "token_str": "OBJ",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 21,
+        "token_id": 60,
+        "token_str": "]",
+        "matched_node_id": null,
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 22,
+        "token_id": 3680,
+        "token_str": " Ab",
+        "matched_node_id": "ent_Abilene_Texas",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 23,
+        "token_id": 321,
+        "token_str": "il",
+        "matched_node_id": "ent_Abilene_Texas",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 24,
+        "token_id": 1952,
+        "token_str": "ene",
+        "matched_node_id": "ent_Abilene_Texas",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 25,
+        "token_id": 11,
+        "token_str": ",",
+        "matched_node_id": "ent_Abilene_Texas",
+        "matched_edge_id": null
+      },
+      {
+        "token_index": 26,
+        "token_id": 8257,
+        "token_str": " Texas",
+        "matched_node_id": "ent_Abilene_Texas",
+        "matched_edge_id": null
+      }
+    ],
+    "alignment_analysis": {
+      "mechanism_used": "character-span -> Qwen-token alignment via Fast Tokenizer offset_mapping",
+      "subword_behavior": "Qwen BPE subwords correctly inherit the parent character span's node or edge ID without modification.",
+      "special_tokens_behavior": "Markup tags ([PAGE], [HEADER], [TRIPLE], etc.) correctly resolve to None for node/edge, isolating topological entities.",
+      "alignment_issues": "None detected for triples. For tables (ToTTo), edges are implicit grid adjacency (row/col) rather than serialized text tokens, so edge tokens are 0 by design."
+    },
+    "forward_pass_verification": {
+      "inspected_token_length": 27,
+      "hidden_states_accessible": true,
+      "num_hidden_layers": 37,
+      "hidden_state_shape": [
+        1,
+        27,
+        2560
+      ],
+      "attentions_accessible": true,
+      "num_attention_layers": 36,
+      "attention_shape": [
+        1,
+        32,
+        27,
+        27
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+phase,experiment,model,psd,steps,context_len,bleu_4,rouge_1,rouge_2,rouge_l,meteor,bertscore_f1,structured_coverage,factual_precision,hallucination_rate,total_claims,supported_claims,unsupported_claims
+phase2b,phase2b_baseline,Qwen3-4B,No,500,256,6.29,46.15,34.11,44.94,36.79,88.39,49.39,75.17,24.83,229,142,87
+phase2b,phase2b_psd,Qwen3-4B,Yes,500,256,12.64,45.27,27.27,42.05,33.63,0.0,44.94,82.22,17.78,74,46,28
+phase3a,phase3a_baseline,Qwen3-4B,No,150,256,7.25,50.72,37.27,46.42,43.3,89.76,54.61,76.26,23.74,231,149,82
+phase3a,phase3a_full_psd,Qwen3-4B,Yes,150,256,12.15,54.06,36.3,49.72,41.65,90.91,53.59,74.06,25.94,130,86,44
+phase3b,phase3b_baseline,Qwen3-4B,No,500,256,6.29,46.15,34.11,44.94,36.79,88.39,49.39,75.17,24.83,229,142,87
+phase3b,phase3b_full_psd,Qwen3-4B,Yes,500,256,7.12,42.91,24.65,40.31,28.83,89.54,47.96,85.4,14.6,42,21,21
+phase4b,phase4b_baseline_512,Qwen3-4B,No,500,512,7.92,51.42,33.69,45.63,34.3,89.34,53.57,76.75,23.25,197,122,75
+phase4b,phase4b_psd_512,Qwen3-4B,Yes,500,512,22.3,51.15,33.99,48.45,39.87,0.0,42.41,87.78,12.22,28,23,5

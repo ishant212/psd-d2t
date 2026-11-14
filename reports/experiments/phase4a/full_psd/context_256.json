@@ -1,0 +1,446 @@
+{
+  "model_type": "full_psd",
+  "context_length": 256,
+  "num_evaluated": 15,
+  "mean_original_length": 565.93,
+  "mean_evaluated_length": 110.13,
+  "truncation_percentage": 33.33,
+  "structural_retention": {
+    "mean_node_retention_pct": 75.54,
+    "mean_edge_retention_pct": 100.0,
+    "mean_highlighted_retention_pct": 75.56
+  },
+  "metrics": {
+    "bleu": 12.68,
+    "rouge1": 45.27,
+    "rouge2": 27.27,
+    "rougeL": 42.05,
+    "bertscore_p": 89.67,
+    "bertscore_r": 89.99,
+    "bertscore_f1": 89.72,
+    "structured_coverage": 30.07
+  },
+  "dataset_breakdowns": {
+    "totto": {
+      "bleu": 0.38,
+      "rouge1": 0.0,
+      "rouge2": 0.0,
+      "rougeL": 0.0,
+      "bertscore_p": 80.45,
+      "bertscore_r": 81.66,
+      "bertscore_f1": 80.72,
+      "structured_coverage": 1.87
+    },
+    "dart": {
+      "bleu": 20.33,
+      "rouge1": 61.15,
+      "rouge2": 33.53,
+      "rougeL": 56.55,
+      "bertscore_p": 93.28,
+      "bertscore_r": 93.3,
+      "bertscore_f1": 93.29,
+      "structured_coverage": 53.33
+    },
+    "webnlg": {
+      "bleu": 36.6,
+      "rouge1": 74.67,
+      "rouge2": 48.28,
+      "rougeL": 69.6,
+      "bertscore_p": 95.29,
+      "bertscore_r": 95.02,
+      "bertscore_f1": 95.15,
+      "structured_coverage": 35.0
+    }
+  },
+  "psd_divergence": {
+    "mean_psd_loss": "NA",
+    "layer_12_psd": "NA",
+    "layer_24_psd": "NA",
+    "layer_35_psd": "NA"
+  },
+  "system": {
+    "elapsed_seconds": 69.24,
+    "gpu_allocated_mb": 2595.02,
+    "gpu_reserved_mb": 3230.0,
+    "oom_encountered": false
+  },
+  "instances": [
+    {
+      "id": "totto_7391450717765563190",
+      "dataset": "totto",
+      "original_length": 953,
+      "evaluated_length": 256,
+      "truncated": true,
+      "structural_retention": {
+        "node_retention_pct": 24.27,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 33.33,
+        "total_nodes": 103,
+        "retained_nodes": 25,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "[CELL] 77 | [CELL] 78 | [CELL] 79 | [CELL] 7",
+      "target": "Daniel Henry Chamberlain was the 76th Governor of South Carolina from 1874.",
+      "references": [
+        "Daniel Henry Chamberlain was the 76th Governor of South Carolina from 1874.",
+        "Daniel Henry Chamberlain was the 76th Governor of South Carolina, beginning in 1874.",
+        "Daniel Henry Chamberlain was the 76th Governor of South Carolina who took office in 1874."
+      ],
+      "structured_coverage": 3.12,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "totto_9012083751335522596",
+      "dataset": "totto",
+      "original_length": 393,
+      "evaluated_length": 256,
+      "truncated": true,
+      "structural_retention": {
+        "node_retention_pct": 61.9,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 0.0,
+        "total_nodes": 42,
+        "retained_nodes": 26,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "2",
+      "target": "Alma Jodorowsky had the role of Evelyn in 2016 film Kids in Love.",
+      "references": [
+        "Alma Jodorowsky had the role of Evelyn in 2016 film Kids in Love.",
+        "Alma Jodorowsky played Evelyn in the 2016 film Kids in Love.",
+        "Alma Jodorowsky played the role of Evelyn in the 2016 film Kids in Love."
+      ],
+      "structured_coverage": 0.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "totto_-8764917516249435941",
+      "dataset": "totto",
+      "original_length": 1367,
+      "evaluated_length": 256,
+      "truncated": true,
+      "structural_retention": {
+        "node_retention_pct": 15.62,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 192,
+        "retained_nodes": 30,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "| 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | | 1.5 | |",
+      "target": "In his rookie season, Hawk led with 119 total tackles.",
+      "references": [
+        "In his rookie season, Hawk led with 119 total tackles.",
+        "In his rookie season, Hawk led the Packers' with 119 total tackles, 82 of them solo.",
+        "Hawk made 119 total tackles, In his rookie season."
+      ],
+      "structured_coverage": 6.25,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "totto_-6915287003153277224",
+      "dataset": "totto",
+      "original_length": 1064,
+      "evaluated_length": 256,
+      "truncated": true,
+      "structural_retention": {
+        "node_retention_pct": 27.5,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 0.0,
+        "total_nodes": 40,
+        "retained_nodes": 11,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "] 1442, 1442, 1442, 1442, 1442, 1442, 1442, 1442, 1442, 1442, 1442, 1442, 1442, 1442, 1442, 1442, 1442, 1442, 1442, 1442, 1442,",
+      "target": "At the very end of his life, Arthur III became duke of Brittany, succeeding Peter II.",
+      "references": [
+        "At the very end of his life, Arthur III became duke of Brittany, succeeding Peter II.",
+        "Arthur III was a duke of Brittany."
+      ],
+      "structured_coverage": 0.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "totto_-3004901021745997743",
+      "dataset": "totto",
+      "original_length": 4340,
+      "evaluated_length": 256,
+      "truncated": true,
+      "structural_retention": {
+        "node_retention_pct": 3.85,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 0.0,
+        "total_nodes": 467,
+        "retained_nodes": 18,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "",
+      "target": "Ralph J. Parker was a Minnesota politician and a Speaker of the Minnesota House of Representatives.",
+      "references": [
+        "Ralph J. Parker was a Minnesota politician and a Speaker of the Minnesota House of Representatives.",
+        "Ralph J. Parker was a Speaker of the Minnesota House of Representatives.",
+        "Ralph J. Parke, was a Minnesota politician, and a Speaker of the Minnesota House of Representatives."
+      ],
+      "structured_coverage": 0.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "dart_validation_0",
+      "dataset": "dart",
+      "original_length": 55,
+      "evaluated_length": 55,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 3,
+        "retained_nodes": 3,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "Mars Hill College is a private Christian college in Mars Hill, North Carolina.",
+      "target": "A school from Mars Hill, North Carolina, joined in 1973.",
+      "references": [
+        "A school from Mars Hill, North Carolina, joined in 1973."
+      ],
+      "structured_coverage": 33.33,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "dart_validation_1",
+      "dataset": "dart",
+      "original_length": 29,
+      "evaluated_length": 29,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "The Newberry College is nicknamed the Wolves.",
+      "target": "Newberry College's nickname is the wolves.",
+      "references": [
+        "Newberry College's nickname is the wolves."
+      ],
+      "structured_coverage": 100.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "dart_validation_2",
+      "dataset": "dart",
+      "original_length": 26,
+      "evaluated_length": 26,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "Presbyterian College is a private institution.",
+      "target": "Presbyterian College is a private school.",
+      "references": [
+        "Presbyterian College is a private school."
+      ],
+      "structured_coverage": 50.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "dart_validation_3",
+      "dataset": "dart",
+      "original_length": 56,
+      "evaluated_length": 56,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 3,
+        "retained_nodes": 3,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "The Queens University of Charlotte is known as the Royals.",
+      "target": "The nickname of the school with an enrollment of 2,386 is the royals.",
+      "references": [
+        "The nickname of the school with an enrollment of 2,386 is the royals."
+      ],
+      "structured_coverage": 33.33,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "dart_validation_4",
+      "dataset": "dart",
+      "original_length": 32,
+      "evaluated_length": 32,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "Inars Kivlenieks is a Latvian.",
+      "target": "The Athlete is Inars Kivlenieks.The country is Latvia",
+      "references": [
+        "The Athlete is Inars Kivlenieks.The country is Latvia"
+      ],
+      "structured_coverage": 50.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "webnlg_validation_Id6_0",
+      "dataset": "webnlg",
+      "original_length": 35,
+      "evaluated_length": 35,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "Al-Taqaddum Air Base is a military airfield in Fallujah, Iraq.",
+      "target": "The Al Taqaddum Air Base serves the city of Fallujah.",
+      "references": [
+        "The Al Taqaddum Air Base serves the city of Fallujah.",
+        "Al-Taqaddum Air Base serves the city of Fallujah."
+      ],
+      "structured_coverage": 50.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "webnlg_validation_Id7_1",
+      "dataset": "webnlg",
+      "original_length": 38,
+      "evaluated_length": 38,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "The runway length of Al-Taqaddum Air Base is 3684.0 meters.",
+      "target": "The runway length of Al-Taqaddum Air Base is 3684.0.",
+      "references": [
+        "The runway length of Al-Taqaddum Air Base is 3684.0.",
+        "The length of the runway at Al-Taqaddum Air Base is 3684.0."
+      ],
+      "structured_coverage": 50.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "webnlg_validation_Id8_2",
+      "dataset": "webnlg",
+      "original_length": 35,
+      "evaluated_length": 35,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "Alderney Airport has a runway named \"14/32\".",
+      "target": "Alderney Airport runway name is 14/32.",
+      "references": [
+        "Alderney Airport runway name is 14/32.",
+        "14/32 is the runway name of Alderney Airport.",
+        "The runway name of Alderney Airport is 14/32."
+      ],
+      "structured_coverage": 50.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "webnlg_validation_Id14_3",
+      "dataset": "webnlg",
+      "original_length": 30,
+      "evaluated_length": 30,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "Andrews County Airport is owned by the county.",
+      "target": "The Andrews County Airport is owned by Andrews County, Texas.",
+      "references": [
+        "The Andrews County Airport is owned by Andrews County, Texas.",
+        "The owner of Andrews County airport is Andrews County, Texas.",
+        "Andrews County Airport is owned by Andrews County, Texas."
+      ],
+      "structured_coverage": 25.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    },
+    {
+      "id": "webnlg_validation_Id16_4",
+      "dataset": "webnlg",
+      "original_length": 36,
+      "evaluated_length": 36,
+      "truncated": false,
+      "structural_retention": {
+        "node_retention_pct": 100.0,
+        "edge_retention_pct": 100.0,
+        "highlighted_retention_pct": 100.0,
+        "total_nodes": 2,
+        "retained_nodes": 2,
+        "total_edges": 0,
+        "retained_edges": 0
+      },
+      "prediction": "The runway surface is asphalt.",
+      "target": "Angola International Airport is the first runway made of asphalt.",
+      "references": [
+        "Angola International Airport is the first runway made of asphalt.",
+        "Asphalt is the surface of the first runway of Angola International Airport.",
+        "The 1st runway at Angola International Airport has an asphalt surface."
+      ],
+      "structured_coverage": 0.0,
+      "psd_loss": null,
+      "layer_psd": {}
+    }
+  ]
+}

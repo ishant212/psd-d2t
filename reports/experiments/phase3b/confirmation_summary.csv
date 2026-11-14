@@ -1,0 +1,4 @@
+variant_key,label,lambda_psd,bleu_step_150,bleu_step_300,bleu_step_500,delta_bleu_vs_base_500,rouge_l_step_150,rouge_l_step_300,rouge_l_step_500,delta_rouge_l_vs_base_500,bertscore_step_150,bertscore_step_300,bertscore_step_500,delta_bertscore_vs_base_500,content_coverage_500,initial_psd_loss,final_psd_loss,psd_reduction_pct,peak_vram_mb,runtime_seconds
+baseline,Baseline (LM Only),0.0,7.25,6.43,6.29,0.0,46.42,48.42,44.94,0.0,89.76,89.43,88.39,0.0,100.0,NA,NA,NA,2678.72,6652.33
+position_only,Position Only (-beta*dP),0.1,17.64,20.15,6.65,0.36,46.72,42.04,43.46,-1.48,88.8,88.8,88.8,0.41,100.0,1.938,0.2137,88.97,2690.96,7724.44
+full_psd,Full PSD (alpha*S - beta*dP - gamma*dG),0.1,16.43,11.63,7.12,0.83,47.58,49.37,40.31,-4.63,90.13,90.12,89.54,1.15,100.0,1.6907,0.2579,84.75,2941.56,7630.7

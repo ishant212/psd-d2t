@@ -1,0 +1,19 @@
+{
+  "experiment_name": "psd_qwen3_4b_lora",
+  "experiment_type": "psd",
+  "psd_enabled": true,
+  "lambda_psd": 0.1,
+  "num_steps": 10,
+  "elapsed_seconds": 342.74,
+  "initial_lm_loss": 3.8706,
+  "final_lm_loss": 3.2839,
+  "initial_val_lm_loss": 3.6376,
+  "final_val_lm_loss": 2.1603,
+  "peak_gpu_allocated_mb": 2689.72,
+  "generation_metrics": {
+    "bleu": 0.2,
+    "rouge1": 5.43,
+    "rouge2": 0.0,
+    "rougeL": 5.43
+  }
+}

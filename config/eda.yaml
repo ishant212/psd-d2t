@@ -1,0 +1,11 @@
+input_dir: "z:/PJT1/data/cleaned"
+output_dir: "z:/PJT1/reports"
+plots_dir: "z:/PJT1/reports/plots"
+
+tokenizer:
+  model_name: "t5-base"
+  use_hf_tokenizer: true
+  fallback_to_bpe_whitespace: true
+
+sampling:
+  max_records: null  # process all or cap if needed
