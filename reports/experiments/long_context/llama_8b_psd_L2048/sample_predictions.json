@@ -1,0 +1,259 @@
+[
+  {
+    "id": "totto_7391450717765563190",
+    "dataset": "totto",
+    "input_type": "table",
+    "source": "[PAGE] List of Governors of South Carolina [SECTION] Governors under the Constitution of 1868 [HEADER] 85 | Governor | Took Office | Left Office | Lt. Governor | Party | Notes | [ROW 0] [HEADER] # | [HEADER] Governor | [HEADER] Took Office | [HEADER] Left Office | [HEADER] Lt. Governor | [HEADER] Party | [HEADER] Notes | [ROW 1] [HEADER] 74 | [CELL] - | [CELL] Robert Kingston Scott | [CELL] July 6, 1868 | [CELL] December 7, 1872 | [CELL] Lemuel Boozer Alonzo J. Ransier | [CELL] Republican | [CELL]  [ROW 2] [HEADER] 75 | [CELL] - | [CELL] Franklin J. Moses, Jr. | [CELL] December 7, 1872 | [CELL] December 1, 1874 | [CELL] Richard Howell Gleaves | [CELL] Republican | [CELL]  [ROW 3] [HCELL] 76 | [CELL] - | [HCELL] Daniel Henry Chamberlain | [HCELL] December 1, 1874 | [CELL] December 14, 1876 | [CELL] Richard Howell Gleaves | [CELL] Republican | [CELL] Claimed Governorship after 1876 election [ROW 4] [HEADER] 77 | [CELL] - | [CELL] Wade Hampton III | [CELL] December 14, 1876 | [CELL] February 26, 1879 | [CELL] William Dunlap Simpson | [CELL] Democratic | [CELL] Resigned [ROW 5] [HEADER] 78 | [CELL] - | [CELL] William Dunlap Simpson | [CELL] February 26, 1879 | [CELL] September 1, 1880 | [CELL] John D. Kennedy | [CELL] Democratic | [CELL] Not elected [ROW 6] [HEADER] 79 | [CELL] - | [CELL] Thomas Bothwell Jeter | [CELL] September 1, 1880 | [CELL] November 30, 1880 | [CELL] vacant | [CELL] Democratic | [CELL]  [ROW 7] [HEADER] 80 | [CELL] - | [CELL] Johnson Hagood | [CELL] November 30, 1880 | [CELL] December 1, 1882 | [CELL] John D. Kennedy | [CELL] Democratic | [CELL]  [ROW 8] [HEADER] 81 | [CELL] - | [CELL] Hugh Smith Thompson | [CELL] December 1, 1882 | [CELL] July 10, 1886 | [CELL] John Calhoun Sheppard | [CELL] Democratic | [CELL] Resigned [ROW 9] [HEADER] 82 | [CELL] - | [CELL] John Calhoun Sheppard | [CELL] July 10, 1886 | [CELL] November 30, 1886 | [CELL] vacant | [CELL] Democratic | [CELL] Not elected [ROW 10] [HEADER] 83 | [CELL] - | [CELL] John Peter Richardson III | [CELL] November 30, 1886 | [CELL] December 4, 1890 | [CELL] William Mauldin | [CELL] Democratic | [CELL]  [ROW 11] [HEADER] 84 | [CELL] - | [CELL] Benjamin Ryan Tillman | [CELL] December 4, 1890 | [CELL] December 4, 1894 | [CELL] Eugene Gary W.H. Timmerman | [CELL] Democratic | [CELL]  [ROW 12] [HEADER] 85 | [CELL] - | [CELL] John Gary Evans | [CELL] December 4, 1894 | [CELL] January 18, 1897 | [CELL] W.H. Timmerman | [CELL] Democratic | [CELL]",
+    "target": "Daniel Henry Chamberlain was the 76th Governor of South Carolina from 1874.",
+    "references": [
+      "Daniel Henry Chamberlain was the 76th Governor of South Carolina from 1874.",
+      "Daniel Henry Chamberlain was the 76th Governor of South Carolina, beginning in 1874.",
+      "Daniel Henry Chamberlain was the 76th Governor of South Carolina who took office in 1874."
+    ],
+    "prediction": "Daniel Henry Chamberlain was the 76th Governor of South Carolina.",
+    "structured_coverage": 100.0,
+    "factual_precision": 100.0,
+    "hallucination_rate": 0.0,
+    "num_supported_claims": 5,
+    "num_unsupported_claims": 0
+  },
+  {
+    "id": "totto_9012083751335522596",
+    "dataset": "totto",
+    "input_type": "table",
+    "source": "[PAGE] Alma Jodorowsky [SECTION] Filmography [HEADER] Year | Title | Role | Notes [ROW 0] [HEADER] Year | [HEADER] Title | [HEADER] Role | [HEADER] Notes [ROW 1] [CELL] 2006 | [CELL] Gaspard le Bandit | [CELL] Mathilde de Varade | [CELL] Period TV film [ROW 2] [CELL] 2011 | [CELL] Eyes Find Eyes | [CELL] Estelle | [CELL]  [ROW 3] [CELL] Section de recherche | [CELL] Caroline | [CELL] Police TV series (1 episode: No.5.3) | [ROW 4] [CELL] Awake to Emptiness | [CELL] Alma | [CELL] Short film | [ROW 5] [CELL] 2012 | [CELL] Sea, No Sex and Sun | [CELL] Diane | [CELL]  [ROW 6] [CELL] 2013 | [CELL] Blue Is the Warmest Colour | [CELL] B\u00e9atrice | [CELL]  [ROW 7] [CELL] 2014 | [CELL] La Vie devant elles [fr] | [CELL] Solana | [CELL] TV series by Gabriel Aghion (6 episodes) [ROW 8] [HCELL] 2016 | [HCELL] Kids in Love | [HCELL] Evelyn | [CELL] Ealing Studios [ROW 9] [CELL] 2017 | [CELL] The Starry Sky Above Me | [CELL] Justyna | [CELL]  [ROW 10] [CELL] TBA | [CELL] Smiley | [CELL] TBA | [CELL]",
+    "target": "Alma Jodorowsky had the role of Evelyn in 2016 film Kids in Love.",
+    "references": [
+      "Alma Jodorowsky had the role of Evelyn in 2016 film Kids in Love.",
+      "Alma Jodorowsky played Evelyn in the 2016 film Kids in Love.",
+      "Alma Jodorowsky played the role of Evelyn in the 2016 film Kids in Love."
+    ],
+    "prediction": "In 2016, Alma Jodorowsky played the role of Evelyn in the film Kids in Love.",
+    "structured_coverage": 100.0,
+    "factual_precision": 100.0,
+    "hallucination_rate": 0.0,
+    "num_supported_claims": 6,
+    "num_unsupported_claims": 0
+  },
+  {
+    "id": "totto_-8764917516249435941",
+    "dataset": "totto",
+    "input_type": "table",
+    "source": "[PAGE] A. J. Hawk [SECTION] Career statistics [HEADER] Year | Team | GP | TOTAL | COMB | AST | SACK | FF | FR | FR YDS | INT | IR YDS | AVG IR | LNG | TD | PD [ROW 0] [HEADER] Year | [HEADER] Team | [HEADER] GP | [HEADER] TOTAL | [HEADER] COMB | [HEADER] AST | [HEADER] SACK | [HEADER] FF | [HEADER] FR | [HEADER] FR YDS | [HEADER] INT | [HEADER] IR YDS | [HEADER] AVG IR | [HEADER] LNG | [HEADER] TD | [HEADER] PD [ROW 1] [CELL] 2006 | [CELL] GB | [CELL] 16 | [HCELL] 119 | [CELL] 82 | [CELL] 37 | [CELL] 3.5 | [CELL] 1 | [CELL] 2 | [CELL] 0 | [CELL] 2 | [CELL] 31 | [CELL] 14 | [CELL] 25 | [CELL] 0 | [CELL] 8 [ROW 2] [CELL] 2007 | [CELL] GB | [CELL] 16 | [CELL] 105 | [CELL] 78 | [CELL] 27 | [CELL] 1.0 | [CELL] 1 | [CELL] 1 | [CELL] 0 | [CELL] 1 | [CELL] 1 | [CELL] 10 | [CELL] 10 | [CELL] 0 | [CELL] 4 [ROW 3] [CELL] 2008 | [CELL] GB | [CELL] 16 | [CELL] 86 | [CELL] 67 | [CELL] 19 | [CELL] 3.0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 1 [ROW 4] [CELL] 2009 | [CELL] GB | [CELL] 16 | [CELL] 89 | [CELL] 67 | [CELL] 22 | [CELL] 1.0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 2 | [CELL] 42 | [CELL] 21 | [CELL] 29 | [CELL] 0 | [CELL] 2 [ROW 5] [CELL] 2010 | [CELL] GB | [CELL] 16 | [CELL] 111 | [CELL] 72 | [CELL] 39 | [CELL] 0.5 | [CELL] 0 | [CELL] 1 | [CELL] 0 | [CELL] 3 | [CELL] 31 | [CELL] 10 | [CELL] 21 | [CELL] 0 | [CELL] 10 [ROW 6] [CELL] 2011 | [CELL] GB | [CELL] 14 | [CELL] 84 | [CELL] 53 | [CELL] 31 | [CELL] 1.5 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 3 [ROW 7] [CELL] 2012 | [CELL] GB | [CELL] 16 | [CELL] 120 | [CELL] 81 | [CELL] 39 | [CELL] 3.0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 [ROW 8] [CELL] 2013 | [CELL] GB | [CELL] 16 | [CELL] 118 | [CELL] 74 | [CELL] 44 | [CELL] 5.0 | [CELL] 1 | [CELL] 1 | [CELL] 0 | [CELL] 1 | [CELL] 7 | [CELL] 7 | [CELL] 7 | [CELL] 0 | [CELL] 4 [ROW 9] [CELL] 2014 | [CELL] GB | [CELL] 16 | [CELL] 89 | [CELL] 53 | [CELL] 36 | [CELL] 0.5 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 2 [ROW 10] [CELL] 2015 | [CELL] CIN | [CELL] 16 | [CELL] 24 | [CELL] 16 | [CELL] 8 | [CELL] 1.0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 | [CELL] 0 [ROW 11] [CELL] Total | [CELL] Total | [CELL] 158 | [CELL] 947 | [CELL] 644 | [CELL] 303 | [CELL] 20.0 | [CELL] 3 | [CELL] 5 | [CELL] 0 | [CELL] 9 | [CELL] 121 | [CELL] 13 | [CELL] 29 | [CELL] 0 | [CELL] 35",
+    "target": "In his rookie season, Hawk led with 119 total tackles.",
+    "references": [
+      "In his rookie season, Hawk led with 119 total tackles.",
+      "In his rookie season, Hawk led the Packers' with 119 total tackles, 82 of them solo.",
+      "Hawk made 119 total tackles, In his rookie season."
+    ],
+    "prediction": "A. J. Hawk had 119 tackles.",
+    "structured_coverage": 100.0,
+    "factual_precision": 100.0,
+    "hallucination_rate": 0.0,
+    "num_supported_claims": 2,
+    "num_unsupported_claims": 0
+  },
+  {
+    "id": "totto_-6915287003153277224",
+    "dataset": "totto",
+    "input_type": "table",
+    "source": "[PAGE] List of rulers of Brittany [SECTION] House of Montfort [HEADER] Name | Portrait | Birth | Marriages | Death [ROW 0] [HEADER] Name | [HEADER] Portrait | [HEADER] Birth | [HEADER] Marriages | [HEADER] Death [ROW 1] [CELL] John IV the Conqueror (Yann IV) 1364-1399 (Previously John V in pretentious succession from his father.) | [CELL] - | [CELL] c. 1339 only son of John of Montfort and Joanna of Flanders | [CELL] (1) Mary Plantagenet of England Woodstock Palace, Woodstock, Oxfordshire summer of 1361 no issues (2) Joan Holland London May 1366 no issues (3) Joan of Navarre Saill\u00e9-pr\u00e8s-Gu\u00e9rande 2 October 1386 nine children | [CELL] 1/2 November 1399 Nantes aged 59\u201360 [ROW 2] [CELL] John V the Wise (Yann V ar Fur) 1399\u20131442 | [CELL] - | [CELL] 24 December 1389 Ch\u00e2teau de l'Hermine, Vannes, Morbihan eldest son of John IV and Joan of Navarre | [CELL] Joan of France H\u00f4tel de Saint-Pol, Paris 19 September 1396 seven children | [CELL] 29 August 1442 Manoir de La Touche, Nantes aged 52 [ROW 3] [CELL] Francis I the Well-Loved (Fra\u00f1sez Ia\u00f1) 1442\u20131450 | [CELL] - | [CELL] 11 May 1414 Vannes eldest son of John V and Joan of France | [CELL] (1) Yolande of Anjou Amboise 20 August 1431 one son (2) Isabella of Scotland Ch\u00e2teau d'Auray 30 October 1442 two daughter | [CELL] 17 July 1450 Ch\u00e2teau de l'Hermine, Vannes, Morbihan aged 36 [ROW 4] [HCELL] Peter II the Simple (P\u00ear II) 1450\u20131457 | [CELL] - | [CELL] 7 July 1418 Nantes second son of John V and Joan of France | [CELL] Fran\u00e7oise d'Amboise c. 1442 no issues | [CELL] 22 September 1457 Nantes aged 41 [ROW 5] [HCELL] Arthur III the Justicier (Arzhur III) 1457\u20131458 | [CELL] - | [CELL] 24 August 1393 Ch\u00e2teau de Suscinio, Vannes second son of John IV and Joan of Navarre | [CELL] (1) Margaret of Burgundy Dijon 10 October 1423 no issues (2) Jeanne d'Albret N\u00e9rac 29 August 1442 no issues (3) Catherine of Saint Pol 2 July 1445 no issues | [HCELL] 26 December 1458 Nantes aged 65 [ROW 6] [CELL] Francis II (Fra\u00f1sez II) 1458\u20131488 | [CELL] - | [CELL] 23 June 1433 Ch\u00e2teau de Clisson eldest son of Richard de Dreux, Count of \u00c9tampes and Marguerite d'Orl\u00e9ans, Countess of Vertus | [CELL] (1) Marguerite of Brittany Ch\u00e2teau de l'Hermine 16 November 1455 one son (2) Marguerite of Foix Ch\u00e2teau de Clisson 27 June 1474 two daughters | [CELL] 9 September 1488 Cou\u00ebron aged 55 [ROW 7] [CELL] Anne (Anna) 1488\u20131514 | [CELL] - | [CELL] 25 January 1477 Ch\u00e2teau de Nantes eldest daughter of Francis II and Margaret of Foix | [CELL] (1) Maximilian I, Holy Roman Emperor (by proxy) Rennes Cathedral 19 December 1490 no issues (2) Charles VIII of France Ch\u00e2teau de Langeais 19 December 1491 four children (3) Louis XII of France Ch\u00e2teau de Nantes 8 January 1499 four children | [CELL] 9 January 1514 Ch\u00e2teau de Blois aged 36",
+    "target": "At the very end of his life, Arthur III became duke of Brittany, succeeding Peter II.",
+    "references": [
+      "At the very end of his life, Arthur III became duke of Brittany, succeeding Peter II.",
+      "Arthur III was a duke of Brittany."
+    ],
+    "prediction": "Arthur III the Justicier (Arzhur III) was the Duke of Brittany from 1457 to 1458.",
+    "structured_coverage": 100.0,
+    "factual_precision": 83.33,
+    "hallucination_rate": 16.67,
+    "num_supported_claims": 5,
+    "num_unsupported_claims": 1
+  },
+  {
+    "id": "totto_-3004901021745997743",
+    "dataset": "totto",
+    "input_type": "table",
+    "source": "[PAGE] List of Speakers of the Minnesota House of Representatives [SECTION] State [HEADER] # | Speaker | Took office | Left office | Party/Caucus | Notes | Session [ROW 0] [HEADER] # | [HEADER] Speaker | [HEADER] Took office | [HEADER] Left office | [HEADER] Party/Caucus | [HEADER] Notes | [HEADER] Session [ROW 1] [CELL] 1 | [CELL] John S. Watrous | [CELL] 2 December 1857 | [CELL] 12 March 1858 | [CELL] Unknown | [CELL] Minnesota Legislators Past & Present lists Watrous' party affiliation as \"Not Available,\" while the Minnesota Legislative Reference Library's list of Speakers of the House of Representatives lists \"R?,\" indicating that the MLRL does not know what Watrous' party affiliation was, and is merely guessing that he might have been a Republican. | [CELL] 1st [ROW 2] [CELL] 2 | [CELL] George Bradley | [CELL] 12 March 1858 | [CELL] 6 December 1859 | [CELL] Unknown | [CELL] Minnesota Legislators Past & Present lists Bradley's party affiliation as \"Not Available,\" while the Minnesota Legislative Reference Library's list of Speakers of the House of Representatives lists \"R?,\" indicating that the MLRL does not know what Bradley's party affiliation was, and is merely guessing that he might have been a Republican. | [ROW 3] [CELL] 3 | [CELL] Amos Coggswell | [CELL] 7 December 1859 | [CELL] 7 January 1861 | [CELL] Republican | [CELL]  | [CELL] 2nd [ROW 4] [CELL] 4 | [CELL] Jared Benson | [CELL] 8 January 1861 | [CELL] 5 January 1863 | [CELL] Republican | [CELL]  | [CELL] 3rd [ROW 5] [CELL] 4th | [ROW 6] [CELL] 5 | [CELL] Charles D. Sherwood | [CELL] 6 January 1863 | [CELL] 4 January 1864 | [CELL] Republican | [CELL]  | [CELL] 5th [ROW 7] [CELL] 6 | [CELL] Jared Benson | [CELL] 5 January 1864 | [CELL] 1864? | [CELL] Republican | [CELL]  | [CELL] 6th [ROW 8] [CELL] 7 | [CELL] Thomas H. Armstrong | [CELL] 1864? | [CELL] 1865 | [CELL] Republican | [CELL] Unclear whether took office in 1864 or 1865 | [CELL] 7th [ROW 9] [CELL] 8 | [CELL] James B. Wakefield | [CELL] 1866 | [CELL] 1866 | [CELL] Republican | [CELL] Served as a U.S. Representative | [CELL] 8th [ROW 10] [CELL] 9 | [CELL] John Q. Farmer | [CELL] 1867 | [CELL] 1868 | [CELL] Whig/Republican | [CELL]  | [CELL] 9th [ROW 11] [CELL] 10th | [ROW 12] [CELL] 10 | [CELL] Chester D. Davidson | [CELL] 1869 | [CELL] 1869 | [CELL] Republican | [CELL]  | [CELL] 11th [ROW 13] [CELL] 11 | [CELL] John L. Merriam | [CELL] 1870 | [CELL] 1871 | [CELL] Republican | [CELL]  | [CELL] 12th [ROW 14] [CELL] 13th | [ROW 15] [CELL] 12 | [CELL] A.R. Hall | [CELL] 1872 | [CELL] 1874 | [CELL] Republican | [CELL]  | [CELL] 14th [ROW 16] [CELL] 15th | [ROW 17] [CELL] 16th | [ROW 18] [CELL] 13 | [CELL] William R. Kinyon | [CELL] 1875 | [CELL] 1876 | [CELL] Republican | [CELL]  | [CELL] 17th [ROW 19] [CELL] 18th | [ROW 20] [CELL] 14 | [CELL] John L. Gibbs | [CELL] 1877 | [CELL] 1877 | [CELL] Republican | [CELL]  | [CELL] 19th [ROW 21] [CELL] 15 | [CELL] Charles A. Gilman | [CELL] 1878 | [CELL] 1879 | [CELL] Republican | [CELL]  | [CELL] 20th [ROW 22] [CELL] 21st | [ROW 23] [CELL] 16 | [CELL] Loren Fletcher | [CELL] 1881 | [CELL] 1885 | [CELL] Republican | [CELL]  | [CELL] 22nd [ROW 24] [CELL] 23rd | [ROW 25] [CELL] 17 | [CELL] John L. Gibbs | [CELL] 1885 | [CELL] 1887 | [CELL] Republican | [CELL]  | [CELL] 24th [ROW 26] [CELL] 18 | [CELL] William Rush Merriam | [CELL] 1887 | [CELL] 1889 | [CELL] Republican | [CELL] Served as Governor of Minnesota | [CELL] 25th [ROW 27] [CELL] 19 | [CELL] Charles H. Graves | [CELL] 1889 | [CELL] 1891 | [CELL] Republican | [CELL]  | [CELL] 26th [ROW 28] [CELL] 20 | [CELL] Ezra T. Champlin | [CELL] 1891 | [CELL] 1893 | [CELL] Alliance | [CELL]  | [CELL] 27th [ROW 29] [CELL] 21 | [CELL] William E. Lee | [CELL] 1893 | [CELL] 1895 | [CELL] Republican | [CELL]  | [CELL] 28th [ROW 30] [CELL] 22 | [CELL] Samuel Rinnah Van Sant | [CELL] 1895 | [CELL] 1897 | [CELL] Republican | [CELL] Served as Governor of Minnesota | [CELL] 29th [ROW 31] [CELL] 23 | [CELL] John D. Jones | [CELL] 1897 | [CELL] 1899 | [CELL] Republican | [CELL]  | [CELL] 30th [ROW 32] [CELL] 24 | [CELL] Arthur N. Dare | [CELL] 1899 | [CELL] 1901 | [CELL] Republican | [CELL]  | [CELL] 31st [ROW 33] [CELL] 25 | [CELL] M.J. Dowling | [CELL] 1901 | [CELL] 1903 | [CELL] Republican | [CELL]  | [CELL] 32nd [ROW 34] [CELL] 26 | [CELL] Leverett W. Babcock | [CELL] 1903 | [CELL] 1905 | [CELL] Republican | [CELL]  | [CELL] 33rd [ROW 35] [CELL] 27 | [CELL] Frank Clague | [CELL] 1905 | [CELL] 1907 | [CELL] Republican | [CELL] Served as a U.S. Representative | [CELL] 34th [ROW 36] [CELL] 28 | [CELL] Lawrence H. Johnson | [CELL] 1907 | [CELL] 1909 | [CELL] Republican | [CELL]  | [CELL] 35th [ROW 37] [CELL] 29 | [CELL] Anton J. Rockne | [CELL] 1909 | [CELL] 1911 | [CELL] Republican | [CELL]  | [CELL] 36th [ROW 38] [CELL] 30 | [CELL] Howard H. Dunn | [CELL] 1911 | [CELL] 1913 | [CELL] Republican | [CELL]  | [CELL] 37th [ROW 39] [CELL] 31 | [CELL] Henry Rines | [CELL] 1913 | [CELL] 1915 | [CELL] Conservative | [CELL] Served as Minnesota Treasurer | [CELL] 38th [ROW 40] [CELL] 32 | [CELL] H.H. Flowers | [CELL] 1915 | [CELL] 1917 | [CELL] Conservative | [CELL]  | [CELL] 39th [ROW 41] [CELL] 33 | [HCELL] Ralph J. Parker | [CELL] January 1917 | [CELL] January 1919 | [CELL] Conservative | [CELL]  | [CELL] 40th [ROW 42] [CELL] 34 | [CELL] William I. Nolan | [CELL] January 1919 | [CELL] January 1925 | [CELL] Conservative | [CELL]  | [CELL] 41st [ROW 43] [CELL] 42nd | [ROW 44] [CELL] 43rd | [ROW 45] [CELL] 35 | [CELL] John A. Johnson | [CELL] January 1925 | [CELL] January 1931 | [CELL] Conservative | [CELL]  | [CELL] 44th [ROW 46] [CELL] 45th | [ROW 47] [CELL] 46th | [ROW 48] [CELL] 36 | [CELL] Oscar A. Swenson | [CELL] January 1931 | [CELL] January 1933 | [CELL] Conservative | [CELL]  | [CELL] 47th [ROW 49] [CELL] 37 | [CELL] Charles Munn | [CELL] January 1933 | [CELL] January 1935 | [CELL] Liberal | [CELL]  | [CELL] 48th [ROW 50] [CELL] 38 | [CELL] George W. Johnson | [CELL] January 1935 | [CELL] January 1937 | [CELL] Conservative | [CELL]  | [CELL] 49th [ROW 51] [CELL] 39 | [CELL] Harold H. Barker | [CELL] January 1937 | [CELL] January 1939 | [CELL] Liberal | [CELL]  | [CELL] 50th [ROW 52] [CELL] 40 | [CELL] Lawrence M. Hall | [CELL] January 1939 | [CELL] January 1949 | [CELL] Conservative | [CELL] Longest-serving speaker | [CELL] 51st [ROW 53] [CELL] 52nd | [ROW 54] [CELL] 53rd | [ROW 55] [CELL] 54th | [ROW 56] [CELL] 55th | [ROW 57] [CELL] 41 | [CELL] John A. Hartle | [CELL] January 4, 1949 | [CELL] January 6, 1955 | [CELL] Conservative | [CELL]  | [CELL] 56th [ROW 58] [CELL] 57th | [ROW 59] [CELL] 58th | [ROW 60] [CELL] 42 | [CELL] Alfred I. Johnson | [CELL] January 6, 1955 | [CELL] January 5, 1959 | [CELL] Liberal | [CELL]  | [CELL] 59th [ROW 61] [CELL] 60th | [ROW 62] [CELL] 43 | [CELL] Edwin J. Chilgren | [CELL] January 5, 1959 | [CELL] January 7, 1963 | [CELL] Liberal | [CELL]  | [CELL] 61st [ROW 63] [CELL] 62nd | [ROW 64] [CELL] 44 | [CELL] Lloyd L. Duxbury | [CELL] January 7, 1963 | [CELL] January 1971 | [CELL] Conservative | [CELL]  | [CELL] 63rd [ROW 65] [CELL] 64th | [ROW 66] [CELL] 65th | [ROW 67] [CELL] 66th | [ROW 68] [CELL] 45 | [CELL] A.W. Dirlam | [CELL] January 1971 | [CELL] January 1973 | [CELL] Conservative | [CELL]  | [CELL] 67th [ROW 69] [CELL] 46 | [CELL] Martin Olav Sabo | [CELL] January 1973 | [CELL] January 1979 | [CELL] DFL | [CELL] Served as a U.S. Representative | [CELL] 68th [ROW 70] [CELL] 69th | [ROW 71] [CELL] 70th | [ROW 72] [CELL] 47 | [CELL] Rod Searle | [CELL] January 1979 | [CELL] January 1980 | [CELL] Independent-Republican | [CELL]  | [CELL] 71st [ROW 73] [CELL] 48 | [CELL] Fred C. Norton | [CELL] January 1980 | [CELL] January 1981 | [CELL] DFL | [CELL] Served on Minnesota Court of Appeals | [ROW 74] [CELL] 49 | [CELL] Harry A. Sieben | [CELL] January 1981 | [CELL] January 1985 | [CELL] DFL | [CELL]  | [CELL] 72nd [ROW 75] [CELL] 73rd | [ROW 76] [CELL] 50 | [CELL] David M. Jennings | [CELL] January 1985 | [CELL] January 1987 | [CELL] Independent-Republican | [CELL]  | [CELL] 74th [ROW 77] [CELL] 51 | [CELL] Fred C. Norton | [CELL] January 1987 | [CELL] June 1987 | [CELL] DFL | [CELL] Served on Minnesota Court of Appeals | [CELL] 75th [ROW 78] [CELL] 52 | [CELL] Robert Vanasek | [CELL] June 1987 | [CELL] January 6, 1992 | [CELL] DFL | [CELL]  | [CELL] 75th [ROW 79] [CELL] 76th | [ROW 80] [CELL] 77th | [ROW 81] [CELL] 53 | [CELL] Dee Long | [CELL] January 6, 1992 | [CELL] September 15, 1993 | [CELL] DFL | [CELL] First woman to serve as speaker. | [CELL] 77th [ROW 82] [CELL] 78th | [ROW 83] [CELL] 54 | [CELL] Irv Anderson | [CELL] September 1993 | [CELL] January 1997 | [CELL] DFL | [CELL]  | [CELL] 78th [ROW 84] [CELL] 79th | [ROW 85] [CELL] 55 | [CELL] Phil Carruthers | [CELL] January 1997 | [CELL] January 1999 | [CELL] DFL | [CELL]  | [CELL] 80th [ROW 86] [CELL] 56 | [CELL] Steve Sviggum | [CELL] January 1999 | [CELL] January 2007 | [CELL] Republican | [CELL]  | [CELL] 81st [ROW 87] [CELL] 82nd | [ROW 88] [CELL] 83rd | [ROW 89] [CELL] 84th | [ROW 90] [CELL] 57 | [CELL] Margaret Anderson Kelliher | [CELL] January 2007 | [CELL] January 2011 | [CELL] DFL | [CELL]  | [CELL] 85th [ROW 91] [CELL] 86th | [ROW 92] [CELL] 58 | [CELL] Kurt Zellers | [CELL] January 4, 2011 | [CELL] January 8, 2013 | [CELL] Republican | [CELL]  | [CELL] 87th [ROW 93] [CELL] 59 | [CELL] Paul Thissen | [CELL] January 8, 2013 | [CELL] January 6, 2015 | [CELL] DFL | [CELL] Appointed to the Minnesota Supreme Court in 2018 | [CELL] 88th [ROW 94] [CELL] 60 | [CELL] Kurt Daudt | [CELL] January 6, 2015 | [CELL] January 8, 2019 | [CELL] Republican | [CELL]  | [CELL] 89th [ROW 95] [CELL] 90th | [ROW 96] [CELL] 61 | [CELL] Melissa Hortman | [CELL] January 8, 2019 | [CELL] Incumbent | [CELL] DFL | [CELL]  | [CELL] 91st",
+    "target": "Ralph J. Parker was a Minnesota politician and a Speaker of the Minnesota House of Representatives.",
+    "references": [
+      "Ralph J. Parker was a Minnesota politician and a Speaker of the Minnesota House of Representatives.",
+      "Ralph J. Parker was a Speaker of the Minnesota House of Representatives.",
+      "Ralph J. Parke, was a Minnesota politician, and a Speaker of the Minnesota House of Representatives."
+    ],
+    "prediction": "Republican | [CELL]  | [CELL] 41st [ROW 43] [CELL] 35 | [CELL] 1925 | [CELL] 1927 | [CELL] Republican | [CELL]  | [CELL] 42nd [ROW 44] [CELL] 36 | [CELL] 1927 | [CELL] 1929 | [CELL] Republican | [CELL]  | [CELL] 43rd [ROW 45] [CELL] 37 | [CELL] 1929 | [CELL] 1931 | [CELL] Republican | [CELL]",
+    "structured_coverage": 100.0,
+    "factual_precision": 54.0,
+    "hallucination_rate": 46.0,
+    "num_supported_claims": 27,
+    "num_unsupported_claims": 23
+  },
+  {
+    "id": "dart_validation_0",
+    "dataset": "dart",
+    "input_type": "triples",
+    "source": "[TRIPLE] [SUBJ] Mars Hill College [REL] JOINED [OBJ] 1973 [TRIPLE] [SUBJ] Mars Hill College [REL] LOCATION [OBJ] Mars Hill, North Carolina",
+    "target": "A school from Mars Hill, North Carolina, joined in 1973.",
+    "references": [
+      "A school from Mars Hill, North Carolina, joined in 1973."
+    ],
+    "prediction": "Mars Hill College was founded in 1853 in Mars Hill, North Carolina.",
+    "structured_coverage": 100.0,
+    "factual_precision": 50.0,
+    "hallucination_rate": 50.0,
+    "num_supported_claims": 2,
+    "num_unsupported_claims": 2
+  },
+  {
+    "id": "dart_validation_1",
+    "dataset": "dart",
+    "input_type": "triples",
+    "source": "[TRIPLE] [SUBJ] Newberry College [REL] NICKNAME [OBJ] Wolves",
+    "target": "Newberry College's nickname is the wolves.",
+    "references": [
+      "Newberry College's nickname is the wolves."
+    ],
+    "prediction": "Newberry College is nicknamed the Wolves.",
+    "structured_coverage": 100.0,
+    "factual_precision": 100.0,
+    "hallucination_rate": 0.0,
+    "num_supported_claims": 2,
+    "num_unsupported_claims": 0
+  },
+  {
+    "id": "dart_validation_2",
+    "dataset": "dart",
+    "input_type": "triples",
+    "source": "[TRIPLE] [SUBJ] Presbyterian College [REL] TYPE [OBJ] Private",
+    "target": "Presbyterian College is a private school.",
+    "references": [
+      "Presbyterian College is a private school."
+    ],
+    "prediction": "Presbyterian College is a private college.",
+    "structured_coverage": 100.0,
+    "factual_precision": 100.0,
+    "hallucination_rate": 0.0,
+    "num_supported_claims": 1,
+    "num_unsupported_claims": 0
+  },
+  {
+    "id": "dart_validation_3",
+    "dataset": "dart",
+    "input_type": "triples",
+    "source": "[TRIPLE] [SUBJ] Queens University of Charlotte [REL] NICKNAME [OBJ] Royals [TRIPLE] [SUBJ] Queens University of Charlotte [REL] ENROLLMENT [OBJ] 2386",
+    "target": "The nickname of the school with an enrollment of 2,386 is the royals.",
+    "references": [
+      "The nickname of the school with an enrollment of 2,386 is the royals."
+    ],
+    "prediction": "Queens University of Charlotte is known as the Royals.",
+    "structured_coverage": 100.0,
+    "factual_precision": 100.0,
+    "hallucination_rate": 0.0,
+    "num_supported_claims": 3,
+    "num_unsupported_claims": 0
+  },
+  {
+    "id": "dart_validation_4",
+    "dataset": "dart",
+    "input_type": "triples",
+    "source": "[TRIPLE] [SUBJ] Inars Kivlenieks [REL] COUNTRY [OBJ] Latvia",
+    "target": "The Athlete is Inars Kivlenieks.The country is Latvia",
+    "references": [
+      "The Athlete is Inars Kivlenieks.The country is Latvia"
+    ],
+    "prediction": "Inars Kivlenieks is a Latvian ice hockey player.",
+    "structured_coverage": 100.0,
+    "factual_precision": 50.0,
+    "hallucination_rate": 50.0,
+    "num_supported_claims": 1,
+    "num_unsupported_claims": 1
+  },
+  {
+    "id": "webnlg_validation_Id6_0",
+    "dataset": "webnlg",
+    "input_type": "triples",
+    "source": "[TRIPLE] [SUBJ] Al-Taqaddum Air Base [REL] cityServed [OBJ] Fallujah",
+    "target": "The Al Taqaddum Air Base serves the city of Fallujah.",
+    "references": [
+      "The Al Taqaddum Air Base serves the city of Fallujah.",
+      "Al-Taqaddum Air Base serves the city of Fallujah."
+    ],
+    "prediction": "Al-Taqaddum Air Base is located near Fallujah.",
+    "structured_coverage": 100.0,
+    "factual_precision": 100.0,
+    "hallucination_rate": 0.0,
+    "num_supported_claims": 3,
+    "num_unsupported_claims": 0
+  },
+  {
+    "id": "webnlg_validation_Id7_1",
+    "dataset": "webnlg",
+    "input_type": "triples",
+    "source": "[TRIPLE] [SUBJ] Al-Taqaddum Air Base [REL] runwayLength [OBJ] 3684.0",
+    "target": "The runway length of Al-Taqaddum Air Base is 3684.0.",
+    "references": [
+      "The runway length of Al-Taqaddum Air Base is 3684.0.",
+      "The length of the runway at Al-Taqaddum Air Base is 3684.0."
+    ],
+    "prediction": "Al-Taqaddum Air Base has a runway length of 3684.0 m.",
+    "structured_coverage": 100.0,
+    "factual_precision": 50.0,
+    "hallucination_rate": 50.0,
+    "num_supported_claims": 1,
+    "num_unsupported_claims": 1
+  },
+  {
+    "id": "webnlg_validation_Id8_2",
+    "dataset": "webnlg",
+    "input_type": "triples",
+    "source": "[TRIPLE] [SUBJ] Alderney Airport [REL] runwayName [OBJ] \"14/32\"",
+    "target": "Alderney Airport runway name is 14/32.",
+    "references": [
+      "Alderney Airport runway name is 14/32.",
+      "14/32 is the runway name of Alderney Airport.",
+      "The runway name of Alderney Airport is 14/32."
+    ],
+    "prediction": "Alderney Airport has a single runway, 14/32.",
+    "structured_coverage": 100.0,
+    "factual_precision": 100.0,
+    "hallucination_rate": 0.0,
+    "num_supported_claims": 3,
+    "num_unsupported_claims": 0
+  },
+  {
+    "id": "webnlg_validation_Id14_3",
+    "dataset": "webnlg",
+    "input_type": "triples",
+    "source": "[TRIPLE] [SUBJ] Andrews County Airport [REL] owner [OBJ] Andrews County, Texas",
+    "target": "The Andrews County Airport is owned by Andrews County, Texas.",
+    "references": [
+      "The Andrews County Airport is owned by Andrews County, Texas.",
+      "The owner of Andrews County airport is Andrews County, Texas.",
+      "Andrews County Airport is owned by Andrews County, Texas."
+    ],
+    "prediction": "Andrews County Airport is owned by Andrews County, Texas.",
+    "structured_coverage": 100.0,
+    "factual_precision": 100.0,
+    "hallucination_rate": 0.0,
+    "num_supported_claims": 2,
+    "num_unsupported_claims": 0
+  },
+  {
+    "id": "webnlg_validation_Id16_4",
+    "dataset": "webnlg",
+    "input_type": "triples",
+    "source": "[TRIPLE] [SUBJ] Angola International Airport [REL] 1st_runway_SurfaceType [OBJ] \"Asphalt\"",
+    "target": "Angola International Airport is the first runway made of asphalt.",
+    "references": [
+      "Angola International Airport is the first runway made of asphalt.",
+      "Asphalt is the surface of the first runway of Angola International Airport.",
+      "The 1st runway at Angola International Airport has an asphalt surface."
+    ],
+    "prediction": "The surface of the runway is asphalt.",
+    "structured_coverage": 100.0,
+    "factual_precision": 100.0,
+    "hallucination_rate": 0.0,
+    "num_supported_claims": 0,
+    "num_unsupported_claims": 0
+  }
+]

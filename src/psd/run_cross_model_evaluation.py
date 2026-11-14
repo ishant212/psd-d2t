@@ -25,7 +25,7 @@ if PROJECT_ROOT not in sys.path:
 
 import torch
 import torch.optim as optim
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import LoraConfig, get_peft_model
 
 from src.data.unified_schema import UnifiedRecord
@@ -40,9 +40,10 @@ from src.baseline.factuality import FactualityEvaluator
 
 # Model Configuration Registry
 MODEL_REGISTRY = {
-    "qwen": {
-        "model_id": os.path.join(PROJECT_ROOT, "models", "qwen3_4b_hf"),
-        "display_name": "Qwen3-4B",
+    # ================= 3B / 4B TIER =================
+    "qwen_3b": {
+        "model_id": os.path.join(PROJECT_ROOT, "models", "qwen2_5_3b_hf"),
+        "display_name": "Qwen2.5-3B",
         "total_layers": 36,
         "selected_layers": [11, 23, 34],
         "target_modules": ["q_proj", "v_proj"],
@@ -51,22 +52,20 @@ MODEL_REGISTRY = {
         "eos_token": "<|im_end|>",
         "pad_token": "<|endoftext|>",
     },
-    "llama": {
-        "model_id": os.path.join(PROJECT_ROOT, "models", "llama_3_2_3b_hf"),
-        "fallback_id": "meta-llama/Llama-3.2-3B-Instruct",
-        "display_name": "Llama-3.2-3B-Instruct",
-        "total_layers": 28,
-        "selected_layers": [9, 18, 26],
-        "target_modules": ["q_proj", "v_proj"],
-        "prompt_prefix": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n",
-        "prompt_suffix": "<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
-        "eos_token": "<|eot_id|>",
-        "pad_token": "<|finetune_right_pad_id|>",
+    "phi_3_5": {
+        "model_id": os.path.join(PROJECT_ROOT, "models", "phi_3_5_mini_hf"),
+        "display_name": "Phi-3.5-mini",
+        "total_layers": 32,
+        "selected_layers": [10, 21, 31],
+        "target_modules": ["o_proj", "qkv_proj"],
+        "prompt_prefix": "<|user|>\n",
+        "prompt_suffix": "<|end|>\n<|assistant|>\n",
+        "eos_token": "<|end|>",
+        "pad_token": "<|endoftext|>",
     },
-    "gemma": {
+    "gemma_4b": {
         "model_id": os.path.join(PROJECT_ROOT, "models", "gemma_3_4b_hf"),
-        "fallback_id": "google/gemma-3-4b-it",
-        "display_name": "Gemma-3-4B-Instruct",
+        "display_name": "Gemma-3-4B",
         "total_layers": 34,
         "selected_layers": [11, 22, 32],
         "target_modules": ["q_proj", "v_proj"],
@@ -75,7 +74,69 @@ MODEL_REGISTRY = {
         "eos_token": "<end_of_turn>",
         "pad_token": "<pad>",
     },
+    "llama_3b": {
+        "model_id": os.path.join(PROJECT_ROOT, "models", "llama_3_2_3b_hf"),
+        "display_name": "Llama-3.2-3B",
+        "total_layers": 28,
+        "selected_layers": [9, 18, 26],
+        "target_modules": ["q_proj", "v_proj"],
+        "prompt_prefix": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n",
+        "prompt_suffix": "<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "eos_token": "<|eot_id|>",
+        "pad_token": "<|finetune_right_pad_id|>",
+    },
+
+    # ================= 7B / 8B / 9B TIER =================
+    "qwen_7b": {
+        "model_id": os.path.join(PROJECT_ROOT, "models", "qwen2_5_7b_hf"),
+        "display_name": "Qwen2.5-7B",
+        "total_layers": 28,
+        "selected_layers": [9, 18, 26],
+        "target_modules": ["q_proj", "v_proj"],
+        "prompt_prefix": "<|im_start|>user\n",
+        "prompt_suffix": "<|im_end|>\n<|im_start|>assistant\n",
+        "eos_token": "<|im_end|>",
+        "pad_token": "<|endoftext|>",
+    },
+    "mistral_7b": {
+        "model_id": os.path.join(PROJECT_ROOT, "models", "mistral_7b_hf"),
+        "display_name": "Mistral-7B-v0.3",
+        "total_layers": 32,
+        "selected_layers": [10, 21, 31],
+        "target_modules": ["q_proj", "v_proj"],
+        "prompt_prefix": "[INST] ",
+        "prompt_suffix": " [/INST]",
+        "eos_token": "</s>",
+        "pad_token": "</s>",
+    },
+    "gemma_9b": {
+        "model_id": os.path.join(PROJECT_ROOT, "models", "gemma_2_9b_hf"),
+        "display_name": "Gemma-2-9B",
+        "total_layers": 42,
+        "selected_layers": [13, 27, 40],
+        "target_modules": ["q_proj", "v_proj"],
+        "prompt_prefix": "<bos><start_of_turn>user\n",
+        "prompt_suffix": "<end_of_turn>\n<start_of_turn>model\n",
+        "eos_token": "<end_of_turn>",
+        "pad_token": "<pad>",
+    },
+    "llama_8b": {
+        "model_id": os.path.join(PROJECT_ROOT, "models", "llama_3_1_8b_hf"),
+        "display_name": "Llama-3.1-8B",
+        "total_layers": 32,
+        "selected_layers": [10, 21, 31],
+        "target_modules": ["q_proj", "v_proj"],
+        "prompt_prefix": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n",
+        "prompt_suffix": "<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "eos_token": "<|eot_id|>",
+        "pad_token": "<|finetune_right_pad_id|>",
+    },
 }
+
+# Aliases for backwards compatibility
+MODEL_REGISTRY["qwen"] = MODEL_REGISTRY["qwen_3b"]
+MODEL_REGISTRY["llama"] = MODEL_REGISTRY["llama_3b"]
+MODEL_REGISTRY["gemma"] = MODEL_REGISTRY["gemma_4b"]
 
 
 def set_seed(seed: int = 42) -> None:
@@ -165,6 +226,10 @@ class CrossModelTrainer:
         max_seq_len: int = 256,
         lambda_psd: float = 0.1,
         seed: int = 42,
+        load_in_4bit: bool = False,
+        selected_layers: Optional[List[int]] = None,
+        target_builder_kwargs: Optional[Dict[str, Any]] = None,
+        output_dir: Optional[str] = None,
     ):
         assert model_key in MODEL_REGISTRY, f"Unknown model key: {model_key}"
         assert mode in ["baseline", "psd"], f"Unknown mode: {mode}"
@@ -181,15 +246,17 @@ class CrossModelTrainer:
         self.weight_decay = weight_decay
         self.max_seq_len = max_seq_len
         self.seed = seed
+        self.load_in_4bit = load_in_4bit
+        self.target_builder_kwargs = target_builder_kwargs or {}
+        self.custom_output_dir = output_dir
         set_seed(seed)
 
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.selected_layers = self.model_cfg["selected_layers"]
+        self.selected_layers = selected_layers if selected_layers is not None else self.model_cfg["selected_layers"]
 
         # Determine path to model checkpoint
         local_path = self.model_cfg["model_id"]
-        safetensor_path = os.path.join(local_path, "model.safetensors")
-        if os.path.exists(safetensor_path):
+        if os.path.exists(local_path):
             self.model_load_path = local_path
         elif "fallback_id" in self.model_cfg:
             self.model_load_path = self.model_cfg["fallback_id"]
@@ -200,8 +267,12 @@ class CrossModelTrainer:
         print(f"  Model load path: {self.model_load_path}")
         print(f"  PSD Enabled: {self.psd_enabled} (lambda={self.lambda_psd}, layers={self.selected_layers})")
 
+        # Determine trust_remote_code
+        # For phi_3_5, native transformers Phi3ForCausalLM avoids the outdated DynamicCache bug in hub repo
+        trust_remote = self.model_cfg.get("trust_remote_code", self.model_key not in ["phi_3_5"])
+
         # 1. Tokenizer
-        self.tokenizer = AutoTokenizer.from_pretrained(self.model_load_path)
+        self.tokenizer = AutoTokenizer.from_pretrained(self.model_load_path, trust_remote_code=trust_remote)
         if self.tokenizer.pad_token is None:
             pad = self.model_cfg.get("pad_token")
             if pad and pad in self.tokenizer.get_vocab():
@@ -209,21 +280,47 @@ class CrossModelTrainer:
             else:
                 self.tokenizer.pad_token = self.tokenizer.eos_token
 
-        # 2. Base Model with FP16/FP32
-        print(f"  Loading base model with eager attention...")
-        base_model = AutoModelForCausalLM.from_pretrained(
-            self.model_load_path,
-            torch_dtype=torch.float16 if self.device == "cuda" else torch.float32,
-            device_map="auto" if self.device == "cuda" else None,
-            attn_implementation="eager",
-        )
+        # 2. Base Model (Native BF16 on H100 by default, or 4-bit)
+        bnb_config = None
+        if self.load_in_4bit and self.device == "cuda":
+            bnb_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_quant_type="nf4",
+                bnb_4bit_use_double_quant=True,
+                bnb_4bit_compute_dtype=torch.float16,
+            )
+
+        use_bf16 = self.device == "cuda" and torch.cuda.is_bf16_supported()
+        compute_dtype = torch.bfloat16 if use_bf16 else (torch.float16 if self.device == "cuda" else torch.float32)
+
+        print(f"  Loading base model with dtype={compute_dtype}, load_in_4bit={self.load_in_4bit}, eager attention, trust_remote={trust_remote}...")
+        if self.load_in_4bit:
+            device_map = {"": 0} if self.device == "cuda" else None
+            base_model = AutoModelForCausalLM.from_pretrained(
+                self.model_load_path,
+                quantization_config=bnb_config,
+                torch_dtype=compute_dtype,
+                device_map=device_map,
+                attn_implementation="eager",
+                trust_remote_code=trust_remote,
+            )
+        else:
+            base_model = AutoModelForCausalLM.from_pretrained(
+                self.model_load_path,
+                torch_dtype=compute_dtype,
+                attn_implementation="eager",
+                trust_remote_code=trust_remote,
+            )
+            if self.device == "cuda":
+                base_model = base_model.to(self.device)
 
         # 3. LoRA
+        target_mods = self.model_cfg.get("target_modules", ["q_proj", "v_proj"])
         lora_config = LoraConfig(
             r=8,
             lora_alpha=16,
             lora_dropout=0.05,
-            target_modules=self.model_cfg["target_modules"],
+            target_modules=target_mods,
             bias="none",
             task_type="CAUSAL_LM",
         )
@@ -233,7 +330,7 @@ class CrossModelTrainer:
         # 4. Helper modules
         self.serializer = Serializer()
         self.dist_calculator = GraphDistanceCalculator()
-        self.target_builder = TargetDistributionBuilder()
+        self.target_builder = TargetDistributionBuilder(**self.target_builder_kwargs)
         self.psd_loss_fn = PSDLoss(selected_layers=self.selected_layers)
         self.semantic_encoder = FrozenContextualSemanticEncoder(device="cpu")
         self.metric_evaluator = MetricEvaluator()
@@ -244,8 +341,14 @@ class CrossModelTrainer:
         self.optimizer = optim.AdamW(trainable_params, lr=self.lr, weight_decay=self.weight_decay)
 
         # Output directory
-        run_name = f"{self.model_key}_{self.mode}"
-        self.output_dir = os.path.join(PROJECT_ROOT, "reports", "experiments", "final_evaluation", run_name)
+        if self.custom_output_dir is not None:
+            self.output_dir = self.custom_output_dir
+        elif self.max_seq_len != 256:
+            run_name = f"{self.model_key}_{self.mode}_L{self.max_seq_len}"
+            self.output_dir = os.path.join(PROJECT_ROOT, "reports", "experiments", "long_context", run_name)
+        else:
+            run_name = f"{self.model_key}_{self.mode}"
+            self.output_dir = os.path.join(PROJECT_ROOT, "reports", "experiments", "final_evaluation", run_name)
         os.makedirs(self.output_dir, exist_ok=True)
 
     def forward_step(
@@ -320,6 +423,11 @@ class CrossModelTrainer:
         self.model.train()
         self.optimizer.zero_grad()
 
+        # Initialize real-time incremental log CSV
+        with open(log_csv_path, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=["step", "train_lm_loss", "train_psd_loss", "train_total_loss", "learning_rate", "elapsed_sec"])
+            writer.writeheader()
+
         training_logs = []
 
         accum_lm_loss = 0.0
@@ -378,6 +486,11 @@ class CrossModelTrainer:
                 }
                 training_logs.append(log_entry)
 
+                # Append to CSV in real-time
+                with open(log_csv_path, "a", newline="", encoding="utf-8") as f:
+                    writer = csv.DictWriter(f, fieldnames=["step", "train_lm_loss", "train_psd_loss", "train_total_loss", "learning_rate", "elapsed_sec"])
+                    writer.writerow(log_entry)
+
                 if step % 25 == 0 or step == self.max_steps:
                     print(
                         f"  Step {step:3d}/{self.max_steps} | "
@@ -387,12 +500,7 @@ class CrossModelTrainer:
                         f"Elapsed: {log_entry['elapsed_sec']:.1f}s"
                     )
 
-        # Save training log CSV
-        with open(log_csv_path, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=["step", "train_lm_loss", "train_psd_loss", "train_total_loss", "learning_rate", "elapsed_sec"])
-            writer.writeheader()
-            writer.writerows(training_logs)
-        print(f"Saved training log to {log_csv_path}")
+        print(f"Completed training. Saved log to {log_csv_path}")
 
         # Save LoRA adapter weights
         self.model.save_pretrained(self.output_dir)
@@ -523,13 +631,32 @@ def run_evaluation_pipeline(
     models_to_run: List[str],
     modes_to_run: List[str],
     steps: int = 150,
+    context_lengths: Optional[List[int]] = None,
 ) -> Dict[str, Any]:
-    """Runs sequential training and evaluation pipeline."""
+    """Runs sequential training and evaluation pipeline across models, modes, and context lengths."""
+    if context_lengths is None:
+        context_lengths = [256]
+
     # Load evaluation benchmark
     eval_path = os.path.join(PROJECT_ROOT, "reports", "experiments", "phase2b", "evaluation_ids.json")
-    with open(eval_path, "r", encoding="utf-8") as f:
-        eval_items = json.load(f)
-    print(f"Loaded fixed 15-instance benchmark from {eval_path}")
+    if os.path.exists(eval_path):
+        with open(eval_path, "r", encoding="utf-8") as f:
+            eval_items = json.load(f)
+        print(f"Loaded fixed 15-instance benchmark from {eval_path}")
+    else:
+        val_records = load_dataset_records(split="validation", max_records=15)
+        eval_items = [
+            {
+                "dataset": r.dataset,
+                "id": r.id,
+                "input_type": r.input_type,
+                "target_text": r.target_text,
+                "reference_texts": r.reference_texts,
+                "serialized_text": r.serialized_text,
+            }
+            for r in val_records
+        ]
+        print(f"Sampled {len(eval_items)} validation instances for benchmark evaluation")
 
     # Load training data
     train_records = load_dataset_records(split="train")
@@ -537,55 +664,76 @@ def run_evaluation_pipeline(
 
     all_results = {}
 
-    for model_key in models_to_run:
-        for mode in modes_to_run:
-            exp_id = f"{model_key}_{mode}"
-            print("\n" + "=" * 70)
-            print(f"STARTING RUN: {exp_id.upper()} ({steps} steps)")
-            print("=" * 70)
+    for ctx_len in context_lengths:
+        for model_key in models_to_run:
+            for mode in modes_to_run:
+                exp_id = f"{model_key}_{mode}_L{ctx_len}" if ctx_len != 256 else f"{model_key}_{mode}"
+                print("\n" + "=" * 70)
+                print(f"STARTING RUN: {exp_id.upper()} (context_length={ctx_len}, {steps} steps)")
+                print("=" * 70)
 
-            trainer = CrossModelTrainer(
-                model_key=model_key,
-                mode=mode,
-                max_steps=steps,
-            )
+                trainer = CrossModelTrainer(
+                    model_key=model_key,
+                    mode=mode,
+                    max_steps=steps,
+                    max_seq_len=ctx_len,
+                )
 
-            # Train
-            trainer.train(train_records)
+                # Train
+                trainer.train(train_records)
 
-            # Evaluate
-            metrics, preds, fact = trainer.evaluate_and_generate(eval_items)
-            all_results[exp_id] = metrics
+                # Evaluate
+                metrics, preds, fact = trainer.evaluate_and_generate(eval_items)
+                all_results[exp_id] = metrics
 
-            print(f"\n--- {exp_id.upper()} RESULTS ---")
-            print(f"  BLEU-4:       {metrics.get('bleu', 0.0):.2f}")
-            print(f"  ROUGE-L:      {metrics.get('rougeL', 0.0):.2f}")
-            print(f"  METEOR:       {metrics.get('meteor', 0.0):.2f}")
-            print(f"  BERTScore F1: {metrics.get('bertscore_f1', 0.0):.2f}")
-            print(f"  Coverage:     {metrics.get('structured_coverage', 0.0):.2f}%")
-            print(f"  Fact. Prec.:  {metrics.get('factual_precision', 0.0):.2f}%")
-            print(f"  Halluc. Rate: {metrics.get('hallucination_rate', 0.0):.2f}%")
+                print(f"\n--- {exp_id.upper()} RESULTS ---")
+                print(f"  BLEU-4:       {metrics.get('bleu', 0.0):.2f}")
+                print(f"  ROUGE-L:      {metrics.get('rougeL', 0.0):.2f}")
+                print(f"  METEOR:       {metrics.get('meteor', 0.0):.2f}")
+                print(f"  BERTScore F1: {metrics.get('bertscore_f1', 0.0):.2f}")
+                print(f"  Coverage:     {metrics.get('structured_coverage', 0.0):.2f}%")
+                print(f"  Fact. Prec.:  {metrics.get('factual_precision', 0.0):.2f}%")
+                print(f"  Halluc. Rate: {metrics.get('hallucination_rate', 0.0):.2f}%")
 
-            # Thorough cleanup between runs
-            trainer.cleanup()
-            time.sleep(2)
+                # Thorough cleanup between runs
+                trainer.cleanup()
+                time.sleep(2)
 
     return all_results
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Cross-Model Evaluation Harness")
-    parser.add_argument("--models", nargs="+", default=["llama", "gemma"], choices=["qwen", "llama", "gemma", "all"])
+    parser.add_argument(
+        "--models",
+        nargs="+",
+        default=["qwen_3b", "phi_3_5", "gemma_4b", "qwen_7b", "mistral_7b", "gemma_9b"],
+        help="List of model keys to run (or 'all')",
+    )
     parser.add_argument("--modes", nargs="+", default=["baseline", "psd"], choices=["baseline", "psd", "all"])
     parser.add_argument("--steps", type=int, default=150)
+    parser.add_argument(
+        "--context_lengths",
+        nargs="+",
+        type=int,
+        default=[256],
+        help="List of sequence context lengths to run (e.g. 1024 2048)",
+    )
     args = parser.parse_args()
 
-    models = list(MODEL_REGISTRY.keys()) if "all" in args.models else args.models
+    available_keys = [k for k in MODEL_REGISTRY.keys() if not k in ["qwen", "llama", "gemma"]]
+    models = available_keys if "all" in args.models else args.models
     modes = ["baseline", "psd"] if "all" in args.modes else args.modes
 
     print(f"Running Cross-Model Evaluation:")
-    print(f"  Models: {models}")
-    print(f"  Modes:  {modes}")
-    print(f"  Steps:  {args.steps}")
+    print(f"  Models:          {models}")
+    print(f"  Modes:           {modes}")
+    print(f"  Steps:           {args.steps}")
+    print(f"  Context Lengths: {args.context_lengths}")
 
-    run_evaluation_pipeline(models_to_run=models, modes_to_run=modes, steps=args.steps)
+    run_evaluation_pipeline(
+        models_to_run=models,
+        modes_to_run=modes,
+        steps=args.steps,
+        context_lengths=args.context_lengths,
+    )

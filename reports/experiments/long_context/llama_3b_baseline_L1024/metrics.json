@@ -1,0 +1,15 @@
+{
+  "bleu": 16.6,
+  "rouge1": 59.77,
+  "rouge2": 44.41,
+  "rougeL": 53.68,
+  "meteor": 0.0,
+  "bertscore_p": 91.15,
+  "bertscore_r": 93.19,
+  "bertscore_f1": 92.09,
+  "structured_coverage": 100.0,
+  "factual_precision": 84.01,
+  "hallucination_rate": 15.99,
+  "total_factual_claims": 113,
+  "total_hallucinated_claims": 38
+}

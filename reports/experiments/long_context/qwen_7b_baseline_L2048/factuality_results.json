@@ -1,0 +1,682 @@
+{
+  "factual_precision": 89.1,
+  "hallucination_rate": 10.9,
+  "structured_coverage": 56.12,
+  "total_claims": 87,
+  "supported_claims": 67,
+  "unsupported_claims": 20,
+  "detailed_results": [
+    {
+      "total_claims": 10,
+      "supported_claims": 10,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 31.4,
+      "claims": [
+        {
+          "text": "76th",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched base number '76' in source"
+        },
+        {
+          "text": "1",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1' in source"
+        },
+        {
+          "text": "1874",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1874' in source"
+        },
+        {
+          "text": "14",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '14' in source"
+        },
+        {
+          "text": "1876",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1876' in source"
+        },
+        {
+          "text": "Daniel Henry Chamberlain",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Daniel Henry Chamberlain' in source"
+        },
+        {
+          "text": "South Carolina",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'South Carolina' in source"
+        },
+        {
+          "text": "December",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'December' in source"
+        },
+        {
+          "text": "December",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'December' in source"
+        },
+        {
+          "text": "governor",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Exact/phrase match for relation 'governor' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 6,
+      "supported_claims": 6,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 32.5,
+      "claims": [
+        {
+          "text": "2016",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '2016' in source"
+        },
+        {
+          "text": "Alma Jodorowsky",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Alma Jodorowsky' in source"
+        },
+        {
+          "text": "Evelyn",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Evelyn' in source"
+        },
+        {
+          "text": "Kids",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Kids' in source"
+        },
+        {
+          "text": "Love",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Love' in source"
+        },
+        {
+          "text": "played",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Semantic/relation equivalence match for 'played' in source metadata"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 2,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 7.21,
+      "claims": [
+        {
+          "text": "119",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '119' in source"
+        },
+        {
+          "text": "J Hawk",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'J Hawk' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 5,
+      "supported_claims": 5,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 44.44,
+      "claims": [
+        {
+          "text": "1450",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1450' in source"
+        },
+        {
+          "text": "1457",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1457' in source"
+        },
+        {
+          "text": "Peter II",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Peter II' in source"
+        },
+        {
+          "text": "Simple P\u00ear II",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Simple P\u00ear II' in source"
+        },
+        {
+          "text": "Brittany",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Brittany' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 39,
+      "supported_claims": 24,
+      "unsupported_claims": 15,
+      "factual_precision": 61.54,
+      "hallucination_rate": 38.46,
+      "structured_coverage": 26.21,
+      "claims": [
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "[CELL]",
+          "category": "syntax_leak",
+          "supported": false,
+          "evidence": "Model leaked serialization markup into natural language generation"
+        },
+        {
+          "text": "37th",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '37th' in source"
+        },
+        {
+          "text": "39",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '39' in source"
+        },
+        {
+          "text": "31",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '31' in source"
+        },
+        {
+          "text": "1913",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1913' in source"
+        },
+        {
+          "text": "1915",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1915' in source"
+        },
+        {
+          "text": "38th",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '38th' in source"
+        },
+        {
+          "text": "40",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '40' in source"
+        },
+        {
+          "text": "32",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '32' in source"
+        },
+        {
+          "text": "1915",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1915' in source"
+        },
+        {
+          "text": "1917",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1917' in source"
+        },
+        {
+          "text": "39th",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '39th' in source"
+        },
+        {
+          "text": "4",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '4' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "ROW",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'ROW' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL John F OConnor CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (4/5) in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL Republican CELL CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'CELL Republican CELL CELL' in source"
+        },
+        {
+          "text": "ROW",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'ROW' in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL John F OConnor CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Partial entity token overlap (4/5) in source"
+        },
+        {
+          "text": "CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'CELL' in source"
+        },
+        {
+          "text": "CELL Republican CELL CELL",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'CELL Republican CELL CELL' in source"
+        },
+        {
+          "text": "ROW",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'ROW' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 6,
+      "supported_claims": 3,
+      "unsupported_claims": 3,
+      "factual_precision": 50.0,
+      "hallucination_rate": 50.0,
+      "structured_coverage": 83.33,
+      "claims": [
+        {
+          "text": "1856",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '1856' not found in source"
+        },
+        {
+          "text": "1973",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '1973' in source"
+        },
+        {
+          "text": "Mars Hill College",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Mars Hill College' in source"
+        },
+        {
+          "text": "NCAA Division III",
+          "category": "entity",
+          "supported": false,
+          "evidence": "Entity 'NCAA Division III' unsupported by source"
+        },
+        {
+          "text": "founded",
+          "category": "relation",
+          "supported": false,
+          "evidence": "Relation 'founded' unsupported by source"
+        },
+        {
+          "text": "joined",
+          "category": "relation",
+          "supported": true,
+          "evidence": "Exact/phrase match for relation 'joined' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 2,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 100.0,
+      "claims": [
+        {
+          "text": "Newberry College",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Newberry College' in source"
+        },
+        {
+          "text": "Wolves",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Wolves' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 1,
+      "supported_claims": 1,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Presbyterian College",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Presbyterian College' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 4,
+      "supported_claims": 3,
+      "unsupported_claims": 1,
+      "factual_precision": 75.0,
+      "hallucination_rate": 25.0,
+      "structured_coverage": 83.33,
+      "claims": [
+        {
+          "text": "2,386",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '2,386' not found in source"
+        },
+        {
+          "text": "Queens University",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Queens University' in source"
+        },
+        {
+          "text": "Charlotte",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Charlotte' in source"
+        },
+        {
+          "text": "Royals",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Royals' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 2,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Inars Kivlenieks",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Inars Kivlenieks' in source"
+        },
+        {
+          "text": "Latvia",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Latvia' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 2,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Al-Taqaddum Air Base",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Al-Taqaddum Air Base' in source"
+        },
+        {
+          "text": "Fallujah",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Fallujah' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 1,
+      "unsupported_claims": 1,
+      "factual_precision": 50.0,
+      "hallucination_rate": 50.0,
+      "structured_coverage": 33.33,
+      "claims": [
+        {
+          "text": "3,684",
+          "category": "numeric",
+          "supported": false,
+          "evidence": "Numeric token '3,684' not found in source"
+        },
+        {
+          "text": "Al-Taqaddum Air Base",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Al-Taqaddum Air Base' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 3,
+      "supported_claims": 3,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "14",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '14' in source"
+        },
+        {
+          "text": "32",
+          "category": "numeric",
+          "supported": true,
+          "evidence": "Matched numeric token '32' in source"
+        },
+        {
+          "text": "Alderney Airport",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Alderney Airport' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 2,
+      "supported_claims": 2,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Andrews County Airport",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Andrews County Airport' in source"
+        },
+        {
+          "text": "Andrews County Texas",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Full content token match for 'Andrews County Texas' in source"
+        }
+      ]
+    },
+    {
+      "total_claims": 1,
+      "supported_claims": 1,
+      "unsupported_claims": 0,
+      "factual_precision": 100.0,
+      "hallucination_rate": 0.0,
+      "structured_coverage": 66.67,
+      "claims": [
+        {
+          "text": "Angola International Airport",
+          "category": "entity",
+          "supported": true,
+          "evidence": "Exact/phrase match for 'Angola International Airport' in source"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Model,Mode,Throughput (tokens/sec),Time-to-First-Token (ms),Peak Inference VRAM (MB)
+Gemma-3-4B,Baseline LoRA,18.34,54.52,8497.59
+Gemma-3-4B,PSD (Ours),18.3,54.96,9689.72
