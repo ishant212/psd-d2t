@@ -373,12 +373,11 @@ python src/psd/evaluate.py \
 If you find this work, codebase, or methodology useful in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{psd2026topology,
-  title     = {Topology-Aware Positional Semantic Divergence Modeling for Long-Context Data-to-Text Generation},
-  author    = {Eeshu, Ishant Shekhar and Collaborators},
-  booktitle = {Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)},
-  year      = {2026},
-  url       = {https://github.com/ishant212/psd-d2t}
+@article{psd2026topology,
+  title  = {Topology-Aware Positional Semantic Divergence Modeling for Long-Context Data-to-Text Generation},
+  author = {Ishant Shekhar Eeshu and Kulin Mathur and Lakshya Kumar Singh},
+  year   = {2026},
+  url    = {https://github.com/ishant212/psd-d2t}
 }
 ```
 
